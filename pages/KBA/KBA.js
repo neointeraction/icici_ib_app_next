@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Link from "next/link";
+import Head from "next/head";
 
 import FadeInWhenVisible from "../../hooks/FadeInWhenVisible";
 import InfoStrp from "../../components/InfoStrp";
@@ -19,6 +19,14 @@ const KBA = ({ hamOpen }) => {
       initial={false}
       className="page-container"
     >
+      <Head>
+        <title>ICICI | KBA India Dynamic Fixed Income Fund</title>
+        <meta
+          name="description"
+          content="ICICI Lorem ipsum dolor sit amet, consectetur adipiscing elit.."
+        />
+        <meta name="keywords" content="ICICI, banking, Investment" />
+      </Head>
       <div className="banner-static">
         <img src={IEBanner} alt="IEBanner" />
         <div className="banner-static-content">

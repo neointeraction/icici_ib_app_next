@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Head from "next/head";
 
 import FadeInWhenVisible from "../../hooks/FadeInWhenVisible";
 import InfoStrp from "../../components/InfoStrp";
@@ -89,6 +90,14 @@ const Privacy = ({ hamOpen }) => {
       initial={false}
       className="page-container"
     >
+      <Head>
+        <title>ICICI | Privacy Policy</title>
+        <meta
+          name="description"
+          content="ICICI Lorem ipsum dolor sit amet, consectetur adipiscing elit.."
+        />
+        <meta name="keywords" content="ICICI, banking, Investment" />
+      </Head>
       <div className="banner-static">
         <img src={PrivacyBanner} alt="PrivacyBanner" />
         <div className="banner-static-content">

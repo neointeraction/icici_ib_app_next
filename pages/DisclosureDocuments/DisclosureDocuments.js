@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+import Head from "next/head";
+
 import FadeInWhenVisible from "../../hooks/FadeInWhenVisible";
 import Title from "../../components/Title/Title";
 import DownloadList from "../../components/DownloadList";
@@ -38,6 +40,14 @@ const DisclosureDocuments = ({ hamOpen }) => {
       initial={false}
       className="page-container"
     >
+      <Head>
+        <title>ICICI | Disclosure Documents</title>
+        <meta
+          name="description"
+          content="ICICI Lorem ipsum dolor sit amet, consectetur adipiscing elit.."
+        />
+        <meta name="keywords" content="ICICI, banking, Investment" />
+      </Head>
       <div className="banner-static">
         <img src={DDownloadBanner} alt="DDownloadBanner" />
         <div className="banner-static-content">

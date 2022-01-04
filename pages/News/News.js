@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Head from "next/head";
 
 import FadeInWhenVisible from "../../hooks/FadeInWhenVisible";
 import Title from "../../components/Title/Title";
@@ -61,6 +62,14 @@ const News = ({ hamOpen }) => {
       initial={false}
       className="page-container"
     >
+      <Head>
+        <title>ICICI | News & Insights</title>
+        <meta
+          name="description"
+          content="ICICI Lorem ipsum dolor sit amet, consectetur adipiscing elit.."
+        />
+        <meta name="keywords" content="ICICI, banking, Investment" />
+      </Head>
       <div className="banner-static">
         <img src={NewsBanner} alt="NewsBanner" />
         <div className="banner-static-content">
