@@ -160,6 +160,10 @@ button {
   text-align: center !important;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .text-left {
   text-align: left !important;
 }
@@ -238,8 +242,7 @@ button {
 /* info-container  */
 
 .info-container {
-  opacity: 0.5;
-  border: 2px dashed #c9b16d;
+  border: 2px dashed rgba(201, 177, 109, 0.5);
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -553,6 +556,10 @@ button {
   text-transform: uppercase;
   color: #002654;
   margin-bottom: 20px;
+}
+
+.banner-static-content .section-title {
+  text-shadow: 0px 3px 3px #00000060;
 }
 
 .section-title.banner-title {
@@ -1692,7 +1699,7 @@ div.invstr-row > label > input:checked + span {
 
 .anchor-links-flex {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -1704,7 +1711,7 @@ div.invstr-row > label > input:checked + span {
   cursor: pointer;
   color: #c9b16d;
   border: 1px solid #c9b16d;
-  padding: 13px 30px;
+  padding: 13px 24px;
   text-decoration: none;
   transition: 0.3s all ease-in-out;
   margin-right: 20px;
@@ -2180,6 +2187,20 @@ div.invstr-row > label > input:checked + span {
   cursor: default;
   pointer-events: none;
 }
+.scroll-to-top {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  background: #c9b16d;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* =================================================================
+--------------     MEDIA QUERIES    -----------------------------
+================================================================= */
 
 @media only screen and (max-width: 1400px) {
   /* funds/investment startegies page */

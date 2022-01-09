@@ -14,7 +14,7 @@ const data = [
   {
     anchor: "KBA",
     imgSrc: FundImg,
-    title: "KBA India Dynamic Fixed Income Fund",
+    title: "India Fixed Income SICAV",
     text: `ICICI Prudential Asset Management Company Limited is the Investment Manager to the KBA India Dynamic Fixed Income Sub Fund of India Opportunities Fund (the Trust), a UCITs compliant umbrella Fund domiciled in Ireland. The Fund aims to generate total returns with moderate levels of credit risk by investing primarily in a portfolio of debt securities issued in India, by companies operating in India, or by companies deriving a significant portion of their business from India.`,
     buttonLink: "/KBA",
   },
@@ -79,7 +79,7 @@ const Funds = ({ hamOpen }) => {
           <FadeInWhenVisible>
             <div className="anchor-links-flex">
               <AnchorLink className="anchor-button" href="#KBA" offset="80">
-                KBA
+                India Fixed Income SICAV
               </AnchorLink>
               <AnchorLink className="anchor-button" href="#Equity" offset="80">
                 India Equity Strategies

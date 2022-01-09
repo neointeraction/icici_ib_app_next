@@ -88,9 +88,7 @@ const Contact = ({ hamOpen }) => {
                     <p className="error-text">Enter a valid email address</p>
                   </div>
                   <div className="input-block ">
-                    <label for="contactNum">
-                      Contact Number<span className="star-imprt">*</span>
-                    </label>
+                    <label for="contactNum">Contact Number</label>
                     <div className="input-flex ">
                       <div className="input-with-subtext">
                         <input
@@ -101,15 +99,15 @@ const Contact = ({ hamOpen }) => {
                           pattern="[6789][0-9]{9}"
                           required
                         />
-                        <a href="/" className="resend-link">
+                        {/* <a href="/" className="resend-link">
                           Resend OTP
-                        </a>
+                        </a> */}
                       </div>
 
                       <button className="custom-button">VERIFY</button>
                     </div>
                   </div>
-                  <div className="input-block ">
+                  {/* <div className="input-block ">
                     <label for="contactNum" className="label-flex">
                       <span>
                         OTP<span className="star-imprt">*</span>
@@ -130,7 +128,7 @@ const Contact = ({ hamOpen }) => {
 
                       <button className="custom-button">SUBMIT</button>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="input-block">
                     <label for="query">

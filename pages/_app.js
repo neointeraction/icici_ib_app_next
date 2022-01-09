@@ -1,6 +1,7 @@
 import "../assets/styles/main.css";
 
 import { useState, useCallback } from "react";
+import smoothscroll from "smoothscroll-polyfill";
 import Head from "next/head";
 
 import Header from "../components/Header";
@@ -12,6 +13,11 @@ function MyApp({ Component, pageProps }) {
   const getOpenState = useCallback((value) => {
     setHamOpen(value);
   }, []);
+
+  const toTop = () => {
+    smoothscroll.polyfill();
+    window.scroll({ top: 0, left: 0, behavior: "smooth" });
+  };
   return (
     <div className="app-body">
       <Head>
@@ -24,6 +30,7 @@ function MyApp({ Component, pageProps }) {
       <Header getOpenState={getOpenState} />
       <Component {...pageProps} hamOpen={hamOpen} />
       <Footer />
+      <div className="scroll-to-top" onClick={toTop}></div>
     </div>
   );
 }
