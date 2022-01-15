@@ -42,14 +42,12 @@ const About = ({ hamOpen }) => {
         <div className="container">
           <FadeInWhenVisible></FadeInWhenVisible>
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-md-12">
               <FadeInWhenVisible>
                 <div className="about-logo-container">
                   <img src={Logo} alt="Logo" />
                 </div>
               </FadeInWhenVisible>
-            </div>
-            <div className="col-md-8">
               <FadeInWhenVisible>
                 <p className="body-text text-left">
                   <strong>
@@ -60,16 +58,20 @@ const About = ({ hamOpen }) => {
                   and High Yield Credits, fixed income, and alternative
                   strategies through FPI registered funds, separate accounts
                   (custom mandates) and offshore feeder funds into ICICI
-                  Prudential Mutual Funds. The investors in these funds are
-                  retail individuals, high and ultra-high net worth individuals,
-                  large pensions, sovereigns, and other institutions from North
-                  Asia, Europe, Latin America, and the GCC. ICICI Global
-                  Investments branding represents the international asset
-                  management activities of the AMC. The AMC firm provides
-                  bespoke advisory and fund management services focused in
-                  Indian capital markets to global institutional investors, led
-                  by a specialized cross-functional team across the asset
-                  management company firm.
+                  Prudential Mutual Funds.
+                </p>
+              </FadeInWhenVisible>
+              <FadeInWhenVisible>
+                <p className="body-text text-left">
+                  The investors in these funds are retail individuals, high and
+                  ultra-high net worth individuals, large pensions, sovereigns,
+                  and other institutions from North Asia, Europe, Latin America,
+                  and the GCC. ICICI Global Investments branding represents the
+                  international asset management activities of the AMC. The AMC
+                  firm provides bespoke advisory and fund management services
+                  focused in Indian capital markets to global institutional
+                  investors, led by a specialized cross-functional team across
+                  the asset management company firm.
                 </p>
               </FadeInWhenVisible>
               <FadeInWhenVisible>

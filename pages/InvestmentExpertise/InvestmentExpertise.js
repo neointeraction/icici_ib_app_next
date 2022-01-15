@@ -41,16 +41,21 @@ const InvestmentExpertise = ({ hamOpen }) => {
               The AMC has a large and experienced Investment team based in
               Mumbai. The team possesses in-depth local expertise and research
               coverage for more than 400 Indian companies for its equity
-              investments across onshore and offshore strategies. The firm has
-              built credible and long track records, with superior risk-adjusted
-              performance across a range of investment strategies. This has been
-              achieved through a combination of top-down and bottom-up
-              fundamental research, a process-driven investment approach, and a
-              culture of open communication that brings out the best of each
-              team member. The AMC runs separate teams for all asset classes.
-              With the rapid growth in assets under management, the AMC has
-              created a boutique culture within the equity team which allows
-              each fund manager to operate within his area of core competency.
+              investments across onshore and offshore strategies.
+            </p>
+          </FadeInWhenVisible>
+          <FadeInWhenVisible>
+            <p className="body-text">
+              The firm has built credible and long track records, with superior
+              risk-adjusted performance across a range of investment strategies.
+              This has been achieved through a combination of top-down and
+              bottom-up fundamental research, a process-driven investment
+              approach, and a culture of open communication that brings out the
+              best of each team member. The AMC runs separate teams for all
+              asset classes. With the rapid growth in assets under management,
+              the AMC has created a boutique culture within the equity team
+              which allows each fund manager to operate within his area of core
+              competency.
             </p>
           </FadeInWhenVisible>
 
@@ -60,11 +65,16 @@ const InvestmentExpertise = ({ hamOpen }) => {
               managing funds across the yield curve and credit profiles. The AMC
               rigorously follows an investment philosophy that seeks ‘Safety,
               Liquidity and Returns’ in that order for consistent and stable
-              long-term returns. During every market cycle, the AMC’s highly
-              experienced and strong origination, portfolio, and credit research
-              team has displayed a superior risk-adjusted track record, without
-              any credit default or delay in payments for investments across
-              mutual funds or advised offshore mandates.
+              long-term returns.
+            </p>
+          </FadeInWhenVisible>
+          <FadeInWhenVisible>
+            <p className="body-text">
+              During every market cycle, the AMC’s highly experienced and strong
+              origination, portfolio, and credit research team has displayed a
+              superior risk-adjusted track record, without any credit default or
+              delay in payments for investments across mutual funds or advised
+              offshore mandates.
             </p>
           </FadeInWhenVisible>
         </div>
@@ -83,18 +93,21 @@ const InvestmentExpertise = ({ hamOpen }) => {
                   align
                 />
               </FadeInWhenVisible>
+
               <FadeInWhenVisible>
                 <p className="body-text text-left">
-                  The award-winning fixed income team has extensive experience
-                  in managing funds across the yield curve and credit profiles.
-                  The AMC rigorously follows an investment philosophy that seeks
-                  ‘Safety, Liquidity and Returns’ in that order for consistent
-                  and stable long-term returns. During every market cycle, the
-                  AMC’s highly experienced and strong origination, portfolio,
-                  and credit research team has displayed a superior
-                  risk-adjusted track record, without any credit default or
-                  delay in payments for investments across mutual funds or
-                  advised offshore mandates.
+                  The AMC considers Environmental, Social, and Governance
+                  Factors as key influencers for delivering superior long-term
+                  shareholder value. As active managers, ESG issues are given
+                  due consideration while evaluating companies on an ongoing
+                  basis. A formal ESG policy is in place and all investment
+                  professionals are responsible for incorporating ESG related
+                  issues in their decision-making process. In addition to
+                  internal scores, the AMC also subscribes to leading
+                  third-party ESG scores which guide sector specialists in the
+                  rating process. The AMC is an advisor to an ESG compliant
+                  UCITS offshore equity fund since 2012 and also manages ESG
+                  Equity Mutual Fund Scheme in India since 2020.
                 </p>
                 <FadeInWhenVisible>
                   <InfoStrp

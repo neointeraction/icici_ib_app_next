@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-import Arrow from "../../assets/images/icons/btnArrow.svg";
+import MapIcon from "../../assets/images/icons/map.svg";
 
 const Footer = () => {
   return (
@@ -61,7 +61,7 @@ const Footer = () => {
                 className="cntnt-outline opn-map"
               >
                 <span> OPEN IN GOOGLE MAPS</span>
-                <img src={Arrow} alt="Arrow" />
+                <img src={MapIcon} alt="MapIcon" />
               </a>
             </div>
           </div>

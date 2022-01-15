@@ -58,7 +58,7 @@ const Header = ({ getOpenState }) => {
 
   return (
     <div className="header-container">
-      <div className={`header-content ${open ? "" : headerBg}`}>
+      <div className={`header-content with-bg ${open ? "" : headerBg}`}>
         <motion.div
           animate={{ scale: open ? 0.9 : 1, x: open ? -10 : 0 }}
           transition={{ duration: 0.2 }}
@@ -86,7 +86,7 @@ const Header = ({ getOpenState }) => {
             >
               <path
                 d="M25.5 0H0.5125L0.5 20H25.5V0ZM23 17.5H3V5L13 11.25L23 5V17.5ZM13 8.75L3 2.5H23L13 8.75Z"
-                fill={headerBg === "white" ? "#c9b16d" : "#fff"}
+                fill={headerBg === "white" ? "#c9b16d" : "#c9b16d"}
               />
             </svg>
           </a>

@@ -23,7 +23,7 @@ import GlobalBanner from "../assets/images/global-img.jpg";
 
 const data = [
   {
-    text: "For our latest India outlook pls click here",
+    text: "ICICI Global Investments An offshore division of ICICI Pru AMC ",
     bannerImage: BannerImg,
     link: "/hello",
   },
