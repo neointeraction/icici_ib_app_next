@@ -20,7 +20,7 @@ const DownloadList = ({ filename, updated }) => {
       <button className="download-btn">
         {active ? (
           <div className="downloading">
-            <div class="gold"></div>
+            <div class="gold-anim"></div>
             <div class="blue"></div>
           </div>
         ) : (

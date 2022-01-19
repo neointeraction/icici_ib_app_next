@@ -173,7 +173,8 @@ button {
 }
 
 .app-body {
-  border-top: 4px solid #c9b16d;
+  position: relative;
+  top: 88px;
 }
 
 .pt-0 {
@@ -278,6 +279,7 @@ button {
   left: 0;
   width: 100%;
   z-index: 9;
+  border-top: 4px solid #c9b16d;
 }
 
 .header-content {
@@ -292,6 +294,10 @@ button {
   flex-grow: 1;
   margin-left: 20px;
   cursor: pointer;
+}
+.logo img{
+  height: 40px;
+  width: auto;
 }
 
 .header-content.white {
@@ -356,7 +362,7 @@ button {
 }
 
 .header-content.white #hamburger {
-  border: 1.5px solid #c9b16d;
+  border: 1.5px solid #c9b16d ;
   transition: 0.3s all ease-in-out;
 }
 
@@ -365,13 +371,13 @@ button {
   transition: 0.3s all ease-in-out;
 } */
 
-#hamburger:hover {
+/* #hamburger:hover {
   background: #fff;
   transition: 0.5s all ease-in-out;
-}
+} */
 
 #hamburger.active {
-  background: #fff;
+  border: 1.5px solid #ffffff;
   transition: 0.5s all ease-in-out;
 }
 
@@ -387,6 +393,12 @@ button {
   display: inline-block;
   content: "";
 }
+#hamburger.active  span, 
+#hamburger.active  span:before,
+ #hamburger.active  span:after{
+  background: white;
+
+}
 
 .header-content.white #hamburger span,
 .header-content.white #hamburger span:before,
@@ -398,7 +410,7 @@ button {
 .header-content.white #hamburger:hover span,
 .header-content.white #hamburger:hover span:before,
 .header-content.white #hamburger:hover span:after {
-  background: #fff;
+  background: #c9b16d;
   transition: 0.3s all ease-in-out;
 }
 
@@ -495,13 +507,13 @@ button {
 
 .banner-img img {
   width: 100%;
-  height: 610px;
+  height: 560px;
   object-fit: cover;
 }
 
 .banner-content {
   position: absolute;
-  bottom: 100px;
+  bottom: 30px;
   display: flex;
   justify-content: flex-start;
   width: 100%;
@@ -526,6 +538,14 @@ button {
 }
 
 .banner-text {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: left;
+  /* width: 60%; */
+  margin: auto;
+}
+.banner-heading{
   font-weight: 600;
   font-size: 70px;
   line-height: 84px;
@@ -533,6 +553,7 @@ button {
   text-align: center;
   width: 60%;
   margin: auto;
+  margin-bottom:60px;
   text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
@@ -1177,13 +1198,20 @@ div.invstr-row > label > input:checked + span {
 
 .banner-static {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .banner-static-content {
   position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, 0);
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
+
 
 .banner-static-content .section-title {
   font-weight: 600;
@@ -1192,9 +1220,10 @@ div.invstr-row > label > input:checked + span {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #ffffff;
+  margin-bottom:0;
 }
+
 
 .banner-static img {
   height: 55vh;
@@ -1204,6 +1233,10 @@ div.invstr-row > label > input:checked + span {
 .about-logo-container {
   text-align: center;
   margin-bottom: 40px;
+}
+.about-logo-container img{
+  height: 120px;
+  width: auto;
 }
 
 .about-map-img img {
@@ -1744,18 +1777,21 @@ div.invstr-row > label > input:checked + span {
 
 .anchor-links-flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
 }
-
+.anchor-links-flex .anchor-button:last-child{
+  margin-right: 0;
+}
 .anchor-button {
   font-size: 14px;
+  font-weight: bold;
   line-height: 22px;
   text-align: center;
   cursor: pointer;
-  color: #c9b16d;
-  border: 1px solid #c9b16d;
+  color:#af9241 ;
+  border: 1px solid #af9241;
   padding: 13px 24px;
   text-decoration: none;
   transition: 0.3s all ease-in-out;
@@ -1766,6 +1802,7 @@ div.invstr-row > label > input:checked + span {
 
 .anchor-button:hover {
   color: #fff;
+  border: 1px solid #c9b16d;
   background: #c9b16d;
   transition: 0.3s all ease-in-out;
 }
@@ -1880,7 +1917,7 @@ div.invstr-row > label > input:checked + span {
 
 /* dowmnload animation  */
 
-.gold,
+.gold-anim,
 .blue {
   margin: auto;
   position: absolute;
@@ -1892,7 +1929,7 @@ div.invstr-row > label > input:checked + span {
   border-radius: 50%;
 }
 
-.gold {
+.gold-anim {
   z-index: 999;
   background-color: rgba(201, 177, 109, 0.3);
   animation: hide1 2s ease infinite;
@@ -2226,12 +2263,23 @@ div.invstr-row > label > input:checked + span {
   display: flex;
   margin-bottom: 60px;
 }
+.breadcrumbs li{
+  display: flex;
+  align-items: flex-end;
+}
 .brdcrmb-item {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   color: #013069;
   text-transform: uppercase;
   font-weight: medium;
+}
+.brdcrmb-item.brd-disabled{
+ color: #002654;
+ opacity: 60%;
+}
+a.brdcrmb-item.brd-disabled + svg{
+display: none;
 }
 .marg-sixty {
   margin-bottom: 60px;
@@ -2250,6 +2298,19 @@ div.invstr-row > label > input:checked + span {
   background: #c9b16d;
   border-radius: 4px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scroll-to-top svg{
+  width:42px;
+  height: auto;
+  /* transform: rotate(-90deg); */
+}
+.scroll-to-top:hover{
+  transform: scale(1.1);
+  transition: ease-in-out;
+  transition-duration: 300ms;
 }
 
 /* =================================================================
@@ -2479,6 +2540,10 @@ div.invstr-row > label > input:checked + span {
   .logo img {
     height: 28px;
   }
+  .app-body {
+    position: relative;
+    top: 69px;
+  }
   /* sidepanel */
   .side-menu-panel {
     width: 40%;
@@ -2590,9 +2655,13 @@ div.invstr-row > label > input:checked + span {
   }
   /* About us page */
   .about-logo-container {
-    width: 150px;
+    /* width: 150px; */
     margin: auto;
     margin-bottom: 20px;
+  }
+  .about-logo-container img{
+    height:90px;
+    width: auto;
   }
   .text-left {
     text-align: center !important;
@@ -2820,7 +2889,10 @@ div.invstr-row > label > input:checked + span {
     width: 22px;
     height: 16px;
   }
-
+  .app-body {
+    position: relative;
+    top: 60px;
+  }
   /* sidepanel */
   .side-menu-panel {
     width: 55%;
@@ -2905,8 +2977,10 @@ div.invstr-row > label > input:checked + span {
     margin-top: 10px;
   }
   /* About us page */
-  .about-logo-container {
-    width: 125px;
+
+  .about-logo-container img{
+    height:70px;
+    width: auto;
   }
   .map-legend-list {
     width: 85%;
@@ -3199,8 +3273,8 @@ div.invstr-row > label > input:checked + span {
     text-transform: uppercase;
   }
   /* About us page */
-  .about-logo-container {
-    width: 100px;
+  .about-logo-container img {
+    height: 60px;
   }
   /* funds/invetment strategies page */
 
