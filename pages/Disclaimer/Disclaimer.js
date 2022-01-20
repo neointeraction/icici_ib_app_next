@@ -35,7 +35,7 @@ const Disclaimer = ({ hamOpen }) => {
         <div className="container">
           <FadeInWhenVisible>
             <div className="sub-section mt-0">
-              <h4 className="subtitle">Satutory Details</h4>
+              <h4 className="subtitle">Statutory Details</h4>
               <p className="body-text">
                 Please read this information carefully. Access to this website
                 is confirmation that you understand and agree to be bound by all
