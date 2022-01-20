@@ -27,7 +27,7 @@ const Disclaimer = ({ hamOpen }) => {
         <img src={STBanner} alt="STBanner" />
         <div className="banner-static-content">
           <FadeInWhenVisible delay={0.1}>
-            <Title titleText="Statutory Details & Disclaimer" />
+            <Title titleText="Disclaimer" />
           </FadeInWhenVisible>
         </div>
       </div>
@@ -35,7 +35,7 @@ const Disclaimer = ({ hamOpen }) => {
         <div className="container">
           <FadeInWhenVisible>
             <div className="sub-section mt-0">
-              <h4 className="subtitle">Satutory Details</h4>
+              <h4 className="subtitle">Statutory Details</h4>
               <p className="body-text">
                 Please read this information carefully. Access to this website
                 is confirmation that you understand and agree to be bound by all
@@ -114,6 +114,14 @@ const Disclaimer = ({ hamOpen }) => {
                 transacting in any of the products make their own investigation,
                 seek appropriate professional advice and shall be fully
                 responsible/are liable for any decision taken.
+              </p>
+            </div>
+          </FadeInWhenVisible>
+          <FadeInWhenVisible>
+            <div className="sub-section">
+              <h4 className="subtitle">Links</h4>
+              <p className="body-text">
+              Where a link to a non-ICICI Prudential Mutual Fund sites exists which has not been authorized by ICICI Prudential Mutual Fund, ICICI Prudential Mutual Fund will not be responsible or liable in any way for the content of the linked web site including any products, services or other items offered through that web site.
               </p>
             </div>
           </FadeInWhenVisible>

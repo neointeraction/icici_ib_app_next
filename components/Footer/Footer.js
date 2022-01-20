@@ -28,7 +28,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/Funds">
-                  <div className="footer-link">Funds</div>
+                  <div className="footer-link">Investment Strategies</div>
                 </Link>
               </li>
               <li>
@@ -164,10 +164,10 @@ const Footer = () => {
           </div>
           <div className="b-footer-row">
             <Link href="/Disclaimer">
-              <div className="footer-link">Statutory Details & Disclaimer</div>
+              <div className="footer-link">Disclaimer</div>
             </Link>
             <Link href="/DisclosureDocuments">
-              <div className="footer-link">Disclosure Document</div>
+              <div className="footer-link">Terms and Conditions</div>
             </Link>
           </div>
         </div>
