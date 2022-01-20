@@ -82,20 +82,20 @@ const Funds = ({ hamOpen }) => {
               India Fixed Income SICAV
               </AnchorLink>
               <AnchorLink className="anchor-button" href="#Equity" offset="80">
-                India Equity Strategies
+                India Equity
               </AnchorLink>
               <AnchorLink className="anchor-button" href="#Income" offset="80">
-                Fixed Income Strategies
+                India Fixed Income
               </AnchorLink>
               <AnchorLink
                 className="anchor-button"
                 href="#Balanced"
                 offset="80"
               >
-                India Balanced Strategies
+                India Balanced
               </AnchorLink>
               <AnchorLink className="anchor-button" href="#credit" offset="80">
-                India High yield credit
+                India High Yield Credit
               </AnchorLink>
             </div>
           </FadeInWhenVisible>

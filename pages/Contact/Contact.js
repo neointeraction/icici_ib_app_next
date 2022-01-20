@@ -142,7 +142,7 @@ const Contact = ({ hamOpen }) => {
                       rows="4"
                     ></textarea>
                   </div>
-                  <button className="custom-button w-100">SUBMIT</button>
+                  <button className="custom-button sbmt-btn w-100">SUBMIT</button>
                 </div>
               </form>
             </div>

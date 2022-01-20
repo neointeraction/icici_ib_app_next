@@ -3389,11 +3389,11 @@ display: none;
     position: relative;
     margin-right: 0px;
   }
-  .classify-btn.active .classify-img::after {
+  /* .classify-btn.active .classify-img::after {
     position: absolute;
     bottom: -160px;
     left: 145px;
-  }
+  } */
   .term-text {
     font-size: 12px;
     line-height: 24px;
@@ -3421,7 +3421,9 @@ display: none;
     font-size: 12px;
     line-height: 16px;
   }
-
+.sbmt-btn{
+  line-height: 0;
+}
   /* kba page */
   .brdcrmb-item {
     font-size: 12px;
