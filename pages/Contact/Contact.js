@@ -89,7 +89,7 @@ const Contact = ({ hamOpen }) => {
                   </div>
                   <div className="input-block ">
                     <label for="contactNum">Contact Number</label>
-                    <div className="input-flex ">
+                    <div className="input-block ">
                       <div className="input-with-subtext">
                         <input
                           type="tel"
@@ -104,7 +104,7 @@ const Contact = ({ hamOpen }) => {
                         </a> */}
                       </div>
 
-                      <button className="custom-button">VERIFY</button>
+                      {/* <button className="custom-button">VERIFY</button> */}
                     </div>
                   </div>
                   {/* <div className="input-block ">

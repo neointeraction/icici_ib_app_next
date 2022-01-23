@@ -161,15 +161,16 @@ const Footer = () => {
             <Link href="/LegalTerms">
               <div className="footer-link">Legal Terms</div>
             </Link>
-          </div>
-          <div className="b-footer-row">
             <Link href="/Disclaimer">
               <div className="footer-link">Disclaimer</div>
             </Link>
+          </div>
+          {/* <div className="b-footer-row">
+           
             <Link href="/DisclosureDocuments">
               <div className="footer-link">Terms and Conditions</div>
             </Link>
-          </div>
+          </div> */}
         </div>
         <div>
           <p>
