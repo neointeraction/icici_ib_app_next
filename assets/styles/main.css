@@ -1761,8 +1761,8 @@ div.invstr-row > label > input:checked + span {
 }
 
 .file-name {
-  font-weight: normal;
-  font-size: 20px;
+  font-weight: 600;
+  font-size: 24px;
   line-height: 26px;
   color: #002654;
 }
@@ -1785,12 +1785,12 @@ div.invstr-row > label > input:checked + span {
   margin-right: 0;
 }
 .anchor-button {
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 17px;
+  font-weight: 600;
   line-height: 22px;
   text-align: center;
   cursor: pointer;
-  color:#af9241 ;
+  color:#af9241;
   border: 1px solid #af9241;
   padding: 13px 24px;
   text-decoration: none;
@@ -1850,7 +1850,7 @@ div.invstr-row > label > input:checked + span {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  text-align: left;
+  text-align: justify;
   color: #394040;
 }
 
@@ -1967,7 +1967,10 @@ div.invstr-row > label > input:checked + span {
 .download-btn {
   position: relative;
 }
-
+.download-btn img{
+  width: 24px;
+  height: auto;
+}
 /* cookie */
 
 .cookie-container {
@@ -2253,6 +2256,9 @@ div.invstr-row > label > input:checked + span {
   position: relative;
   top: 25px;
   display: inline-block;
+  font-size: 14px;
+  padding: 13px 24px;
+  font-weight: bold;
 }
 /* kba page */
 .asterisk-text {
@@ -2400,7 +2406,7 @@ display: none;
   .b-footer-row {
     margin-top: 20px;
   }
-  .bottom-footer div:nth-child(2) {
+  .bottom-footer div{
     text-align: center;
     margin-top: 20px;
   }
@@ -2711,6 +2717,10 @@ display: none;
   .section-sub-subtitle {
     font-size: 18px;
   }
+  .download-btn img{
+    width: 20px;
+    height: auto;
+  }
   /* News and insights page */
   .news-img img {
     width: 100%;
@@ -2835,7 +2845,7 @@ display: none;
   }
   .bottom-footer div {
     color: white;
-    margin-right: 18px;
+    /* margin-right: 18px; */
     font-size: 14px;
     cursor: pointer;
   }
@@ -3076,6 +3086,9 @@ display: none;
     font-size: 12px;
     line-height: 16px;
     height: 40px;
+  } 
+  .sbmt-btn{
+    line-height: 0;
   }
   /* team page */
   .modal-content {
@@ -3392,7 +3405,7 @@ display: none;
   /* .classify-btn.active .classify-img::after {
     position: absolute;
     bottom: -160px;
-    left: 145px;
+    left: 145px; 
   } */
   .term-text {
     font-size: 12px;
@@ -3421,9 +3434,9 @@ display: none;
     font-size: 12px;
     line-height: 16px;
   }
-.sbmt-btn{
-  line-height: 0;
-}
+  .sbmt-btn{
+    line-height: 0;
+  }
   /* kba page */
   .brdcrmb-item {
     font-size: 12px;
