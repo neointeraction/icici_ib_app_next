@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const CookieOverlay = () => {
   const [show, setShow] = useState(true);
@@ -21,14 +22,12 @@ const CookieOverlay = () => {
           We use cookies to collect data to improve your experience on our
           site.By using our website, you agree to the collection of data as
           described in our{" "}
-          <a
-            href="http://"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/Privacy "        
             className="link-text"
           >
-            Cookie Policy
-          </a>
+            Privacy Policy
+          </Link>
         </p>
       </div>
       <button className="custom-button cookie-btn" onClick={handleCookieClose}>

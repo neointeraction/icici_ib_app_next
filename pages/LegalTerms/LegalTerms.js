@@ -35,30 +35,10 @@ const LegalTerms = ({ hamOpen }) => {
         <div className="container">
           <FadeInWhenVisible>
             <p className="body-text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-              velit, sed quia non numquam eius modi tempora incidunt ut labore
-              et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-              veniam, quis nostrum exercitationem ullam corporis suscipit
-              laboriosam, nisi ut aliquid ex ea commodi consequatur
+            <span className="lt-bold"> ICICI Prudential Asset Management Company Limited</span> is a joint venture between Prudential PLC and ICICI Bank Limited. Neither ICICI Prudential Asset Management Company Limited nor Prudential PLC are affiliated in any manner with Prudential Financial, Inc., a company whose principal place of business is in the United States of America. 
             </p>
             <p className="body-text">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-              velit, sed quia non numquam eius modi tempora incidunt ut labore
-              et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-              veniam, quis nostrum exercitationem ullam corporis suscipit
-              laboriosam, nisi ut aliquid ex ea commodi consequatur.
+            The information and opinion contained in this Site do not constitute a distribution, an offer to buy or sell or the solicitation of any offer to buy or sell any securities or financial instruments in any jurisdiction in which such distribution or offer is not authorised to any person. In particular, the information herein is not for distribution and does not constitute an offer to buy or sell or the solicitation of any offer to buy or sell any securities or financial instruments in the United States of America ("US") and Canada to or for the benefit of United States persons (being persons resident in the US, corporations, partnerships or other entities created or organised in or under the laws of the US or any person falling within the definition of the term "US Person" under the US Securities Act of 1933, as amended) and persons of Canada. In no event shall members of the ICICI Group and / or their directors, officers and employees be liable for any special direct, indirect, special, incidental or consequential damages arising out of the use of information / opinion herein.
             </p>
           </FadeInWhenVisible>
         </div>

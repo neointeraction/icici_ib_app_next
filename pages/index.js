@@ -24,9 +24,9 @@ import GlobalBanner from "../assets/images/global-img.jpg";
 const data = [
   {
     heading:"ICICI Global Investments An offshore division of ICICI Pru AMC",
-    text: "For our latest india outlook please click here ",
+    text: "For our latest India outlook please ",
     bannerImage: BannerImg,
-    link: "/hello",
+    link: "https://www.icicipruamc.com/docs/default-source/default-document-library/ipru-annual-outlook-2022.pdf",
   },
   {
     heading:"ICICI Global Investments An offshore division of ICICI Pru AMC",
@@ -172,7 +172,7 @@ const Home = ({ hamOpen }) => {
                   Management (AMC)"
                 align
               />
-              <IconButton link="/" isGold alignLeft />
+              <IconButton link="/About" isGold alignLeft />
             </div>
           </FadeInWhenVisible>
         </div>

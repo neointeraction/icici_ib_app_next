@@ -1,11 +1,19 @@
 import React, { useState } from "react";
 
-import Uk from "../../../../assets/images/flags/uk.svg";
-import SGP from "../../../../assets/images/flags/sgp.svg";
-import US from "../../../../assets/images/flags/us.svg";
-import UAE from "../../../../assets/images/flags/uae.svg";
-import Fin from "../../../../assets/images/flags/fin.svg";
-import France from "../../../../assets/images/flags/france.svg";
+import Uk from "../../../../assets/images/flags/Flag-UK.png";
+import SGP from "../../../../assets/images/flags/Flag-Singapore.png";
+import US from "../../../../assets/images/flags/Flag-US.png";
+import UAE from "../../../../assets/images/flags/Flag-UAE.png";
+import Fin from "../../../../assets/images/flags/Flag-finland.png";
+import France from "../../../../assets/images/flags/Flag-france.png";
+import Germany from "../../../../assets/images/flags/Flag-germany.png";
+import Italy from "../../../../assets/images/flags/Flag-italy.png";
+import Lux from "../../../../assets/images/flags/Flag-lux.png";
+import Spain from "../../../../assets/images/flags/Flag-spain.png";
+import Sweden from "../../../../assets/images/flags/Flag-sweden.png";
+import Switzerland from "../../../../assets/images/flags/Flag-switzerland.png";
+// import DUAE from "../../../../assets/images/flags/Flag-UAE.png";
+import HK from "../../../../assets/images/flags/Flag-HK.png";
 
 const data = [
   {
@@ -41,42 +49,42 @@ const data = [
   {
     id: 7,
     countryName: "Germany",
-    couintryFlag: Uk,
+    couintryFlag: Germany,
   },
   {
     id: 8,
     countryName: "Italy",
-    couintryFlag: Uk,
+    couintryFlag: Italy,
   },
   {
     id: 9,
     countryName: "Luxembourg",
-    couintryFlag: Uk,
+    couintryFlag: Lux,
   },
   {
     id: 10,
     countryName: "Spain",
-    couintryFlag: Uk,
+    couintryFlag: Spain,
   },
   {
     id: 11,
     countryName: "Sweden",
-    couintryFlag: Uk,
+    couintryFlag: Sweden,
   },
   {
     id: 12,
     countryName: "Switzerland",
-    couintryFlag: Uk,
+    couintryFlag: Switzerland,
   },
   {
     id: 13,
     countryName: "DIFC UAE",
-    couintryFlag: Uk,
+    couintryFlag: UAE,
   },
   {
     id: 14,
     countryName: "Hong Kong",
-    couintryFlag: Uk,
+    couintryFlag: HK,
   },
 ];
 
@@ -102,9 +110,9 @@ const SelectCountry = () => {
               onClick={() => handleValue(item.id, item.countryName)}
             >
               <span>
-                <img src={item.couintryFlag} alt={item.couintryFlag} />
+                <img className="cntry-flag" src={item.couintryFlag} alt={item.couintryFlag} />
               </span>
-              <span> {item.countryName}</span>
+              <span className="cntry-name"> {item.countryName}</span>
             </button>
           </div>
         ))}

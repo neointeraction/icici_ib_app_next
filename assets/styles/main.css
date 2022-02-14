@@ -520,7 +520,11 @@ button {
   padding: 40px;
   z-index: 1;
 }
-
+.banner-content a{
+  text-decoration:underline;
+  color: white;
+  font-weight: 600;
+}
 .banner-img::after {
   content: "";
   height: 300px;
@@ -665,6 +669,9 @@ button {
   font-weight: 600;
   margin-right: 5px;
 }
+.lt-bold{
+  font-weight: 600;
+}
 
 /* IMGFLEX SECTION  */
 
@@ -753,8 +760,11 @@ button {
   border: 1px solid #c9b16d;
   transition: 0.3s ease-in;
 }
-.cntry-crd img {
+.cntry-flag{
   filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.16));
+}
+.cntry-name{
+  margin-left: 5px;
 }
 .cntry-crd p {
   font-size: 14px;
@@ -1230,6 +1240,8 @@ div.invstr-row > label > input:checked + span {
   width: 100%;
   object-fit: cover;
 }
+
+
 .about-logo-container {
   text-align: center;
   margin-bottom: 40px;
@@ -1748,6 +1760,13 @@ div.invstr-row > label > input:checked + span {
   text-align: center;
   color: #161414;
 }
+.terms-subtitle{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  text-align:left;
+  color: #161414;
+}
 
 /* download-list-container */
 
@@ -2141,7 +2160,7 @@ div.invstr-row > label > input:checked + span {
 
 .term-text {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 24px;
   color: #394040;
   margin-bottom: 20px;
@@ -2150,6 +2169,7 @@ div.invstr-row > label > input:checked + span {
 .term-block {
   max-height: 360px;
   overflow: auto;
+  padding-right: 20px;
 }
 
 /* scrollbar */
@@ -3176,7 +3196,10 @@ display: none;
   }
   .country-btn img {
     width: 35px;
+    
   }
+ 
+  
   .modal-title {
     font-weight: 600;
     font-size: 16px;

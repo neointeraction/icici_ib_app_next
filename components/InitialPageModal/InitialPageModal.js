@@ -59,7 +59,7 @@ const InitialPageModal = ({ visible, toggle }) => {
         )}
         {slide === 2 ? (
           <button className="custom-button" onClick={toggle}>
-            Accept
+            Agree
           </button>
         ) : (
           <button className="custom-button" onClick={next}>
