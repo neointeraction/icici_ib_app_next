@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 
 import FadeInWhenVisible from "../../hooks/FadeInWhenVisible";
-import InfoStrp from "../../components/InfoStrp";
 import Title from "../../components/Title/Title";
 import Collapse from "../../components/Collapse";
 
