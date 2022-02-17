@@ -23,19 +23,19 @@ import GlobalBanner from "../assets/images/global-img.jpg";
 
 const data = [
   {
-    heading:"ICICI Global Investments An offshore division of ICICI Pru AMC",
+    heading:"ICICI Pru AMC India's leading asset manager",
     text: "For our latest India outlook please ",
     bannerImage: BannerImg,
     link: "https://www.icicipruamc.com/docs/default-source/default-document-library/ipru-annual-outlook-2022.pdf",
   },
   {
-    heading:"ICICI Global Investments An offshore division of ICICI Pru AMC",
+    heading:"ICICI Global Investments Advising foreign investors since 2006",
     text: "This 1315 meters long and 359 meters high Chenab Bridge is in Kashmir, India. Once completed (by end of 2022) it will be the tallest Railway Arch Bridge in the world, crossing over the deep gorges of the Chenab River to connect the Kashmir to the rest of India..The bridge would be 35 metres higher than the Eiffel Tower in Paris, and is being constructed at a cost of INR15Bn as part of the Udhampur-Srinagar-Baramulla Railway Link  project.. Source: aecom.com, business standard.com",
     bannerImage: BannerImg2,
     
   },
   {
-    heading:"ICICI Global Investments An offshore division of ICICI Pru AMC",
+    heading:"Committed to delivering good investment experience to investors participating in India's growth story",
     text: "India is the world’s fourth largest country by cumulative wind capacity  currently at 39GW, as on 31 Mar 2021 and has generated around 60.15 Billion Units during 2020-21. Information Source: https://mnre.gov.in/wind/current-status",
     bannerImage: BannerImg3,
     
