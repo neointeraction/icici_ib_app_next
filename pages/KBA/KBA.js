@@ -67,11 +67,11 @@ const KBA = ({ hamOpen }) => {
           </div>
 
           <div>
-            <FadeInWhenVisible>
+            {/* <FadeInWhenVisible>
               <p className="asterisk-text">
                 *Regulatory insertion for KBA (PDF Attached of SFDR Disclosure)
               </p>
-            </FadeInWhenVisible>
+            </FadeInWhenVisible> */}
           </div>
         </div>
       </div>

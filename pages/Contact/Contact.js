@@ -56,7 +56,7 @@ const Contact = ({ hamOpen }) => {
               </ul>
             </div>
           </FadeInWhenVisible>
-          <FadeInWhenVisible>
+          {/* <FadeInWhenVisible>
             <div className="form-section">
               <form action="/action_page.php">
                 <div className="form-block">
@@ -99,36 +99,13 @@ const Contact = ({ hamOpen }) => {
                           pattern="[6789][0-9]{9}"
                           required
                         />
-                        {/* <a href="/" className="resend-link">
-                          Resend OTP
-                        </a> */}
+                        
                       </div>
 
-                      {/* <button className="custom-button">VERIFY</button> */}
+                     
                     </div>
                   </div>
-                  {/* <div className="input-block ">
-                    <label for="contactNum" className="label-flex">
-                      <span>
-                        OTP<span className="star-imprt">*</span>
-                      </span>
-                      <span className="otp-count">0.02</span>
-                    </label>
-                    <div className="input-flex ">
-                      <div className="input-with-subtext">
-                        <input
-                          type="tel"
-                          className="input-custom"
-                          id="contactNum"
-                          name="contact"
-                          pattern="[6789][0-9]{9}"
-                          required
-                        />
-                      </div>
-
-                      <button className="custom-button">SUBMIT</button>
-                    </div>
-                  </div> */}
+                 
 
                   <div className="input-block">
                     <label for="query">
@@ -146,7 +123,12 @@ const Contact = ({ hamOpen }) => {
                 </div>
               </form>
             </div>
-          </FadeInWhenVisible>
+          </FadeInWhenVisible> */}
+
+          <div className="map-embed">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3771.0691286915053!2d72.864319!3d19.060698!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8c2a70ef19d%3A0xfc10f390be68e54!2sOne%20Bkc!5e0!3m2!1sen!2sin!4v1645000821492!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          
         </div>
       </div>
     </motion.div>
