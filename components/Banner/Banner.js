@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import FadeInWhenVisible from "../../hooks/FadeInWhenVisible";
-import Link from "next/link";
+
 
 const Banner = ({ BannerImg, text,heading, link }) => {
   return (
