@@ -1748,7 +1748,7 @@ div.invstr-row > label > input:checked + span {
 
 .collapse-body-text {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
   color: #000000;
   overflow: auto;
@@ -1758,13 +1758,13 @@ div.invstr-row > label > input:checked + span {
 .collapse-body-text code{
   font-family: "Nunito Sans", sans-serif;
 }
-code{
+/* code{
   color: crimson;
   background-color: #f1f1f1;
   padding: 2px;
   font-size: 105%;
   max-width: 400px;
-}
+} */
 
 .section-sub-subtitle {
   font-weight: 300;

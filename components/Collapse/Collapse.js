@@ -21,7 +21,9 @@ const Collapse = ({ title, body}) => {
 
       <div className={`collapse-body ${open ? "open" : "closed"}`}>
       <ReactMarkdown
-      className="collapse-body-text" components={{p: 'hey'}} />
+      className="collapse-body-text">
+        {body}
+      </ReactMarkdown>
                           
       
       </div>
