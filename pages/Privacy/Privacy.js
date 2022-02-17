@@ -102,12 +102,19 @@ const data = [
     2.object to your personal data being processed for a particular purpose;
     3.Withdraw, at any time, any consent that you have previously given to us for our use of your personal data;
     4.Ask us to stop or start sending you marketing messages at any time;
-    5.Request correction of the personal data that we hold about you. This enables you to have any incomplete or inaccurate information we hold about you corrected. It is important that the personal data we hold about you is accurate and current. Please keep us informed if your personal data changes during your working relationship with us; 
-    6.Request the erasure of your personal data. This enables you to ask us to delete or remove personal data where you think that we do not have the right to process it.
+    5.Request correction of the personal data that we hold about you. This enables you to have any incomplete or 
+      inaccurate information we hold about you corrected. It is important that the personal data we hold about you is 
+      accurate and current. Please keep us informed if your personal data changes during your working relationship with us; 
+    6.Request the erasure of your personal data. This enables you to ask us to delete or remove personal data where 
+      you think that we do not have the right to process it.
 
-    If you would want to contact us in relation to any of the rights set out herein, please contact us using the following details. To protect your privacy and security reasons, we may take reasonable information to verify your identity before providing you the required information. 
+    If you would want to contact us in relation to any of the rights set out herein, please contact us using the following 
+    details. To protect your privacy and security reasons, we may take reasonable information to verify your identity before 
+    providing you the required information. 
 
-    Mr. Shiju Thomas, Email-privacy@icicipruamc.com, Data Protection Officer, ICICI Prudential Asset Management Company Limited, 2nd Floor, Block B2, Nirlon Knowledge Park, Western Express Highway, Goregaon (E),Mumbai- 400063
+    Mr. Shiju Thomas, Email-privacy@icicipruamc.com, Data Protection Officer, 
+    ICICI Prudential Asset Management Company Limited, 2nd Floor, Block B2, Nirlon Knowledge Park, 
+    Western Express Highway, Goregaon (E),Mumbai- 400063
 
     `,
   },
@@ -130,10 +137,10 @@ const data = [
     title: "Disclosure of personal information",
     body: ` 
     ICICI Pru AMC may disclose the Provider’s information in order to:
-    •Conform to legal and/ or statutory requirements or comply with legal process;
-    •Protect and defend ICICI Pru AMC's or its Affiliates' rights, interests or property;
-    •Enforce our legal rights, terms and conditions or provisions of the offer documents of Schemes of the Mutual Fund/ 
-     Portfolio Management Services/ any other products or services.
+    • Conform to legal and/ or statutory requirements or comply with legal process;
+    • Protect and defend ICICI Pru AMC's or its Affiliates' rights, interests or property;
+    • Enforce our legal rights, terms and conditions or provisions of the offer documents of Schemes of the Mutual Fund/ 
+      Portfolio Management Services/ any other products or services.
     
     `,
   },
@@ -142,17 +149,17 @@ const data = [
     body: ` 
     To the extent required or permitted under law, we may share the Investor’s Personal Information for the uses mentioned 
     here with the following third parties:
-    •Registrar and transfer agent (s), call centers, Banks, custodians, depositories and/ or authorized external third parties 
-     who are involved in transaction processing, dispatches, etc., of investors’ investment with Us and/or who are 
-     vendors/ service providers/ distributors to whom commission is paid; 
-    •Distributors or sub-brokers or intermediaries through whom applications are received and whose ARN number is stamped on 
-     the application form/ transaction slips;
-    •Any other organization for verifying the identity of investors for complying with anti-money laundering requirements;
-    •Any governmental authority including but not limited to the Reserve Bank of India and/ or the Securities and Exchange 
-     Board of India;
-    •Certain Personal Information may be shared with post office, local & international courier service providers and other 
-     intermediaries for correspondence with the Provider of Information and for making payments to the Provider by cheques, 
-     drafts, warrants, through electronic clearing services, NEFT etc. 
+    • Registrar and transfer agent (s), call centers, Banks, custodians, depositories and/ or authorized external third parties 
+      who are involved in transaction processing, dispatches, etc., of investors’ investment with Us and/or who are 
+      vendors/ service providers/ distributors to whom commission is paid; 
+    • Distributors or sub-brokers or intermediaries through whom applications are received and whose ARN number is stamped on 
+      the application form/ transaction slips;
+    • Any other organization for verifying the identity of investors for complying with anti-money laundering requirements;
+    • Any governmental authority including but not limited to the Reserve Bank of India and/ or the Securities and Exchange 
+      Board of India;
+    • Certain Personal Information may be shared with post office, local & international courier service providers and other 
+      intermediaries for correspondence with the Provider of Information and for making payments to the Provider by cheques, 
+      drafts, warrants, through electronic clearing services, NEFT etc. 
 
      We will on a best effort basis ensure that Personal Information is transferred to the third parties, on an assurance 
      from them that reasonable and appropriate steps have been taken to maintain the required level of data protection. 
