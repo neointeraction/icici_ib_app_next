@@ -42,14 +42,14 @@ const Header = ({ getOpenState }) => {
       name: "Investment Strategies",
       link: "/Funds",
     },
-    {
-      name: "Downloads",
-      link: "/Downloads",
-    },
-    {
-      name: "News & Insights",
-      link: "/News",
-    },
+    // {
+    //   name: "Downloads",
+    //   link: "/Downloads",
+    // },
+    // {
+    //   name: "News & Insights",
+    //   link: "/News",
+    // },
     {
       name: "Contact us",
       link: "/Contact",

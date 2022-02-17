@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import Uk from "../../../../assets/images/flags/Flag-UK.png";
-import SGP from "../../../../assets/images/flags/Flag-Singapore.png";
+import SGP from "../../../../assets/images/flags/Flag-singapore.png";
 import US from "../../../../assets/images/flags/Flag-US.png";
 import UAE from "../../../../assets/images/flags/Flag-UAE.png";
 import Fin from "../../../../assets/images/flags/Flag-finland.png";

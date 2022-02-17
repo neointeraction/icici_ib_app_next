@@ -1751,6 +1751,19 @@ div.invstr-row > label > input:checked + span {
   font-size: 20px;
   line-height: 28px;
   color: #000000;
+  overflow: auto;
+  
+}
+
+.collapse-body-text code{
+  font-family: "Nunito Sans", sans-serif;
+}
+code{
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+  max-width: 400px;
 }
 
 .section-sub-subtitle {
@@ -1932,6 +1945,14 @@ div.invstr-row > label > input:checked + span {
   line-height: 19px;
   color: #909ba9;
   margin-bottom: 0;
+}
+/* contact us page */
+
+.map-embed iframe{
+  width: 70%;
+  height:400px;
+  margin: auto;
+  border: 1px solid #c9b16d;
 }
 
 /* dowmnload animation  */
@@ -2753,6 +2774,13 @@ display: none;
     font-size: 16px;
     line-height: 22px;
   }
+  
+.map-embed iframe{
+  width: 70%;
+  height:300px;
+  margin: auto;
+}
+ 
   /* team page */
   .modal-content {
     width: 480px;
@@ -2827,6 +2855,7 @@ display: none;
   .collapse-body-text {
     font-size: 16px;
     line-height: 26px;
+    overflow: auto;
   }
   .collapse-container {
     margin-top: 0;
@@ -3110,6 +3139,11 @@ display: none;
   .sbmt-btn{
     line-height: 0;
   }
+.map-embed iframe{
+  width: 90%;
+  height:250px;
+  margin: auto;
+}
   /* team page */
   .modal-content {
     width: 100%;

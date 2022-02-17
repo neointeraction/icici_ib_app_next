@@ -95,7 +95,7 @@ const InvestmentExpertise = ({ hamOpen }) => {
               </FadeInWhenVisible>
 
               <FadeInWhenVisible>
-                <p className="body-text text-left">
+                <p className="body-text">
                   The AMC considers Environmental, Social, and Governance
                   Factors as key influencers for delivering superior long-term
                   shareholder value. As active managers, ESG issues are given

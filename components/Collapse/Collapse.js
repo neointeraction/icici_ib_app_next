@@ -2,8 +2,9 @@ import React, { useState } from "react";
 
 import CollapsePlus from "../../assets/images/icons/collapse+.svg";
 import CollapseMinus from "../../assets/images/icons/collapse-.svg";
+import ReactMarkdown from 'react-markdown'
 
-const Collapse = ({ title, body }) => {
+const Collapse = ({ title, body}) => {
   const [open, setOpen] = useState();
 
   const handleCollapse = () => {
@@ -19,7 +20,10 @@ const Collapse = ({ title, body }) => {
       </div>
 
       <div className={`collapse-body ${open ? "open" : "closed"}`}>
-        <p className="collapse-body-text">{body}</p>
+      <ReactMarkdown
+      className="collapse-body-text" components={{p: 'hey'}} />
+                          
+      
       </div>
     </div>
   );

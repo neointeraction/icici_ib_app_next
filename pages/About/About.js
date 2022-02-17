@@ -49,7 +49,7 @@ const About = ({ hamOpen }) => {
                 </div>
               </FadeInWhenVisible>
               <FadeInWhenVisible>
-                <p className="body-text text-left">
+                <p className="body-text">
                   <strong>
                     ICICI Prudential Asset Management Company Limited
                   </strong>
@@ -62,7 +62,7 @@ const About = ({ hamOpen }) => {
                 </p>
               </FadeInWhenVisible>
               <FadeInWhenVisible>
-                <p className="body-text text-left">
+                <p className="body-text">
                   The investors in these funds are retail individuals, high and
                   ultra-high net worth individuals, large pensions, sovereigns,
                   and other institutions from North Asia, Europe, Latin America,
@@ -75,7 +75,7 @@ const About = ({ hamOpen }) => {
                 </p>
               </FadeInWhenVisible>
               <FadeInWhenVisible>
-                <p className="body-text text-left">
+                <p className="body-text">
                   <strong>
                     ICICI Prudential Asset Management Company Limited
                   </strong>
