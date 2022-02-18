@@ -18,7 +18,7 @@ const data = [
   {
     anchor: "KBA",
     imgSrc: FundImg1,
-    title: "KBA India Dynamic Fixed Income Fund",
+    title: "India Dynamic Fixed Income Fund",
     text: `ICICI Prudential Asset Management Company Limited  is the Investment Manager to the KBA India Dynamic Fixed Income Sub Fund of India Opportunities Fund (the Trust), a UCITs compliant umbrella Fund domiciled in Ireland. The Fund aims to generate total returns with moderate levels of credit risk by investing primarily in a portfolio of debt securities issued in India, by companies operating in India or by companies deriving significant portion of their business from India. `,
     buttonLink: "/KBA",
   },

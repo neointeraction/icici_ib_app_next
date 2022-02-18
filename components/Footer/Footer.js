@@ -78,7 +78,7 @@ const Footer = () => {
               <h5 className="footer-title"> FOLLOW US ON</h5>
               <ul className="social-list">
                 <li>
-                  <a href="/#" className="social-icons fb">
+                  <a href="https://www.facebook.com/iciciprumf" className="social-icons fb">
                     <svg
                       width="11"
                       height="22"
@@ -95,7 +95,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/#" className="social-icons twitter">
+                  <a href="https://twitter.com/ICICIPruMF" className="social-icons twitter">
                     <svg
                       width="23"
                       height="19"
@@ -112,7 +112,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/#" className="social-icons in">
+                  <a href="http://www.linkedin.com/company/icici-prudential-amc-ltd" className="social-icons in">
                     <svg
                       width="21"
                       height="21"
@@ -129,7 +129,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/#" className="social-icons yt">
+                  <a href="http://www.youtube.com/user/ICICIPrudentialAMC" className="social-icons yt">
                     <svg
                       width="23"
                       height="16"

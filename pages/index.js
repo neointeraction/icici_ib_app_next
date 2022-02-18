@@ -127,8 +127,8 @@ const Home = ({ hamOpen }) => {
           </FadeInWhenVisible>
           <FadeInWhenVisible>
             <p className="body-text">
-              ICICI Prudential Asset Management Company Limited (the
-              AMC/IPAMC)offers fund management and advisory services to marquee
+              ICICI Prudential Asset Management Company Limited The
+              AMC offers fund management and advisory services to marquee
               global clients investing across public equities, IG and High Yield
               Credits, fixed income, and alternative strategies in India. These
               investments could be through FPI registered funds or separate
@@ -137,7 +137,7 @@ const Home = ({ hamOpen }) => {
               Funds Schemes as underlying portfolios. The investors in these
               funds are retail individuals, high and ultra-high net worth
               individuals, large pensions, sovereigns, and other institutions
-              from North Asia, Europe, Latin America, and the GCC.
+              from North Asia, Europe, and the GCC.
             </p>
           </FadeInWhenVisible>
 
@@ -168,7 +168,7 @@ const Home = ({ hamOpen }) => {
             <div className="itf-content">
               <Title titleText="Global Investments" isSuperText align dark />
               <Title
-                titleText="ICICI Global Investments, a unit of ICICI Prudential Asset
+                titleText="ICICI Global Investments, a division of ICICI Prudential Asset
                   Management (AMC)"
                 align
               />

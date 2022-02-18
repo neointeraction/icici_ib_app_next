@@ -10,7 +10,7 @@ import BreadCrumb from "../../components/BreadCrumb";
 import IEBanner from "../../assets/images/kba-banner.jpg";
 
 const KBA = ({ hamOpen }) => {
-  const [crumbs, setCrumbs] = useState(["INVESTMENT STRATEGIES", " KBA "]);
+  const [crumbs, setCrumbs] = useState(["INVESTMENT STRATEGIES", " INDIA DYNAMIC FIXED INCOME FUND "]);
   const selected = "/Funds";
   return (
     <motion.div
@@ -20,7 +20,7 @@ const KBA = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>ICICI | KBA India Dynamic Fixed Income Fund</title>
+        <title>ICICI | India Dynamic Fixed Income Fund</title>
         <meta
           name="description"
           content="ICICI Lorem ipsum dolor sit amet, consectetur adipiscing elit.."
@@ -31,7 +31,7 @@ const KBA = ({ hamOpen }) => {
         <img src={IEBanner} alt="IEBanner" />
         <div className="banner-static-content">
           <FadeInWhenVisible delay={0.1}>
-            <Title titleText="KBA India Dynamic Fixed Income Fund" />
+            <Title titleText="India Dynamic Fixed Income Fund" />
           </FadeInWhenVisible>
         </div>
       </div>
@@ -67,7 +67,7 @@ const KBA = ({ hamOpen }) => {
           </div>
 
           <div>
-            {/* <FadeInWhenVisible>
+            {/* needed in crafter attach pdf <FadeInWhenVisible>
               <p className="asterisk-text">
                 *Regulatory insertion for KBA (PDF Attached of SFDR Disclosure)
               </p>

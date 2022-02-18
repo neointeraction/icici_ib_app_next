@@ -53,39 +53,19 @@ const About = ({ hamOpen }) => {
                   <strong>
                     ICICI Prudential Asset Management Company Limited
                   </strong>
-                  (the AMC/IPAMC) offers fund management and advisory services
-                  to marquee global clients investing across public equities, IG
-                  and High Yield Credits, fixed income, and alternative
-                  strategies through FPI registered funds, separate accounts
-                  (custom mandates) and offshore feeder funds into ICICI
-                  Prudential Mutual Funds.
+                 (The AMC) is a leading India based asset manager that provides a broad range of investment 
+                 solutions to over 6mn investors across 250 cities in India. The AMC also services Non Resident Indians (NRI’s)
+                  through its affiliate presence in the GCC and Mauritius. With ~USD 60bn in assets under management the AMC’s 
+                  investment strategies are designed to deliver long term superior risk adjusted returns.
                 </p>
               </FadeInWhenVisible>
               <FadeInWhenVisible>
                 <p className="body-text">
-                  The investors in these funds are retail individuals, high and
-                  ultra-high net worth individuals, large pensions, sovereigns,
-                  and other institutions from North Asia, Europe, Latin America,
-                  and the GCC. ICICI Global Investments branding represents the
-                  international asset management activities of the AMC. The AMC
-                  firm provides bespoke advisory and fund management services
-                  focused in Indian capital markets to global institutional
-                  investors, led by a specialized cross-functional team across
-                  the asset management company firm.
-                </p>
-              </FadeInWhenVisible>
-              <FadeInWhenVisible>
-                <p className="body-text">
-                  <strong>
-                    ICICI Prudential Asset Management Company Limited
-                  </strong>
-                  (The AMC) is a leading India-based asset manager that provides
-                  a broad range of investment solutions to over 6mn investors
-                  across 250 cities in India. The AMC also services Non-Resident
-                  Indians (NRI’s) through its affiliate presence in the GCC, and
-                  Mauritius. With ~USD 60bn in assets under management and
-                  advisory, the AMC’s investment strategies are designed to
-                  deliver long-term superior risk-adjusted returns.
+                ICICI Global Investments branding represents the international asset management activities of the AMC. 
+                The AMC firm provides bespoke advisory and fund management services focused on Indian capital markets to 
+                global institutional investors, led by a specialized cross-functional team based in Mumbai. The investors in 
+                these funds are retail individuals, high and ultra-high net worth individuals, large pensions, sovereigns and 
+                other institutions from North Asia, Europe and the GCC.
                 </p>
               </FadeInWhenVisible>
             </div>

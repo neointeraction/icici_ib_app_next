@@ -105,9 +105,8 @@ const InvestmentExpertise = ({ hamOpen }) => {
                   issues in their decision-making process. In addition to
                   internal scores, the AMC also subscribes to leading
                   third-party ESG scores which guide sector specialists in the
-                  rating process. The AMC is an advisor to an ESG compliant
-                  UCITS offshore equity fund since 2012 and also manages ESG
-                  Equity Mutual Fund Scheme in India since 2020.
+                  rating process. The AMC is also a signatory of the UN Principles
+                  for Responsible Investment (UNPRI).
                 </p>
                 <FadeInWhenVisible>
                   <InfoStrp

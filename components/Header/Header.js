@@ -76,7 +76,7 @@ const Header = ({ getOpenState }) => {
           </div>
         </Link>
         <div>
-          <a href="/#" className="header-icon">
+          <a href="mailto:enquiry@icicipruamc.com" className="header-icon">
             <svg
               width="26"
               height="20"
