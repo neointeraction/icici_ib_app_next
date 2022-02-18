@@ -1757,6 +1757,7 @@ div.invstr-row > label > input:checked + span {
 
 .collapse-body-text code{
   font-family: "Nunito Sans", sans-serif;
+  white-space: break-spaces;
 }
 /* code{
   color: crimson;
