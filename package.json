@@ -8,20 +8,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.0.7",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
     "axios": "^0.24.0",
     "framer-motion": "^5.3.3",
     "http-proxy-middleware": "^2.0.1",
+    "next": "12.0.7",
+    "next-images": "^1.8.4",
+    "react": "17.0.2",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-bootstrap-breadcrumbs": "^0.1.2",
+    "react-dom": "17.0.2",
+    "react-markdown": "^8.0.0",
     "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.1",
     "slick-carousel": "^1.8.1",
-    "smoothscroll-polyfill": "^0.4.4",
-    "next-images": "^1.8.4"
+    "smoothscroll-polyfill": "^0.4.4"
   },
   "devDependencies": {
     "eslint": "8.6.0",
