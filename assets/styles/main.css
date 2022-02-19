@@ -515,14 +515,14 @@ button {
   position: absolute;
   bottom: 30px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   padding: 40px;
   z-index: 1;
 }
 .banner-content a{
   text-decoration:underline;
-  color: white;
+  color: #05275B;
   font-weight: 600;
 }
 .banner-img::after {
@@ -544,16 +544,16 @@ button {
 .banner-text {
   font-weight: 400;
   font-size: 18px;
-  color: #ffffff;
+  color: #05275B;
   text-align: left;
   /* width: 60%; */
   margin: auto;
 }
 .banner-heading{
-  font-weight: 600;
+  font-weight: 700;
   font-size: 70px;
   line-height: 84px;
-  color: #ffffff;
+  color: #05275B;
   text-align: center;
   width: 70%;
   margin: auto;
@@ -1052,6 +1052,9 @@ div.invstr-row > label > input:checked + span {
   color: white;
   padding: 40px 0;
 }
+.footer .row{
+  margin-bottom:20px;
+}
 
 .footer a {
   text-decoration: none;
@@ -1224,13 +1227,13 @@ div.invstr-row > label > input:checked + span {
 
 
 .banner-static-content .section-title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 80px;
   line-height: 68px;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #05275B;
   margin-bottom:0;
 }
 
