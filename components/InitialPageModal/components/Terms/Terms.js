@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
-const Terms = () => {
+const Terms = ({ disable,setDisable }) => {
+  
   return (
     <div className="step-section-margin">
       <div className="term-block">
@@ -41,6 +42,7 @@ const Terms = () => {
           id="custom-checkbox-1"
           type="checkbox"
           value="value1"
+          onClick={setDisable}
         />
         <label for="custom-checkbox-1">Accept Terms and Condtions</label>
       </div>

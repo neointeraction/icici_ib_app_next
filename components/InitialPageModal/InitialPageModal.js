@@ -10,6 +10,16 @@ const InitialPageModal = ({ visible, toggle }) => {
   const slider = useRef();
   const [slide, setSlide] = useState(0);
 
+  const [disable,setDisable]=useState(true);
+  
+  const chkboxClick = () =>{
+
+    setDisable(!disable);
+  
+  }
+  
+  console.log({disable});
+
   const prev = () => {
     slider.current.slickPrev();
   };
@@ -17,6 +27,8 @@ const InitialPageModal = ({ visible, toggle }) => {
   const next = () => {
     slider.current.slickNext();
   };
+
+  
 
   var slideSettings = {
     dots: false,
@@ -46,7 +58,7 @@ const InitialPageModal = ({ visible, toggle }) => {
         </div>
         <div>
           <h1 className="modal-title">Terms & Conditions</h1>
-          <Terms />
+          <Terms setDisable={chkboxClick}/>
         </div>
       </Slider>
       <div className="modal-slick-action-btn">
@@ -58,7 +70,7 @@ const InitialPageModal = ({ visible, toggle }) => {
           </button>
         )}
         {slide === 2 ? (
-          <button className="custom-button" onClick={toggle}>
+          <button className="custom-button" onClick={toggle} disabled={disable}>
             Agree
           </button>
         ) : (
