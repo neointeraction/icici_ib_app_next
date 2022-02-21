@@ -2870,6 +2870,9 @@ display: none;
     margin-bottom: 20px;
     border: 1px solid transparent;
   }
+  .collapse-body.open {
+    overflow: auto;
+  }
   /* stat-det and disclaimer */
   .subtitle {
     font-size: 32px;
