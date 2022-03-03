@@ -12,7 +12,7 @@ const CookieOverlay = () => {
     <motion.div
       animate={{ y: show ? [500, 0] : [0, 500] }}
       transition={{ duration: 1 }}
-      className="cookie-container"
+      className= { show ? "cookie-container" : "cookie-disappear" }
     >
       <div className="cookie-content">
         <h1 className="cookie-title">

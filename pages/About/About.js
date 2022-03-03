@@ -89,12 +89,12 @@ const About = ({ hamOpen }) => {
           <div className="map-legend">
             <FadeInWhenVisible>
               <ul className="map-legend-list">
-                <li>
+                {/* <li>
                   <span>
                     <img src={Star1} alt="star" />
                   </span>
                   Asset manager partnership
-                </li>
+                </li> */}
                 <li>
                   <span>
                     <img src={Star2} alt="star" />
