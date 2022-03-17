@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SimpleReactValidator from 'simple-react-validator';
 
 import Uk from "../../../../assets/images/flags/Flag-UK.png";
 import SGP from "../../../../assets/images/flags/Flag-singapore.png";
@@ -12,7 +13,7 @@ import Lux from "../../../../assets/images/flags/Flag-lux.png";
 import Spain from "../../../../assets/images/flags/Flag-spain.png";
 import Sweden from "../../../../assets/images/flags/Flag-sweden.png";
 import Switzerland from "../../../../assets/images/flags/Flag-switzerland.png";
-// import DUAE from "../../../../assets/images/flags/Flag-UAE.png";
+import Norway from "../../../../assets/images/flags/Flag-norway.png";
 import HK from "../../../../assets/images/flags/Flag-HK.png";
 
 const data = [
@@ -78,8 +79,8 @@ const data = [
   },
   {
     id: 13,
-    countryName: "DIFC UAE",
-    couintryFlag: UAE,
+    countryName: "Norway",
+    couintryFlag: Norway,
   },
   {
     id: 14,
@@ -100,7 +101,7 @@ const SelectCountry = () => {
 
   console.log(counntryValue, "counntryValue"); // selected country value is stored  in counntryValue
 
-  return (
+  return ( 
     <div className="step-section-margin">
       <div className="row">
         {data.map((item, e) => (
@@ -121,8 +122,8 @@ const SelectCountry = () => {
             <input
               type="text"
               className="input-custom country-input"
-              placeholder="Add your Country name here"
-            />
+              placeholder="Add your Country name here"            
+            />        
           </div>
         </div>
       </div>

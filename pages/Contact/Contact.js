@@ -37,7 +37,7 @@ const Contact = ({ hamOpen }) => {
             <h4 className="section-subtitle">Get in touch with us</h4>
             <div className="contact-detail-block">
               <p className="cd-name">
-                ICICI Prudential Asset Management Company Limited (“IPAMC Ltd”)
+                ICICI Prudential Asset Management Company Limited (The AMC)
               </p>
               <p className="cd-address">
                 One BKC A-Wing, 13th Floor, Bandra Kurla Complex, Mumbai - 400

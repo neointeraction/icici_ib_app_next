@@ -19,14 +19,14 @@ const data = [
     anchor: "KBA",
     imgSrc: FundImg1,
     title: "India Dynamic Fixed Income Fund",
-    text: `ICICI Prudential Asset Management Company Limited  is the Investment Manager to the KBA India Dynamic Fixed Income Sub Fund of India Opportunities Fund (the Trust), a UCITs compliant umbrella Fund domiciled in Ireland. The Fund aims to generate total returns with moderate levels of credit risk by investing primarily in a portfolio of debt securities issued in India, by companies operating in India or by companies deriving significant portion of their business from India. `,
+    text: `The AMC is the Investment Manager to the KBA India Dynamic Fixed Income Sub Fund of India Opportunities Fund (the Trust), a UCITs compliant umbrella Fund domiciled in Ireland. The Fund aims to generate total returns with moderate levels of credit risk by investing primarily in a portfolio of debt securities issued in India, by companies operating in India or by companies deriving significant portion of their business from India. `,
     buttonLink: "/KBA",
   },
   {
     anchor: "Equity",
     imgSrc: FundImg2,
     title: "India Equity Strategies",
-    text: `The AMC has a long track record of advising investors in North Asia, Europe and the GCC on long only India equity strategies. These include India thematic focused funds, large cap growth strategy, an ESG focused counter cyclical multicap strategy and an all cap strategy. The strategies are available in local domiciled trust structures, UCITS compliant structures and separately managed accounts. These strategies adopt a top down and bottom up approach with an endeavor to outperform broad market benchmarks and focus on delivering risk adjusted returns. The investors in these strategies range from retail individuals, HNI’s, corporates, family offices as well as marquee institutional investors like pensions, insurance companies and sovereign wealth funds.`,
+    text: `The AMC has a long track record of advising investors in North Asia, Europe and the GCC on long only India equity strategies. These include India thematic focused funds, large cap growth strategy, an ESG focused multicap strategy. The strategies are available in local domiciled trust structures, UCITS compliant structures and separately managed accounts. These strategies adopt a top down and bottom up approach with an endeavor to outperform broad market benchmarks and focus on delivering risk adjusted returns. The investors in these strategies range from retail individuals, HNI’s, corporates, family offices as well as marquee institutional investors like pensions, insurance companies and sovereign wealth funds.`,
     buttonLink: null,
   },
   {

@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -21,6 +21,9 @@
     "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
     "react-slick": "^0.28.1",
+    "rehype-raw": "^6.1.1",
+    "remark-gfm": "^3.0.1",
+    "simple-react-validator": "^1.6.1",
     "slick-carousel": "^1.8.1",
     "smoothscroll-polyfill": "^0.4.4"
   },

@@ -55,14 +55,14 @@ const About = ({ hamOpen }) => {
                   </strong>
                  (The AMC) is a leading India based asset manager that provides a broad range of investment 
                  solutions to over 6mn investors across 250 cities in India. The AMC also services Non Resident Indians (NRI’s)
-                  through its affiliate presence in the GCC and Mauritius. With ~USD 60bn in assets under management the AMC’s 
+                  through its affiliate presence in the GCC and Mauritius. With ~USD 65bn* in assets under management the AMC’s 
                   investment strategies are designed to deliver long term superior risk adjusted returns.
                 </p>
               </FadeInWhenVisible>
               <FadeInWhenVisible>
                 <p className="body-text">
                 ICICI Global Investments branding represents the international asset management activities of the AMC. 
-                The AMC firm provides bespoke advisory and fund management services focused on Indian capital markets to 
+                The AMC provides bespoke advisory and fund management services focused on Indian capital markets to 
                 global institutional investors, led by a specialized cross-functional team based in Mumbai. The investors in 
                 these funds are retail individuals, high and ultra-high net worth individuals, large pensions, sovereigns and 
                 other institutions from North Asia, Europe and the GCC.
@@ -110,7 +110,15 @@ const About = ({ hamOpen }) => {
               </ul>
             </FadeInWhenVisible>
           </div>
+          <div> 
+          <FadeInWhenVisible>
+              <p className="asterisk-text">
+                *Last updated as on 31st march 2022 
+              </p>
+          </FadeInWhenVisible>
         </div>
+        </div>
+       
       </div>
     </motion.div>
   );

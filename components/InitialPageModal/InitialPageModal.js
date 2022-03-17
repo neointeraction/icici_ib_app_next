@@ -11,13 +11,13 @@ const InitialPageModal = ({ visible, toggle }) => {
   const [slide, setSlide] = useState(0);
 
   const [disable,setDisable]=useState(true);
-  
+
   const chkboxClick = () =>{
 
     setDisable(!disable);
   
   }
-  
+
   console.log({disable});
 
   const prev = () => {

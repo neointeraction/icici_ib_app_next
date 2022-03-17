@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import CollapsePlus from "../../assets/images/icons/collapse+.svg";
 import CollapseMinus from "../../assets/images/icons/collapse-.svg";
 import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
+import rehypeRaw from 'rehype-raw'
 
 const Collapse = ({ title, body}) => {
   const [open, setOpen] = useState();
@@ -10,6 +12,8 @@ const Collapse = ({ title, body}) => {
   const handleCollapse = () => {
     setOpen(!open);
   };
+
+
   return (
     <div className={`collapse-container ${open ? "open " : "closed"}`}>
       <div className="collpase-header-flex">
@@ -20,12 +24,7 @@ const Collapse = ({ title, body}) => {
       </div>
 
       <div className={`collapse-body ${open ? "open" : "closed"}`}>
-      <ReactMarkdown
-      className="collapse-body-text">
-        {body}
-      </ReactMarkdown>
-                          
-      
+      <ReactMarkdown rehypePlugins={[rehypeRaw]} remarkPlugins={[remarkGfm]} className="collapse-body-text"  children={body} />
       </div>
     </div>
   );

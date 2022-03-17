@@ -23,7 +23,7 @@ import GlobalBanner from "../assets/images/global-img.jpg";
 
 const data = [
   {
-    heading:"AMC India's leading asset manager",
+    heading:"India's leading asset manager",
     text: "For our latest India outlook please ",
     bannerImage: BannerImg,
     link: "https://www.icicipruamc.com/docs/default-source/default-document-library/ipru-annual-outlook-2022.pdf",
@@ -127,8 +127,8 @@ const Home = ({ hamOpen }) => {
           </FadeInWhenVisible>
           <FadeInWhenVisible>
             <p className="body-text">
-              ICICI Prudential Asset Management Company Limited The
-              AMC offers fund management and advisory services to marquee
+              ICICI Prudential Asset Management Company Limited (The
+              AMC) offers fund management and advisory services to marquee
               global clients investing across public equities, IG and High Yield
               Credits, fixed income, and alternative strategies in India. These
               investments could be through FPI registered funds or separate
@@ -144,11 +144,11 @@ const Home = ({ hamOpen }) => {
           <FadeInWhenVisible>
             <p className="body-text">
               ICICI Global Investments branding represents the international
-              asset management activities of the AMC. The AMC firm provides
+              asset management activities of the AMC. The AMC provides
               bespoke advisory and fund management services focused in Indian
               capital markets to global institutional investors, led by a
               specialized cross-functional team across the asset management
-              company firm.
+              company.
             </p>
           </FadeInWhenVisible>
           <FadeInWhenVisible>
@@ -169,7 +169,7 @@ const Home = ({ hamOpen }) => {
               <Title titleText="Global Investments" isSuperText align dark />
               <Title
                 titleText="ICICI Global Investments, a division of ICICI Prudential Asset
-                  Management (AMC)"
+                  Management (The AMC)"
                 align
               />
               <IconButton link="/About" isGold alignLeft />
