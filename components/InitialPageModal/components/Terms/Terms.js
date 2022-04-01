@@ -44,7 +44,7 @@ const Terms = ({ disable,setDisable }) => {
           value="value1"
           onClick={setDisable}
         />
-        <label for="custom-checkbox-1">Accept Terms and Condtions</label>
+        <label for="custom-checkbox-1">Accept Terms and Conditions</label>
       </div>
     </div>
   );

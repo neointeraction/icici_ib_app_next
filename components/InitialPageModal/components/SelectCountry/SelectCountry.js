@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SimpleReactValidator from 'simple-react-validator';
+import SimpleReactValidator from "simple-react-validator";
 
 import Uk from "../../../../assets/images/flags/Flag-UK.png";
 import SGP from "../../../../assets/images/flags/Flag-singapore.png";
@@ -98,7 +98,7 @@ const SelectCountry = () => {
     setCountryValue(value);
     console.log(activeId);
   };
-
+  
   console.log(counntryValue, "counntryValue"); // selected country value is stored  in counntryValue
 
   return ( 
@@ -123,7 +123,8 @@ const SelectCountry = () => {
               type="text"
               className="input-custom country-input"
               placeholder="Add your Country name here"            
-            />        
+            />      
+
           </div>
         </div>
       </div>

@@ -26,6 +26,12 @@ const Header = ({ getOpenState }) => {
   };
 
   const menuItems = [
+
+    {
+      name: "Home",
+      link: "/",
+    },
+
     {
       name: "About Us",
       link: "/About",
@@ -35,13 +41,14 @@ const Header = ({ getOpenState }) => {
       link: "/InvestmentExpertise",
     },
     {
-      name: "Team",
-      link: "/Team",
-    },
-    {
       name: "Investment Strategies",
       link: "/Funds",
     },
+    {
+      name: "Team",
+      link: "/Team",
+    },
+    
     // {
     //   name: "Downloads",
     //   link: "/Downloads",

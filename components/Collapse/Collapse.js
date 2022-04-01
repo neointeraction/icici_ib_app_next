@@ -15,8 +15,8 @@ const Collapse = ({ title, body}) => {
 
 
   return (
-    <div className={`collapse-container ${open ? "open " : "closed"}`}>
-      <div className="collpase-header-flex">
+    <div className={`collapse-container ${open ? "open " : "closed"}`} >
+      <div className="collpase-header-flex" onClick={handleCollapse}>
         <h1 className="collapse-title">{title}</h1>
         <button onClick={handleCollapse}>
           <img src={open ? CollapseMinus : CollapsePlus} alt="CollapsePlus" />

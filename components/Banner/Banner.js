@@ -11,7 +11,7 @@ const Banner = ({ BannerImg, text,heading, link }) => {
           <FadeInWhenVisible delay={0.3}>
             <h1 className="banner-heading">{heading}</h1>
             <p className="banner-text">{text} 
-             { link == null ? null : <span><a href={link} > click here</a></span> }     
+             { link == null ? null : <span><a href={link} target="_blank" > click here</a></span> }     
             </p>
           </FadeInWhenVisible>
         </div>

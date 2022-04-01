@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, {  useEffect, useState, useRef } from "react";
 import Slider from "react-slick";
 
 import Modal from "../Modal";
@@ -6,7 +6,7 @@ import SelectCountry from "./components/SelectCountry";
 import ClassifyYourself from "./components/ClassifyYourself";
 import Terms from "./components/Terms/Terms";
 
-const InitialPageModal = ({ visible, toggle }) => {
+const InitialPageModal = ({ visible, toggle ,handleSessionPopup }) => {
   const slider = useRef();
   const [slide, setSlide] = useState(0);
 
@@ -27,8 +27,6 @@ const InitialPageModal = ({ visible, toggle }) => {
   const next = () => {
     slider.current.slickNext();
   };
-
-  
 
   var slideSettings = {
     dots: false,
@@ -65,12 +63,12 @@ const InitialPageModal = ({ visible, toggle }) => {
         {slide === 0 ? (
           <div></div>
         ) : (
-          <button className="custom-button" onClick={prev}>
+          <button className="anchor-button" onClick={prev}>
             Back
           </button>
         )}
         {slide === 2 ? (
-          <button className="custom-button" onClick={toggle} disabled={disable}>
+          <button className="custom-button" onClick={()=>{toggle(); handleSessionPopup();}} disabled={disable}>
             Agree
           </button>
         ) : (

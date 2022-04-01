@@ -22,15 +22,16 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/Team">
-                  <div className="footer-link">Our Team</div>
-                </Link>
-              </li>
-              <li>
                 <Link href="/Funds">
                   <div className="footer-link">Investment Strategies</div>
                 </Link>
               </li>
+              <li>
+                <Link href="/Team">
+                  <div className="footer-link">Our Team</div>
+                </Link>
+              </li>
+             
               {/* <li>
                 <Link href="/Downloads">
                   <div className="footer-link">Downloads</div>
@@ -59,6 +60,7 @@ const Footer = () => {
               <a
                 href="https://goo.gl/maps/Pyh9J6UTN9xHL2TG7"
                 className="cntnt-outline opn-map"
+                target="_blank"
               >
                 <span> OPEN IN GOOGLE MAPS</span>
                 <img src={MapIcon} alt="MapIcon" />
@@ -78,7 +80,7 @@ const Footer = () => {
               <h5 className="footer-title"> FOLLOW US ON</h5>
               <ul className="social-list">
                 <li>
-                  <a href="https://www.facebook.com/iciciprumf" className="social-icons fb">
+                  <a href="https://www.facebook.com/iciciprumf" target="_blank" className="social-icons fb">
                     <svg
                       width="11"
                       height="22"
@@ -95,7 +97,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/ICICIPruMF" className="social-icons twitter">
+                  <a href="https://twitter.com/ICICIPruMF" target="_blank" className="social-icons twitter">
                     <svg
                       width="23"
                       height="19"
@@ -112,7 +114,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="http://www.linkedin.com/company/icici-prudential-amc-ltd" className="social-icons in">
+                  <a href="http://www.linkedin.com/company/icici-prudential-amc-ltd" target="_blank" className="social-icons in">
                     <svg
                       width="21"
                       height="21"
@@ -129,7 +131,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="http://www.youtube.com/user/ICICIPrudentialAMC" className="social-icons yt">
+                  <a href="http://www.youtube.com/user/ICICIPrudentialAMC" target="_blank" className="social-icons yt">
                     <svg
                       width="23"
                       height="16"

@@ -51,7 +51,45 @@ const Home = ({ hamOpen }) => {
     setTimeout(() => {
       toggle();
     }, 1500);
+
+    var popupView = sessionStorage.getItem("popupView");
+    // sessionStorage.setItem("popupView", popupView);
+    console.log(popupView,"popn") //null first time
+    if (popupView == null) {
+      // console.log(popupView, "pop"); //null
+      popupView = true;
+      // console.log(popupView, "popt"); //true
+    }   
+    else if(popupView == true) {
+      // console.log(popupView, "pop");
+      visible = true; //visited = true also works
+    }
+    else if(popupView = false){
+      // console.log(popupView, "pop");
+      visited = false;
+    }
+     
+    console.log(popupView,"pops"); //true
+    // visible = popupView;
+     setVisited(popupView); //visible = true also works
+    //  console.log(visited,"visit"); //true first
+    //  console.log(popupView);
+
   }, []);
+
+const handleSessionPopup = () =>{
+
+   sessionStorage.setItem("popupView", false);
+   setVisited(false);
+}
+
+// const handleSessionCookie = () =>{
+
+//   sessionStorage.setItem("cookieView", false);
+
+// }
+
+   const [visited, setVisited] = useState();
 
   const [bannerData, setbannerData] = useState([]);
 
@@ -178,7 +216,7 @@ const Home = ({ hamOpen }) => {
         </div>
       </div>
       <CookieOverlay />
-      <InitialPageModal visible={visible} toggle={toggle} />
+      <InitialPageModal visible={visited} toggle={toggle} handleSessionPopup={handleSessionPopup} />
     </motion.div>
   );
 };
