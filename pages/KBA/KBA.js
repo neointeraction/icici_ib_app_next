@@ -60,7 +60,7 @@ const KBA = ({ hamOpen }) => {
             <FadeInWhenVisible>
               <InfoStrp
                 infoText="More information about this fund is available in the downloads section or contact at "
-                infoLink="enquiry@iciciglobalinvestments.com"
+                infoLink="mailto:enquiry@iciciglobalinvestments.com"
                 isMailInfo
               />
             </FadeInWhenVisible>
