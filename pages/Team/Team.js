@@ -100,9 +100,9 @@ const Team = ({ hamOpen }) => {
         </div>
       </div>
       <div className="section-padding">
-        <div className="container">
+        <div className="container team-container">
           <FadeInWhenVisible>
-            <div className="row justify-center">
+            <div className="row team-scale justify-center">
               {data.map((item) => (
                 <div className="col-xl-4 col-lg-4 col-md-6">
                   <TeamCard

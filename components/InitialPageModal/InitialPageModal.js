@@ -46,14 +46,14 @@ const InitialPageModal = ({ visible, toggle ,handleSessionPopup }) => {
   return (
     <Modal visible={visible} toggle={toggle} md preventCloseOnOverlayClick>
       <Slider ref={(c) => (slider.current = c)} {...slideSettings}>
-        <div>
+        {/* <div>
           <h1 className="modal-title">Select your country</h1>
           <SelectCountry />
         </div>
         <div>
           <h1 className="modal-title">How do you classify yourself ?</h1>
           <ClassifyYourself />
-        </div>
+        </div> */}
         <div>
           <h1 className="modal-title">Terms & Conditions</h1>
           <Terms setDisable={chkboxClick}/>
@@ -66,8 +66,9 @@ const InitialPageModal = ({ visible, toggle ,handleSessionPopup }) => {
           <button className="anchor-button" onClick={prev}>
             Back
           </button>
-        )}
-        {slide === 2 ? (
+        )} 
+        {/* original slide value = 2 */}
+        {slide === 0 ? (
           <button className="custom-button" onClick={()=>{toggle(); handleSessionPopup();}} disabled={disable}>
             Agree
           </button>

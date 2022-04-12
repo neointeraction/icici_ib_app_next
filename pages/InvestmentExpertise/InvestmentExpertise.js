@@ -8,6 +8,8 @@ import Title from "../../components/Title/Title";
 
 import IEBanner from "../../assets/images/ie-banner.jpg";
 import IEBanner2 from "../../assets/images/ie-banner2.jpg";
+import Shamit from "../../assets/images/team/shamit.jpg";
+import MsgOtl from "../../assets/images/message-outline.svg";
 
 const InvestmentExpertise = ({ hamOpen }) => {
   return (
@@ -35,6 +37,20 @@ const InvestmentExpertise = ({ hamOpen }) => {
       </div>
       <div className="section-padding">
         <div className="container">
+          <div className="row">
+          <div className="col-md-3"> 
+              <FadeInWhenVisible>
+                <div className="msg-item">
+                  <img src={MsgOtl} className="message" alt="message" />
+                  <div className="person">
+                  <img src={Shamit}  alt="shamit" />
+                  <h4 className="person-name">Mr. Shamit Chokshi</h4>
+                  <h4 className="person-designation">Head – Offshore Fund, Investments, International Business</h4>
+                  </div>  
+                </div>
+              </FadeInWhenVisible>
+            </div>
+          <div className="col-md-9">
           <FadeInWhenVisible></FadeInWhenVisible>
           <FadeInWhenVisible>
             <p className="body-text">
@@ -77,6 +93,9 @@ const InvestmentExpertise = ({ hamOpen }) => {
               offshore mandates.
             </p>
           </FadeInWhenVisible>
+          </div> 
+          </div>
+                    
         </div>
       </div>
       <div className="section-padding pt-0">

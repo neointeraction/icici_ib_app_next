@@ -11,8 +11,8 @@ import AboutImgMap from "../../assets/images/about-map.jpg";
 import Star1 from "../../assets/images/icons/star1.svg";
 import Star2 from "../../assets/images/icons/star2.svg";
 import Star3 from "../../assets/images/icons/star3.svg";
-import Logo from "../../assets/images/about-logo.png";
-
+import PruLogo from "../../assets/images/about-logo.png";
+import GILogo from "../../assets/images/logo.svg";
 const About = ({ hamOpen }) => {
   return (
     <motion.div
@@ -34,20 +34,22 @@ const About = ({ hamOpen }) => {
 
         <div className="banner-static-content">
           <FadeInWhenVisible delay={0.1}>
-            <Title titleText="About US" />
+            <Title titleText="About Us" />
           </FadeInWhenVisible>
         </div>
       </div>
       <div className="section-padding">
         <div className="container">
           <FadeInWhenVisible></FadeInWhenVisible>
-          <div className="row">
-            <div className="col-md-12">
-              <FadeInWhenVisible>
+          <div className="row logo-text">
+            <div className="col-md-3"> 
+            <FadeInWhenVisible>
                 <div className="about-logo-container">
-                  <img src={Logo} alt="Logo" />
+                  <img src={PruLogo} alt="Logo" />
                 </div>
               </FadeInWhenVisible>
+            </div>
+            <div className="col-md-9">             
               <FadeInWhenVisible>
                 <p className="body-text">
                   <strong>
@@ -59,6 +61,17 @@ const About = ({ hamOpen }) => {
                   investment strategies are designed to deliver long term superior risk adjusted returns.
                 </p>
               </FadeInWhenVisible>
+            </div>
+          </div>
+          <div className="row logo-text">
+            <div className="col-md-3"> 
+              <FadeInWhenVisible>
+                <div className="about-gilogo-container">
+                  <img src={GILogo} alt="Logo" />
+                </div>
+              </FadeInWhenVisible>
+            </div>
+            <div className="col-md-9"> 
               <FadeInWhenVisible>
                 <p className="body-text">
                 ICICI Global Investments branding represents the international asset management activities of the AMC. 
@@ -70,6 +83,9 @@ const About = ({ hamOpen }) => {
               </FadeInWhenVisible>
             </div>
           </div>
+              
+            
+          
 
           <FadeInWhenVisible>
             <InfoStrp
