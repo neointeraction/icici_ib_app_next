@@ -51,7 +51,10 @@ const Contact = ({ hamOpen }) => {
                   <span>Fax:</span> +91 22 2652 8100
                 </li>
                 <li>
-                  <span>Email:</span> enquiry@icicipruamc.com
+                  <span>Email:</span> globalenquiry@icicipruamc.com
+                </li>
+                <li>
+                  <span>For customer complaints:</span> kba.fixedincomefund@icicipruamc.com
                 </li>
               </ul>
             </div>
