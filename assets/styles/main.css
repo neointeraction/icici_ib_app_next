@@ -2789,6 +2789,10 @@ display: none;
     width: 90%;
     padding: 30px 40px 40px 40px;
   }
+  .modal-box.md {
+    width: 700px;
+    padding: 30px 40px 40px 40px;
+}
   .classify-select-box {
     width: 90%;
     margin: auto;
