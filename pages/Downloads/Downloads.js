@@ -31,7 +31,7 @@ const Downloads = ({ hamOpen }) => {
         <title>ICICI | Downloads</title>
         <meta
           name="description"
-          content="ICICI Lorem ipsum dolor sit amet, consectetur adipiscing elit.."
+          content="ICICI Prudential Asset Management Company Limited (The AMC) offers fund management and advisory services to marquee global clients investing across public equities, IG and High Yield Credits, fixed income, and alternative strategies in India. "
         />
         <meta name="keywords" content="ICICI, banking, Investment" />
       </Head>
