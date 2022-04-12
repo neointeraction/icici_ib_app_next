@@ -563,12 +563,12 @@ button {
 }
 .banner-slider .slick-slide[data-index="0"] .banner-heading{
   position: relative;
-  bottom: 80px;
+  bottom: 50px;
 }
 .banner-slider .slick-slide[data-index="1"] .banner-heading{
   font-size: 55px;
   position: relative;
-  bottom: 60px;
+  bottom: 50px;
 }
 .banner-slider .slick-slide[data-index="2"] .banner-heading{
   font-size: 55px;
@@ -2537,6 +2537,11 @@ display: none;
     position: relative;
     right: 75px;
 }
+.banner-slider .slick-slide[data-index="1"] .banner-heading {
+  font-size: 55px;
+  position: relative;
+  bottom: 0px;
+}
 .team-scale{
   transform: scale(.6) translateY(-30%);
 }
@@ -2544,6 +2549,13 @@ display: none;
   height:500px;
 }
 }
+@media only screen and (max-width: 1280px) {
+  .banner-slider .slick-slide[data-index="0"] .banner-heading{
+    position: relative;
+    bottom: 0px;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   /* home page */
   .itf-img img {
