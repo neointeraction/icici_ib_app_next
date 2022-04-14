@@ -90,6 +90,7 @@ const Team = ({ hamOpen }) => {
           content="ICICI Prudential Asset Management Company Limited (The AMC) offers fund management and advisory services to marquee global clients investing across public equities, IG and High Yield Credits, fixed income, and alternative strategies in India. "
         />
         <meta name="keywords" content="ICICI, banking, Investment" />
+        <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; img-src 'self' data: content:;  "></meta> 
       </Head>
       <div className="banner-static">
         <img src={TeamBanner} alt="TeamBanner" className="teamBnr"/>
