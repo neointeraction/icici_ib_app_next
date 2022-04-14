@@ -110,7 +110,7 @@ const handleSessionPopup = () =>{
     speed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay:true,
     autoplaySpeed: 10000,
     prevArrow: (
       <motion.img
