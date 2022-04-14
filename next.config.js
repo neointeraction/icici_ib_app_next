@@ -1,4 +1,11 @@
 const withImages = require("next-images");
+// const ContentSecurityPolicy = `
+// style-src 'self' fonts.googleapis.com 'unsafe-inline'; 
+// font-src 'self' fonts.gstatic.com data:; 
+// default-src 'self'; 
+// script-src 'unsafe-eval' 'self'; 
+// img-src 'self' data: content:;  
+// `
 module.exports = withImages({
   images: {
     disableStaticImages: true,
@@ -21,10 +28,10 @@ module.exports = withImages({
               key: 'X-Frame-Options',
               value: 'SAMEORIGIN'
             },
-            // {
-            //   key: 'Content-Security-Policy',
-            //   value: 'default-src *'
-            // },
+            {
+              key: 'Content-Security-Policy',
+              value:"style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; img-src 'self' data: content:; "
+            },
             {
               key: 'X-XSS-Protection',
               value: '1; mode=block'
@@ -46,6 +53,4 @@ module.exports = withImages({
 
 });
 
-// const ContentSecurityPolicy = `
-//   default-src 'self' localhost:* ws://localhost:*;
-// `
+
