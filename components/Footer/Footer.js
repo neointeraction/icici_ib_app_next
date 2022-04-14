@@ -73,7 +73,7 @@ const Footer = () => {
               <ul className="contact-list">
                 <li>Phone: +91 22 2652 5000</li>
                 <li>Fax: +91 22 2652 8100</li>
-                <li>Email: enquiry@icicipruamc.com</li>
+                <li>Email: globalenquiry@icicipruamc.com</li>
               </ul>
             </div>
             <div className="socials">

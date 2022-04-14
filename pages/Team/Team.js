@@ -92,7 +92,7 @@ const Team = ({ hamOpen }) => {
         <meta name="keywords" content="ICICI, banking, Investment" />
       </Head>
       <div className="banner-static">
-        <img src={TeamBanner} alt="TeamBanner" />
+        <img src={TeamBanner} alt="TeamBanner" className="teamBnr"/>
         <div className="banner-static-content">
           <FadeInWhenVisible delay={0.1}>
             <Title titleText="Our Team" />

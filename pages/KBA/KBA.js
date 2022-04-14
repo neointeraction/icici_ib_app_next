@@ -29,7 +29,7 @@ const KBA = ({ hamOpen }) => {
       </Head>
       <div className="banner-static">
         <img src={IEBanner} alt="IEBanner" />
-        <div className="banner-static-content">
+        <div className="KBA-heading banner-static-content">
           <FadeInWhenVisible delay={0.1}>
             <Title titleText="India Dynamic Fixed Income Fund" />
           </FadeInWhenVisible>

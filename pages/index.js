@@ -107,9 +107,11 @@ const handleSessionPopup = () =>{
   var slideSettings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 10000,
     prevArrow: (
       <motion.img
         whileHover={{ scale: 1.5 }}
