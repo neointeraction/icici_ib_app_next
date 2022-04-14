@@ -10,7 +10,7 @@ import BreadCrumb from "../../components/BreadCrumb";
 import IEBanner from "../../assets/images/kba-banner.jpg";
 
 const KBA = ({ hamOpen }) => {
-  const [crumbs, setCrumbs] = useState(["INVESTMENT STRATEGIES", " INDIA DYNAMIC FIXED INCOME FUND "]);
+  const [crumbs, setCrumbs] = useState(["Investment Strategies", " India Dynamic Fixed Income Fund"]);
   const selected = "/Funds";
   return (
     <motion.div

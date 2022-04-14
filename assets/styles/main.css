@@ -2494,7 +2494,7 @@ ul.markdown li{
   text-decoration: none;
   font-size: 16px;
   color: #013069;
-  text-transform: uppercase;
+  text-transform:capitalize;
   font-weight: medium;
 }
 .brdcrmb-item.brd-disabled{
@@ -3245,6 +3245,7 @@ display: none;
   .asterisk-text {
     font-size: 12px;
     text-align: center;
+    margin-top: 30px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -3637,7 +3638,11 @@ display: none;
     margin-bottom: 30px;
   }
   .brdcrmb-item {
-    font-size: 14px;
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+  .breadcrumbs svg{
+    width: 12px;
   }
   .asterisk-text {
     font-size: 10px;
@@ -3868,7 +3873,7 @@ display: none;
   }
   /* kba page */
   .brdcrmb-item {
-    font-size: 12px;
+    font-size: 10px;
   }
   .step-section-margin{
     min-width:280px;
