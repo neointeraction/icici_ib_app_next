@@ -30,7 +30,7 @@ module.exports = withImages({
             },
             {
               key: 'Content-Security-Policy',
-              value:"style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; img-src 'self' data: content:; "
+              value:"style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:; "
             },
             {
               key: 'X-XSS-Protection',
