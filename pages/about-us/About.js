@@ -8,7 +8,6 @@ import Title from "../../components/Title/Title";
 
 import AboutImg from "../../assets/images/about.jpg";
 import AboutImgMap from "../../assets/images/about-map.jpg";
-import Star1 from "../../assets/images/icons/star1.svg";
 import Star2 from "../../assets/images/icons/star2.svg";
 import Star3 from "../../assets/images/icons/star3.svg";
 import PruLogo from "../../assets/images/about-logo.png";
@@ -22,12 +21,13 @@ const About = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>ICICI | About Us</title>
+        <title>About Us - Services & Solutions | ICICI Global Investments</title>
         <meta
           name="description"
-          content="ICICI Prudential Asset Management Company Limited (The AMC) offers fund management and advisory services to marquee global clients investing across public equities, IG and High Yield Credits, fixed income, and alternative strategies in India."
+          content="Learn more about ICICI Global Investments, representing the international asset management activities of the AMC. Explore our wide range of investment solutions."
         />
-        <meta name="keywords" content="ICICI, banking, Investment" />
+        <meta name="keywords" content="global investment services,asset management, investment solutions" />
+        <link rel="canonical" href="https://www.iciciglobalinvestments.com/about-us" />
         <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; img-src 'self' data: content:;  "></meta> 
       </Head>
       <div className="banner-static">
@@ -84,10 +84,6 @@ const About = ({ hamOpen }) => {
               </FadeInWhenVisible>
             </div>
           </div>
-              
-            
-          
-
           <FadeInWhenVisible>
             <InfoStrp
               infoText=" For more information about the AMC, Please visit"
@@ -106,12 +102,6 @@ const About = ({ hamOpen }) => {
           <div className="map-legend">
             <FadeInWhenVisible>
               <ul className="map-legend-list">
-                {/* <li>
-                  <span>
-                    <img src={Star1} alt="star" />
-                  </span>
-                  Asset manager partnership
-                </li> */}
                 <li>
                   <span>
                     <img src={Star2} alt="star" />

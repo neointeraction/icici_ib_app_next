@@ -11,7 +11,7 @@ import IEBanner from "../../assets/images/kba-banner.jpg";
 
 const KBA = ({ hamOpen }) => {
   const [crumbs, setCrumbs] = useState(["Investment Strategies", " India Dynamic Fixed Income Fund"]);
-  const selected = "/Funds";
+  const selected = "/funds-investment-strategies";
   return (
     <motion.div
       animate={{ scale: hamOpen ? 0.995 : 1 }}

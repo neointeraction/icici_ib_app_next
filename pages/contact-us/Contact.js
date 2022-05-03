@@ -16,13 +16,14 @@ const Contact = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>ICICI | Contact Us</title>
+        <title>Contact Us | ICICI Global Investments </title>
         <meta
           name="description"
-          content="ICICI Prudential Asset Management Company Limited (The AMC) offers fund management and advisory services to marquee global clients investing across public equities, IG and High Yield Credits, fixed income, and alternative strategies in India. "
+          content="Have a query? Reach out to us through any of the channels given below to know more about ICICI Global Investments. Visit us Now!"
         />
         <meta name="keywords" content="ICICI, banking, Investment" />
-        {/* <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; img-src 'self' data: content:;  "></meta>  */}
+        <link rel="canonical" href="https://www.iciciglobalinvestments.com/contact-us" />
+        <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:;  "></meta> 
       </Head>
       <div className="banner-static">
         <img src={ContactBanner} alt="ContactBanner" />

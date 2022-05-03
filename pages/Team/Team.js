@@ -84,12 +84,13 @@ const Team = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>ICICI | Our Team</title>
+        <title>Meet Our Team | ICICI Global Investments </title>
         <meta
           name="description"
-          content="ICICI Prudential Asset Management Company Limited (The AMC) offers fund management and advisory services to marquee global clients investing across public equities, IG and High Yield Credits, fixed income, and alternative strategies in India. "
+          content="Know more about the people behind ICICI Global Investments. Click here to know more about the team!"
         />
         <meta name="keywords" content="ICICI, banking, Investment" />
+        <link rel="canonical" href="https://www.iciciglobalinvestments.com/team" />
         <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; img-src 'self' data: content:;  "></meta> 
       </Head>
       <div className="banner-static">

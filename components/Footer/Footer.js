@@ -12,22 +12,22 @@ const Footer = () => {
             <h5 className="footer-title">QUICK LINKS</h5>
             <ul className="footer-link-list">
               <li>
-                <Link href="/About">
+                <Link href="/about-us">
                   <div className="footer-link">About Us</div>
                 </Link>
               </li>
               <li>
-                <Link href="/InvestmentExpertise">
+                <Link href="/investment-expertise">
                   <div className="footer-link">Investment Expertise</div>
                 </Link>
               </li>
               <li>
-                <Link href="/Funds">
+                <Link href="/funds-investment-strategies">
                   <div className="footer-link">Investment Strategies</div>
                 </Link>
               </li>
               <li>
-                <Link href="/Team">
+                <Link href="/team">
                   <div className="footer-link">Our Team</div>
                 </Link>
               </li>
@@ -43,7 +43,7 @@ const Footer = () => {
                 </Link>
               </li> */}
               <li>
-                <Link href="/Contact">
+                <Link href="/contact-us">
                   <div className="footer-link">Contact Us</div>
                 </Link>
               </li>
@@ -156,14 +156,14 @@ const Footer = () => {
       <div className="bottom-footer">
         <div className="b-footer">
           <div className="b-footer-row">
-            <Link href="/Privacy">
+            <Link href="/privacy-policy">
               <div className="footer-link">Privacy Policy</div>
             </Link>
 
-            <Link href="/LegalTerms">
+            <Link href="/legal-terms">
               <div className="footer-link">Legal Terms</div>
             </Link>
-            <Link href="/Disclaimer">
+            <Link href="/disclaimer">
               <div className="footer-link">Disclaimer</div>
             </Link>
           </div>

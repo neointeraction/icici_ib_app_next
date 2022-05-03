@@ -34,19 +34,19 @@ const Header = ({ getOpenState }) => {
 
     {
       name: "About Us",
-      link: "/About",
+      link: "/about-us",
     },
     {
       name: "Investment Expertise",
-      link: "/InvestmentExpertise",
+      link: "/investment-expertise",
     },
     {
       name: "Investment Strategies",
-      link: "/Funds",
+      link: "/funds-investment-strategies",
     },
     {
       name: "Team",
-      link: "/Team",
+      link: "/team",
     },
     
     // {
@@ -59,7 +59,7 @@ const Header = ({ getOpenState }) => {
     // },
     {
       name: "Contact us",
-      link: "/Contact",
+      link: "/contact-us",
     },
   ];
 

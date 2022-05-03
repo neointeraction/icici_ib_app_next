@@ -1,5 +1,5 @@
 import React from "react";
-import ChevRight from "../../assets/images/icons/chevron-compact-right.png"
+
 
 function BreadCrumb(props) {
   function isLast(index) {

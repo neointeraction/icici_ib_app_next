@@ -20,12 +20,13 @@ const InvestmentExpertise = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>ICICI | Investment Expertise</title>
+        <title>Our Investment Expertise | ICICI Global Investments</title>
         <meta
           name="description"
-          content="ICICI Prudential Asset Management Company Limited (The AMC) offers fund management and advisory services to marquee global clients investing across public equities, IG and High Yield Credits, fixed income, and alternative strategies in India. "
+          content="Discover a wide range of high-quality investment solutions with the investment expertise of the ICICI Global Investments team. Visit our website to know more!"
         />
-        <meta name="keywords" content="ICICI, banking, Investment" />
+        <meta name="keywords" content="investment expertise" />
+        <link rel="canonical" href="https://www.iciciglobalinvestments.com/investment-expertise" />
         <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; img-src 'self' data: content:;  "></meta> 
       </Head>
       <div className="banner-static">

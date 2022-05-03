@@ -53,27 +53,19 @@ const Home = ({ hamOpen }) => {
     }, 1500);
 
     var popupView = sessionStorage.getItem("popupView");
-    // sessionStorage.setItem("popupView", popupView);
-    console.log(popupView,"popn") //null first time
     if (popupView == null) {
-      // console.log(popupView, "pop"); //null
       popupView = true;
-      // console.log(popupView, "popt"); //true
     }   
     else if(popupView == true) {
-      // console.log(popupView, "pop");
-      visible = true; //visited = true also works
+      visible = true;
     }
     else if(popupView = false){
-      // console.log(popupView, "pop");
       visited = false;
     }
      
-    console.log(popupView,"pops"); //true
-    // visible = popupView;
-     setVisited(popupView); //visible = true also works
-    //  console.log(visited,"visit"); //true first
-    //  console.log(popupView);
+
+     setVisited(popupView); 
+
 
   }, []);
 
@@ -83,13 +75,7 @@ const handleSessionPopup = () =>{
    setVisited(false);
 }
 
-// const handleSessionCookie = () =>{
-
-//   sessionStorage.setItem("cookieView", false);
-
-// }
-
-   const [visited, setVisited] = useState();
+  const [visited, setVisited] = useState();
 
   const [bannerData, setbannerData] = useState([]);
 
@@ -139,12 +125,13 @@ const handleSessionPopup = () =>{
       className="page-container"
     >
       <Head>
-        <title>ICICI | Global Investment</title>
+        <title>ICICI Global Investments - Funds & Investment Services </title>
         <meta
           name="description"
-          content="ICICI Prudential Asset Management Company Limited (The AMC) offers fund management and advisory services to marquee global clients investing across public equities, IG and High Yield Credits, fixed income, and alternative strategies in India. "
+          content="ICICI Global Investments represents the international asset management activities of ICICI Prudential AMC Ltd. It provides bespoke services focused in Indian capital markets to global institutional investors."
         />
-        <meta name="keywords" content="ICICI, banking, Investment, AMC" />
+        <meta name="keywords" content="global investment,investment services" />
+        <link rel="canonical" href="https://www.iciciglobalinvestments.com/" />
         <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; img-src 'self' data: content:;  "></meta> 
       </Head>
       <div className="banner-slider">
@@ -213,7 +200,7 @@ const handleSessionPopup = () =>{
                   Management (The AMC)"
                 align
               />
-              <IconButton link="/About" isGold alignLeft />
+              <IconButton link="/about-us" isGold alignLeft />
             </div>
           </FadeInWhenVisible>
         </div>

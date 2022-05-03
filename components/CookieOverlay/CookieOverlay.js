@@ -46,7 +46,7 @@ const CookieOverlay = ({handleSessionCookie}) => {
           site.By using our website, you agree to the collection of data as
           described in our{" "}
           <Link
-            href="/Privacy "        
+            href="/privacy-policy "        
             className="link-text"
           >
             Privacy Policy

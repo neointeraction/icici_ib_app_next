@@ -33,7 +33,7 @@ const Terms = ({ disable,setDisable }) => {
         AGREE DISGREE
         </h4>
         <p className="term-text">
-        I further acknowledge that there has been no solicitation, invitation or inducement of any sort whatsoever from ICICI Prudential Asset Management Company Limited or any of its members to offer, or extend an invitation for subscription, for any products or services of ICICI Prudential Asset Management Company Limited, nor shall any of the contents of this website be understood or construed by me as an advertisement. I further acknowledge having read and understood the applicable laws and regulations of my residence jurisdiction and agree to be bound by the <span><a href="https://www.eastspring.com/sg/disclaimer"> Disclaimer, Other Important Notice</a> </span> and <span><a href="https://www.eastspring.com/sg/privacypolicy"> Privacy Policy</a> </span>. 
+        I further acknowledge that there has been no solicitation, invitation or inducement of any sort whatsoever from ICICI Prudential Asset Management Company Limited or any of its members to offer, or extend an invitation for subscription, for any products or services of ICICI Prudential Asset Management Company Limited, nor shall any of the contents of this website be understood or construed by me as an advertisement. I further acknowledge having read and understood the applicable laws and regulations of my residence jurisdiction and agree to be bound by the <span><a href="https://www.eastspring.com/sg/disclaimer" target="_blank"> Disclaimer, Other Important Notice</a> </span> and <span><a href="https://www.eastspring.com/sg/privacypolicy" target="_blank"> Privacy Policy</a> </span>. 
         </p>
       </div>
       <div className="agree-input">
