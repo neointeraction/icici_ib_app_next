@@ -226,7 +226,7 @@ const Privacy = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>ICICI | Privacy Policy</title>
+        <title>Privacy Policy | ICICI Global Investments</title>
         <meta
           name="description"
           content="ICICI Prudential Asset Management Company Limited (The AMC) offers fund management and advisory services to marquee global clients investing across public equities, IG and High Yield Credits, fixed income, and alternative strategies in India. "
