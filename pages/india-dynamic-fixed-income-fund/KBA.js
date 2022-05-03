@@ -20,7 +20,7 @@ const KBA = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>ICICI | India Dynamic Fixed Income Fund</title>
+        <title>India Dynamic Fixed Income Fund | ICICI Global Investments</title>
         <meta
           name="description"
           content="ICICI Prudential Asset Management Company Limited (The AMC) offers fund management and advisory services to marquee global clients investing across public equities, IG and High Yield Credits, fixed income, and alternative strategies in India. "
