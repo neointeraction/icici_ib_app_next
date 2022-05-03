@@ -46,7 +46,7 @@ const Header = ({ getOpenState }) => {
     },
     {
       name: "Team",
-      link: "/our-team",
+      link: "/team",
     },
     
     // {
