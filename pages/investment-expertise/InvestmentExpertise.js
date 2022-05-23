@@ -10,6 +10,7 @@ import IEBanner from "../../assets/images/ie-banner.jpg";
 import IEBanner2 from "../../assets/images/ie-banner2.jpg";
 import Shamit from "../../assets/images/team/shamit.jpg";
 import MsgOtl from "../../assets/images/message-outline.svg";
+import TitleHThree from "../../components/TitleHThree/TitleHThree";
 
 const InvestmentExpertise = ({ hamOpen }) => {
   return (
@@ -109,7 +110,7 @@ const InvestmentExpertise = ({ hamOpen }) => {
 
             <div className="itf-content ">
               <FadeInWhenVisible>
-                <Title
+                <TitleHThree
                   titleText="Our Commitment to ESG and Sustainability in Investing"
                   align
                 />
@@ -143,7 +144,7 @@ const InvestmentExpertise = ({ hamOpen }) => {
       <div className="section-padding pt-0">
         <div className="container">
           <FadeInWhenVisible>
-            <Title titleText="Our Group’s Corporate Social Responsibility (CSR) Commitments" />
+            <TitleHThree titleText="Our Group’s Corporate Social Responsibility (CSR) Commitments" />
           </FadeInWhenVisible>
           <FadeInWhenVisible>
             <p className="body-text">

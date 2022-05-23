@@ -20,6 +20,7 @@ import BannerImg3 from "../assets/images/banner3.jpg";
 import Prev from "../assets/images/icons/prev.svg";
 import Next from "../assets/images/icons/next.svg";
 import GlobalBanner from "../assets/images/global-img.jpg";
+import TitleHTwo from "../components/TitleHTwo";
 
 const data = [
   {
@@ -195,7 +196,7 @@ const handleSessionPopup = () =>{
           <FadeInWhenVisible>
             <div className="itf-content">
               <Title titleText="Global Investments" isSuperText align dark />
-              <Title
+              <TitleHTwo
                 titleText="ICICI Global Investments, a division of ICICI Prudential Asset
                   Management (The AMC)"
                 align

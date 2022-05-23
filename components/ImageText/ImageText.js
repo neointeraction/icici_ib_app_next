@@ -8,7 +8,7 @@ const ImageText = ({ imgSrc, title, text, imageRight, buttonLink }) => {
         <img src={imgSrc} alt={imgSrc} />
       </div>
       <div className="text-block">
-        <h1 className="tb-title">{title}</h1>
+        <h2 className="tb-title">{title}</h2>
         <p className="tb-text">{text}</p>
         {buttonLink && (
           <Link href={buttonLink}>
