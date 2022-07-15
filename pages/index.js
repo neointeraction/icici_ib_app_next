@@ -17,6 +17,7 @@ import InitialPageModal from "../components/InitialPageModal";
 import BannerImg from "../assets/images/banner.jpg";
 import BannerImg2 from "../assets/images/banner2.jpg";
 import BannerImg3 from "../assets/images/banner3.jpg";
+import BannerImg4 from "../assets/images/banner4.jpg";
 import Prev from "../assets/images/icons/prev.svg";
 import Next from "../assets/images/icons/next.svg";
 import GlobalBanner from "../assets/images/global-img.jpg";
@@ -39,6 +40,11 @@ const data = [
     heading:"Committed to delivering good investment experience to its investors",
     text: "India is the world’s fourth largest country by cumulative wind capacity  currently at 39GW, as on 31 Mar 2021 and has generated around 60.15 Billion Units during 2020-21. Information Source: https://mnre.gov.in/wind/current-status",
     bannerImage: BannerImg3,
+    
+  },
+  {
+    heading:"",
+    bannerImage: BannerImg4,
     
   },
 ];
@@ -99,6 +105,7 @@ const handleSessionPopup = () =>{
     slidesToScroll: 1,
     autoplay:true,
     autoplaySpeed: 10000,
+    fade:true,
     prevArrow: (
       <motion.img
         whileHover={{ scale: 1.5 }}
@@ -152,7 +159,7 @@ const handleSessionPopup = () =>{
       <div className="section-padding">
         <div className="container">
           <FadeInWhenVisible>
-            <Title titleText="ICICI Global Investments" />
+            {/* <Title titleText="New Heading" /> */}
           </FadeInWhenVisible>
           <FadeInWhenVisible>
             <p className="body-text">
@@ -172,9 +179,7 @@ const handleSessionPopup = () =>{
 
           <FadeInWhenVisible>
             <p className="body-text">
-              ICICI Global Investments branding represents the international
-              asset management activities of the AMC. The AMC provides
-              bespoke advisory and fund management services focused in Indian
+              The AMC provides bespoke advisory and fund management services focused in Indian
               capital markets to global institutional investors, led by a
               specialized cross-functional team across the asset management
               company.
@@ -188,7 +193,7 @@ const handleSessionPopup = () =>{
           </FadeInWhenVisible>
         </div>
       </div>
-      <div className="section-padding bordered-grid">
+      {/* <div className="section-padding bordered-grid">
         <div className="img-text-flex">
           <div className="itf-img">
             <img src={GlobalBanner} alt="global-img" />
@@ -205,7 +210,7 @@ const handleSessionPopup = () =>{
             </div>
           </FadeInWhenVisible>
         </div>
-      </div>
+      </div> */}
       <CookieOverlay />
       <InitialPageModal visible={visited} toggle={toggle} handleSessionPopup={handleSessionPopup} />
     </motion.div>

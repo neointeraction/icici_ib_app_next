@@ -295,9 +295,10 @@ button {
   flex-grow: 1;
   margin-left: 20px;
   cursor: pointer;
+  height: 46px;
 }
 .logo img{
-  height: 40px;
+  height: 46px;
   width: auto;
 }
 
@@ -314,7 +315,7 @@ button {
 
 .header-icon {
   border-radius: 2px;
-  padding: 11px 15px;
+  padding: 11.5px 15px;
   display: flex;
   justify-content: center;
   border: 1.5px solid transparent;
@@ -512,6 +513,16 @@ button {
   height: 40vh;
   object-fit: cover;
 }
+[data-index="0"] .banner-img img {
+  object-position: 0px 60%;
+}
+[data-index="2"] .banner-img img {
+  object-position: 0px 95%;
+}
+[data-index="3"] .banner-img img {
+  object-position: 0px 50%;
+}
+
 
 .banner-content {
   position: absolute;
@@ -564,7 +575,7 @@ button {
 }
 .banner-slider .slick-slide[data-index="0"] .banner-heading{
   position: relative;
-  bottom: 20px;
+  bottom: 10px;
 }
 .banner-slider .slick-slide[data-index="1"] .banner-heading{
   font-size: 45px;
@@ -605,7 +616,7 @@ button {
 .slick-dots {
   bottom: 2rem;
   list-style: none;
-  width: 8%;
+  width: 9%;
   left: 46%;
 }
 .slick-dots li {
@@ -2615,7 +2626,7 @@ display: none;
 
   .banner-slider .slick-slide[data-index="0"] .banner-heading {
     position: relative;
-    bottom: 50px;
+    bottom: 10px;
   }
 
   .banner-slider .slick-slide[data-index="0"] .banner-text {
