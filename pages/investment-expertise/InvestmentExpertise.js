@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Head from "next/head";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import FadeInWhenVisible from "../../hooks/FadeInWhenVisible";
 import InfoStrp from "../../components/InfoStrp";
@@ -10,6 +11,7 @@ import IEBanner from "../../assets/images/ie-banner.jpg";
 import IEBanner2 from "../../assets/images/ie-banner2.jpg";
 import Shamit from "../../assets/images/team/shamit.jpg";
 import MsgOtl from "../../assets/images/message-outline.svg";
+import PRIlogo from "../../assets/images/icons/PRI-logo.jpg";
 import TitleHThree from "../../components/TitleHThree/TitleHThree";
 
 const InvestmentExpertise = ({ hamOpen }) => {
@@ -40,6 +42,16 @@ const InvestmentExpertise = ({ hamOpen }) => {
       </div>
       <div className="section-padding">
         <div className="container">
+        <FadeInWhenVisible>
+            <div className="anchor-links-flex mb-60">
+              <AnchorLink className="anchor-button" href="#ESG" offset="80">
+               ESG and Sustainability
+              </AnchorLink>
+              <AnchorLink className="anchor-button" href="#CSR" offset="80">
+               Corporate Social Responsibility
+              </AnchorLink>
+            </div>
+          </FadeInWhenVisible>
           <div className="row">
           <div className="col-md-3"> 
               <FadeInWhenVisible>
@@ -102,12 +114,11 @@ const InvestmentExpertise = ({ hamOpen }) => {
         </div>
       </div>
       <div className="section-padding pt-0">
-        <div className="section-padding bordered-grid inv-sust">
+        <div className="section-padding bordered-grid inv-sust" id="ESG">
           <div className="img-text-flex">
             <div className="itf-img">
               <img src={IEBanner2} alt="IEBanner2" />
             </div>
-
             <div className="itf-content ">
               <FadeInWhenVisible>
                 <TitleHThree
@@ -115,7 +126,6 @@ const InvestmentExpertise = ({ hamOpen }) => {
                   align
                 />
               </FadeInWhenVisible>
-
               <FadeInWhenVisible>
                 <p className="body-text">
                   The AMC considers Environmental, Social, and Governance
@@ -132,17 +142,24 @@ const InvestmentExpertise = ({ hamOpen }) => {
                 </p>
                 <FadeInWhenVisible>
                   <InfoStrp
-                    infoText=" Our Stewardship Policy :  "
+                    infoText="For Stewardship Policy :  "
                     infoLink="https://www.icicipruamc.com/stewardship-responsibility"
                   />
                 </FadeInWhenVisible>
+                <FadeInWhenVisible>
+                  <InfoStrp
+                    infoText="For Responsible Investment Policy :  "
+                    infoLink="https://www.icicipruamc.com/docs/default-source/default-document-library/responsible-investment-policy.pdf"
+                  />
+                </FadeInWhenVisible>
+                <img src={PRIlogo} alt="PRI" />
               </FadeInWhenVisible>
             </div>
           </div>
         </div>
       </div>
       <div className="section-padding pt-0">
-        <div className="container">
+        <div className="container" id="CSR">
           <FadeInWhenVisible>
             <TitleHThree titleText="Our Group’s Corporate Social Responsibility (CSR) Commitments" />
           </FadeInWhenVisible>
@@ -163,7 +180,7 @@ const InvestmentExpertise = ({ hamOpen }) => {
           </FadeInWhenVisible>
           <FadeInWhenVisible>
             <InfoStrp
-              infoText="For more details please visit "
+              infoText="For more details on Corporate Social Responsibility Policy : "
               infoLink="https://www.icicipruamc.com/corporate-social-responsibility"
             />
           </FadeInWhenVisible>

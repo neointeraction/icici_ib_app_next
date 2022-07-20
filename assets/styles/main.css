@@ -172,6 +172,10 @@ button {
   margin-bottom: 20px !important;
 }
 
+.mb-60 {
+  margin-bottom: 60px !important;
+}
+
 .app-body {
   position: relative;
   top: 88px;
@@ -244,11 +248,12 @@ button {
 /* info-container  */
 
 .info-container {
-  border: 2px dashed rgba(201, 177, 109, 0.5);
+  /* border: 2px dashed rgba(201, 177, 109, 0.5); */
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 12px;
+  /* padding: 12px; */
+  margin-bottom: 20px;
 }
 
 .info-icon {
@@ -258,7 +263,7 @@ button {
 
 .info-text {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -725,8 +730,11 @@ button {
 }
 
 .itf-img img {
-  width: 100%;
-  margin-bottom: -3px;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -3px;
+    object-fit: cover;
+    object-position: 0% 0%;
 }
 
 .itf-content {
@@ -1580,8 +1588,8 @@ div.row div:nth-child(5) .tc-upfront{
 
 .contact-info {
   list-style: none;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  justify-content:left;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -1590,7 +1598,7 @@ div.row div:nth-child(5) .tc-upfront{
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  text-align: center;
+  text-align:left;
   color: #394040;
   margin-right: 10px;
   margin-bottom: 5px;
@@ -1601,28 +1609,32 @@ div.row div:nth-child(5) .tc-upfront{
 }
 
 .contact-detail-block {
-  width: 550px;
-  margin: auto;
-  margin-bottom: 40px;
+  /* margin: auto; */
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #c9b16d;
+  height: 260px;
+  max-width:540px;
 }
 
 .cd-name {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 22px;
-  text-align: center;
+  text-align: left;
   color: #394040;
   margin: 10px auto;
 }
 
 .cd-address {
-  width: 60%;
+  /* width: 60%; */
   margin: 10px auto;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  text-align: center;
+  text-align: left;
   color: #394040;
+  justify-content: left;
 }
 
 /* contact  */
@@ -2091,7 +2103,8 @@ ul.markdown li{
 /* contact us page */
 
 .map-embed iframe{
-  width: 70%;
+  /* width: 70%; */
+  width: 100%;
   height:400px;
   margin: auto;
   border: 1px solid #c9b16d;
@@ -2566,10 +2579,10 @@ display: none;
   .itf-content {
     padding: 5px 15px 5px 30px;
   }
-  .inv-sust .itf-img img {
+  /* .inv-sust .itf-img img {
     object-fit: cover;
     height: 600px;
-  }
+  } */
   .inv-sust .info-text {
     flex-wrap: wrap;
   }
@@ -2606,10 +2619,10 @@ display: none;
 
 @media only screen and (max-width: 1200px) {
   /* home page */
-  .itf-img img {
+  /* .itf-img img {
     object-fit: cover;
     height: 500px;
-  }
+  } */
   .itf-content {
     padding: 10px;
   }
@@ -2663,10 +2676,10 @@ display: none;
 
   /* investment expertise page */
 
-  .inv-sust .itf-img img {
+  /* .inv-sust .itf-img img {
     object-fit: cover;
     height: 600px;
-  }
+  } */
   .person img{
     height: auto;
     width: 54%;
@@ -3020,7 +3033,7 @@ display: none;
     max-width: 540px;
   }
   .info-text {
-    font-size: 14px;
+    font-size: 20px;
     margin-left: 12px;
     margin-bottom: 0;
     line-height: 20px;

@@ -18,9 +18,9 @@ const data = [
   {
     anchor: "KBA",
     imgSrc: FundImg1,
-    title: "India Dynamic Fixed Income Fund",
+    title: "UCITS Strategies",
     text: `The AMC is the Investment Manager to the KBA India Dynamic Fixed Income Sub Fund of India Opportunities Fund (the Trust), a UCITs compliant umbrella Fund domiciled in Ireland. The Fund aims to generate total returns with moderate levels of credit risk by investing primarily in a portfolio of debt securities issued in India, by companies operating in India or by companies deriving significant portion of their business from India. `,
-    buttonLink: "/india-dynamic-fixed-income-fund",
+    buttonLink: "/ucits-strategies",
   },
   {
     anchor: "Equity",
@@ -63,7 +63,7 @@ const Funds = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>Investment Strategies & Funds | ICICI Global Investments  </title>
+        <title>Investment Strategies & Funds | ICICI Global Investments </title>
         <meta
           name="description"
           content="Want to know about the different types of investment  strategies & funds offered by ICICI Global Investments? Click to know more."
@@ -85,7 +85,7 @@ const Funds = ({ hamOpen }) => {
           <FadeInWhenVisible>
             <div className="anchor-links-flex">
               <AnchorLink className="anchor-button" href="#KBA" offset="80">
-              India Fixed Income SICAV
+              UCITS Strategies
               </AnchorLink>
               <AnchorLink className="anchor-button" href="#Equity" offset="80">
                 India Equity

@@ -11,7 +11,7 @@ const InfoStrp = ({ infoText, infoLink, isMailInfo }) => {
       </div>
       <p className="info-text">
         {infoText}
-        <a href={infoLink} target="_blank">{infoLink}</a>
+        <a href={infoLink} target="_blank">Click here</a>
       </p>
     </div>
   );

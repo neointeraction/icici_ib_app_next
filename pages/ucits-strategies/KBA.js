@@ -10,7 +10,7 @@ import BreadCrumb from "../../components/BreadCrumb";
 import IEBanner from "../../assets/images/kba-banner.jpg";
 
 const KBA = ({ hamOpen }) => {
-  const [crumbs, setCrumbs] = useState(["Investment Strategies", " India Dynamic Fixed Income Fund"]);
+  const [crumbs, setCrumbs] = useState(["Investment Strategies", " UCITS Strategies"]);
   const selected = "/funds-investment-strategies";
   return (
     <motion.div
@@ -20,7 +20,7 @@ const KBA = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>India Dynamic Fixed Income Fund | ICICI Global Investments</title>
+        <title>UCITS Strategies | ICICI Global Investments</title>
         <meta
           name="description"
           content="ICICI Prudential Asset Management Company Limited (The AMC) offers fund management and advisory services to marquee global clients investing across public equities, IG and High Yield Credits, fixed income, and alternative strategies in India. "
@@ -32,7 +32,7 @@ const KBA = ({ hamOpen }) => {
         <img src={IEBanner} alt="IEBanner" />
         <div className="KBA-heading banner-static-content">
           <FadeInWhenVisible delay={0.1}>
-            <Title titleText="India Dynamic Fixed Income Fund" />
+            <Title titleText="UCITS Strategies" />
           </FadeInWhenVisible>
         </div>
       </div>

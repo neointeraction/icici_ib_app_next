@@ -7,7 +7,7 @@ import InfoStrp from "../../components/InfoStrp";
 import Title from "../../components/Title/Title";
 
 import AboutImg from "../../assets/images/about.jpg";
-import AboutImgMap from "../../assets/images/about-map.jpg";
+import AboutImgMap from "../../assets/images/about-map.svg";
 import Star2 from "../../assets/images/icons/star2.svg";
 import Star3 from "../../assets/images/icons/star3.svg";
 import PruLogo from "../../assets/images/about-logo.png";

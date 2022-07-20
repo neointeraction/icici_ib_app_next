@@ -36,14 +36,40 @@ const Contact = ({ hamOpen }) => {
       <div className="section-padding text-center">
         <div className="container">
           <FadeInWhenVisible>
-            <h4 className="section-subtitle">Get in touch with us</h4>
+            <h4 className="section-subtitle mb-20">Get in touch with us</h4>
+            <div className="row">
+            <div className="col-md-6">
+              <div className="contact-detail-block">
+              <p className="cd-name">
+              Management Company for Irish UCITS:
+              </p>
+              <p className="cd-address">
+              KB Associates <br/> 
+              5 George’s Dock IFSC, Dublin 1 <br />
+              Ireland
+              </p>
+              <ul className="contact-info">
+                <li>
+                  <span>Website:</span> <a href="https://kbassociates.ie/">https://kbassociates.ie/</a>
+                </li>
+                <li>
+                  <span>Email:</span> kba.fixedincomefund@icicipruamc.com
+                </li>
+                <li>
+                  <span>For customer complaints:</span> kba.fixedincomefund@icicipruamc.com
+                </li>
+              </ul>
+              </div>
+            </div>
+            <div className="col-md-6">
             <div className="contact-detail-block">
               <p className="cd-name">
                 ICICI Prudential Asset Management Company Limited (The AMC)
               </p>
               <p className="cd-address">
-                One BKC A-Wing, 13th Floor, Bandra Kurla Complex, Mumbai - 400
-                051
+                One BKC A-Wing, <br /> 
+                13th Floor, Bandra Kurla Complex, <br/>
+                Mumbai - 400051
               </p>
               <ul className="contact-info">
                 <li>
@@ -55,10 +81,12 @@ const Contact = ({ hamOpen }) => {
                 <li>
                   <span>Email:</span> globalenquiry@icicipruamc.com
                 </li>
-                <li>
+                {/* <li>
                   <span>For customer complaints:</span> kba.fixedincomefund@icicipruamc.com
-                </li>
+                </li> */}
               </ul>
+              </div>
+            </div>
             </div>
           </FadeInWhenVisible>
           {/* <FadeInWhenVisible>
