@@ -300,7 +300,6 @@ button {
   flex-grow: 1;
   margin-left: 20px;
   cursor: pointer;
-  height: 46px;
 }
 .logo img{
   height: 46px;
@@ -2910,7 +2909,7 @@ display: none;
     margin-left: 18px;
   }
   .logo img {
-    height: 28px;
+    height: 36px;
   }
   .app-body {
     position: relative;
@@ -3322,7 +3321,7 @@ display: none;
     margin-left: 15px;
   }
   .logo img {
-    height: 24px;
+    height: 32px;
   }
   .header-icon {
     padding: 8px 11px;
@@ -3391,6 +3390,10 @@ display: none;
   position: relative;
   bottom: 0;
   width: 100%;
+}
+.banner-slider .slick-slide[data-index="3"] .banner-heading {
+  position: relative;
+  bottom: 0;
 }
   /* home page */
   .section-padding {

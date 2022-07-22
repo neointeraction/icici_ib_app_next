@@ -9,7 +9,7 @@ const DownloadList = ({ filename, updated,downloadlink }) => {
     setActive(true);
     setTimeout(() => {
       setActive(false);
-    }, 3000);
+    }, 2000);
   };
 
   return (
@@ -17,7 +17,7 @@ const DownloadList = ({ filename, updated,downloadlink }) => {
       <h2 className="file-name">
         {filename}<span>{updated}</span>
       </h2>
-      <a href={downloadlink} className="download-btn">
+      <a href={downloadlink} target="_blank" className="download-btn">
         {active ? (
           <div className="downloading">
             <div class="gold-anim"></div>
