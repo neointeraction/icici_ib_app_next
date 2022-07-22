@@ -2780,6 +2780,9 @@ display: none;
     font-size: 18px;
     line-height: 26px;
   }
+  .info-text{
+    font-size: 18px;
+  }
   /* About us page */
   .map-legend-list li {
     font-size: 14px;
@@ -3026,6 +3029,9 @@ display: none;
     font-size: 16px;
     line-height: 24px;
   }
+  .info-text{
+    font-size: 16px;
+  }
 
   .section-title.title-super-text {
     font-size: 14px;
@@ -3049,7 +3055,7 @@ display: none;
   .info-text {
     margin-left: 12px;
     margin-bottom: 0;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: flex-start;
   }
   .info-text a {
@@ -3431,7 +3437,7 @@ display: none;
     margin-left: 12px;
     margin-bottom: 0;
     line-height: 22px;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: flex-start;
   }
   .step-section-margin {

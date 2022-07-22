@@ -187,7 +187,7 @@ const handleSessionPopup = () =>{
           </FadeInWhenVisible>
           <FadeInWhenVisible>
             <InfoStrp
-              infoText="To learn more, click"
+              infoText="To learn more,"
               infoLink="https://www.icicipruamc.com/about-us"
             />
           </FadeInWhenVisible>
