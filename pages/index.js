@@ -26,9 +26,9 @@ import TitleHTwo from "../components/TitleHTwo";
 const data = [
   {
     heading:"India's leading asset manager",
-    text: "For our latest India outlook please ",
+    // text: "For our latest India outlook please ",
     bannerImage: BannerImg,
-    link: "https://www.icicipruamc.com/docs/default-source/default-document-library/ipru-annual-outlook-2022.pdf",
+    // link: "https://www.icicipruamc.com/docs/default-source/default-document-library/ipru-annual-outlook-2022.pdf",
   },
   {
     heading:"Advising foreign investors since 2006",
@@ -43,7 +43,7 @@ const data = [
     
   },
   {
-    heading:"",
+    heading:"Expertise across asset classes",
     bannerImage: BannerImg4,
     
   },

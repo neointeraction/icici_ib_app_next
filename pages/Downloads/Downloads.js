@@ -10,12 +10,19 @@ import DownloadBanner from "../../assets/images/download-banner.jpg";
 
 const data = [
   {
-    filename: "Fund Document 1",
-    updated: "Updated on: 21 March 2021",
+    filename: "KIID - India Dynamic Fixed Income Fund - Institutional",
+    updated: "Updated on: 19 January 2021",
+    downloadlink:"/downloadfiles/KIID - India Dynamic Fixed Income Fund - Institutional - 19 January 2021.pdf"
   },
   {
-    filename: "Fund Document 2",
-    updated: "Updated on: 21 March 2021",
+    filename: "India Opportunities Fund - Prospectus",
+    updated: "Updated on: 18 May 2021",
+    downloadlink:"/downloadfiles/India Opportunities Fund - Prospectus_18 May 2021.pdf"
+  },
+  {
+    filename: "India Dynamic Fixed Income Fund - Supplement",
+    updated: "Updated on: 18 May 2021",
+    downloadlink:"/downloadfiles/India Dynamic Fixed Income Fund - Supplement - Dated 18 May 2021.pdf"
   },
 ];
 
@@ -54,12 +61,12 @@ const Downloads = ({ hamOpen }) => {
           </FadeInWhenVisible>
           {data.map((item) => (
             <FadeInWhenVisible>
-              <DownloadList filename={item.filename} updated={item.updated} />
+              <DownloadList filename={item.filename} updated={item.updated} downloadlink={item.downloadlink}/>
             </FadeInWhenVisible>
           ))}
         </div>
       </div>
-      <div className="section-padding pt-0">
+      {/* <div className="section-padding pt-0">
         <div className="container">
           <FadeInWhenVisible>
             <h4 className="section-subtitle text-center">Factsheets</h4>
@@ -103,7 +110,7 @@ const Downloads = ({ hamOpen }) => {
             </FadeInWhenVisible>
           ))}
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 };

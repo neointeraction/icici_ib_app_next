@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import Download from "../../assets/images/icons/download.svg";
 
-const DownloadList = ({ filename, updated }) => {
+const DownloadList = ({ filename, updated,downloadlink }) => {
   const [active, setActive] = useState(false);
 
   const handleDownload = () => {
@@ -15,9 +15,9 @@ const DownloadList = ({ filename, updated }) => {
   return (
     <div className="download-list-container">
       <h2 className="file-name">
-        {filename} <span>{updated}</span>
+        {filename}<span>{updated}</span>
       </h2>
-      <button className="download-btn">
+      <a href={downloadlink} className="download-btn">
         {active ? (
           <div className="downloading">
             <div class="gold-anim"></div>
@@ -26,7 +26,7 @@ const DownloadList = ({ filename, updated }) => {
         ) : (
           <img src={Download} alt="Download" onClick={handleDownload} />
         )}
-      </button>
+      </a>
     </div>
   );
 };

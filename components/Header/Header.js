@@ -49,10 +49,10 @@ const Header = ({ getOpenState }) => {
       link: "/team",
     },
     
-    // {
-    //   name: "Downloads",
-    //   link: "/Downloads",
-    // },
+    {
+      name: "Downloads",
+      link: "/downloads",
+    },
     // {
     //   name: "News & Insights",
     //   link: "/News",
