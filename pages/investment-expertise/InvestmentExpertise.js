@@ -30,7 +30,7 @@ const InvestmentExpertise = ({ hamOpen }) => {
         />
         <meta name="keywords" content="investment expertise" />
         <link rel="canonical" href="https://www.iciciglobalinvestments.com/investment-expertise" />
-        <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; img-src 'self' data: content:;  "></meta> 
+        <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:;"></meta> 
       </Head>
       <div className="banner-static">
         <img src={IEBanner} alt="IEBanner" />
@@ -152,7 +152,7 @@ const InvestmentExpertise = ({ hamOpen }) => {
                     infoLink="https://www.icicipruamc.com/docs/default-source/default-document-library/responsible-investment-policy.pdf"
                   />
                 </FadeInWhenVisible>
-                <img src={PRIlogo} alt="PRI" />
+                <img className="pri-logo" src={PRIlogo} alt="PRI" />
               </FadeInWhenVisible>
             </div>
           </div>

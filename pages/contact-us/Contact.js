@@ -23,7 +23,7 @@ const Contact = ({ hamOpen }) => {
         />
         <meta name="keywords" content="ICICI, banking, Investment" />
         <link rel="canonical" href="https://www.iciciglobalinvestments.com/contact-us" />
-        <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:;  "></meta> 
+        <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:;"></meta> 
       </Head>
       <div className="banner-static">
         <img src={ContactBanner} alt="ContactBanner" />
@@ -38,7 +38,7 @@ const Contact = ({ hamOpen }) => {
           <FadeInWhenVisible>
             <h4 className="section-subtitle mb-20">Get in touch with us</h4>
             <div className="row">
-            <div className="col-md-6">
+            <div className="col-lg-6">
               <div className="contact-detail-block">
               <p className="cd-name">
               Management Company for Irish UCITS:
@@ -61,7 +61,7 @@ const Contact = ({ hamOpen }) => {
               </ul>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-lg-6">
             <div className="contact-detail-block">
               <p className="cd-name">
                 ICICI Prudential Asset Management Company Limited (The AMC)

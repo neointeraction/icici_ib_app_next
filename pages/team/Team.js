@@ -91,7 +91,7 @@ const Team = ({ hamOpen }) => {
         />
         <meta name="keywords" content="ICICI, banking, Investment" />
         <link rel="canonical" href="https://www.iciciglobalinvestments.com/team" />
-        <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; img-src 'self' data: content:;  "></meta> 
+        <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:;  "></meta> 
       </Head>
       <div className="banner-static">
         <img src={TeamBanner} alt="TeamBanner" className="teamBnr"/>
