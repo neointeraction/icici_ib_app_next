@@ -21,13 +21,13 @@ const About = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>About Us - Services & Solutions | ICICI Global Investments</title>
+        <title>About Us - Services & Solutions | ICICI Asset Management</title>
         <meta
           name="description"
-          content="Learn more about ICICI Global Investments, representing the international asset management activities of the AMC. Explore our wide range of investment solutions."
+          content="Learn more about ICICI Asset Management, representing the international asset management activities of the AMC. Explore our wide range of investment solutions."
         />
-        <meta name="keywords" content="global investment services,asset management, investment solutions" />
-        <link rel="canonical" href="https://www.iciciglobalinvestments.com/about-us" />
+        <meta name="keywords" content="Asset Management services,asset management, investment solutions" />
+        <link rel="canonical" href="https://www.iciciaminternatonal.com/about-us" />
         <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:;  "></meta> 
       </Head>
       <div className="banner-static">
@@ -40,9 +40,9 @@ const About = ({ hamOpen }) => {
         </div>
       </div>
       <div className="section-padding">
-        <div className="container">
+        <div className="container abtus">
           <FadeInWhenVisible></FadeInWhenVisible>
-          <div className="row logo-text">
+          <div className="row logo-text mb-20">
             <div className="col-md-3"> 
             <FadeInWhenVisible>
                 <div className="about-logo-container">
@@ -52,12 +52,13 @@ const About = ({ hamOpen }) => {
             </div>
             <div className="col-md-9">             
               <FadeInWhenVisible>
+                <h2 className="tb-title">Leading India Asset Manager</h2>
                 <p className="body-text">
                   <strong>
                     ICICI Prudential Asset Management Company Limited
                   </strong>
-                 (The AMC) is a leading India based asset manager that provides a broad range of investment 
-                 solutions to over 6mn investors across 250 cities in India. The AMC also services Non Resident Indians (NRI’s)
+                 (The AMC) provides a broad range of investment 
+                 solutions to over 6mn investors across 250 cities in India. The AMC also manages investments for Non Resident Indians (NRI’s) and major global private banks
                   through its affiliate presence in the GCC and Mauritius. With ~USD 65bn* in assets under management the AMC’s 
                   investment strategies are designed to deliver long term superior risk adjusted returns.
                 </p>
@@ -74,22 +75,26 @@ const About = ({ hamOpen }) => {
             </div>
             <div className="col-md-9"> 
               <FadeInWhenVisible>
+                <h2 className="tb-title">Advising Marquee Foreign Institution</h2>
                 <p className="body-text">
-                ICICI Global Investments branding represents the international asset management activities of the AMC. 
-                The AMC provides bespoke advisory and fund management services focused on Indian capital markets to 
-                global institutional investors, led by a specialized cross-functional team based in Mumbai. The investors in 
-                these funds are retail individuals, high and ultra-high net worth individuals, large pensions, sovereigns and 
-                other institutions from North Asia, Europe and the GCC.
+                ICICI Asset Management branding represents the international asset management activities of the AMC. 
+                We advise and /or manage india focused investments for several global institution investors and asset managers
+                led by a specialized cross-functional team based in Mumbai. The investors in 
+                these client funds comprise large pensions, sovereign wealth funds, retail and ultra-high net worth individuals from Asia, Europe and the GCC.
+                The AMC has partnered with specialist foreign asset managers to offer cross border investment strategies in various markets.
+                </p>
+                <p className="body-text">
+                The AMC has partnered with specialist foreign asset managers to offer cross border investment strategies in various markets.
                 </p>
               </FadeInWhenVisible>
+              <FadeInWhenVisible>
+              <InfoStrp
+              infoText=" For more information about the AMC,"
+              infoLink="https://www.icicipruamc.com/about-us"/>
+              </FadeInWhenVisible>
             </div>
+            
           </div>
-          <FadeInWhenVisible>
-            <InfoStrp
-              infoText=" For more information about the AMC, Please visit"
-              infoLink="https://www.icicipruamc.com/about-us"
-            />
-          </FadeInWhenVisible>
         </div>
       </div>
       <div className="section-padding pt-0">

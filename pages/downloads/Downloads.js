@@ -8,21 +8,39 @@ import DownloadList from "../../components/DownloadList";
 
 import DownloadBanner from "../../assets/images/download-banner.jpg";
 
-const data = [
+const fund = [
   {
     filename: "KIID - India Dynamic Fixed Income Fund - Institutional",
     updated: "Updated on: 19 January 2021",
     downloadlink:"/downloadfiles/KIID - India Dynamic Fixed Income Fund - Institutional - 19 January 2021.pdf"
   },
   {
-    filename: "India Opportunities Fund - Prospectus",
+    filename: "Supplement - India Dynamic Fixed Income Fund",
+    updated: "Updated on: 18 May 2021",
+    downloadlink:"/downloadfiles/India Dynamic Fixed Income Fund - Supplement - Dated 18 May 2021.pdf"
+  },
+  {
+    filename: "Prospectus - India Opportunities Fund",
     updated: "Updated on: 18 May 2021",
     downloadlink:"/downloadfiles/India Opportunities Fund - Prospectus_18 May 2021.pdf"
   },
+  
+];
+const data = [
   {
-    filename: "India Dynamic Fixed Income Fund - Supplement",
+    filename: "Document 1",
+    updated: "Updated on: 19 January 2021",
+    downloadlink:""
+  },
+  {
+    filename: "Document 2",
     updated: "Updated on: 18 May 2021",
-    downloadlink:"/downloadfiles/India Dynamic Fixed Income Fund - Supplement - Dated 18 May 2021.pdf"
+    downloadlink:""
+  },
+  {
+    filename: "Document 3",
+    updated: "Updated on: 18 May 2021",
+    downloadlink:""
   },
 ];
 
@@ -54,63 +72,63 @@ const Downloads = ({ hamOpen }) => {
       <div className="section-padding">
         <div className="container">
           <FadeInWhenVisible>
-            <h4 className="section-subtitle text-center">Fund Documents</h4>
-            <p className="section-sub-subtitle">
+            <h4 className="section-subtitle text-center">Monthly News Letter</h4>
+            {/* <p className="section-sub-subtitle">
               Download the right form for your needs
-            </p>
+            </p> */}
           </FadeInWhenVisible>
           {data.map((item) => (
+            <FadeInWhenVisible>
+              <DownloadList filename={item.filename} updated={item.updated} />
+            </FadeInWhenVisible>
+          ))}
+        </div>
+      </div>
+      <div className="section-padding pt-0">
+        <div className="container">
+          <FadeInWhenVisible>
+            <h4 className="section-subtitle text-center">Ipru In Media</h4>
+            {/* <p className="section-sub-subtitle">
+              Download the right form for your needs
+            </p> */}
+          </FadeInWhenVisible>
+          {data.map((item) => (
+            <FadeInWhenVisible>
+              <DownloadList filename={item.filename} updated={item.updated} />
+            </FadeInWhenVisible>
+          ))}
+        </div>
+      </div>
+      <div className="section-padding pt-0">
+        <div className="container">
+          <FadeInWhenVisible>
+            <h4 className="section-subtitle text-center">Factsheets</h4>
+            {/* <p className="section-sub-subtitle">
+              Download the right form for your needs
+            </p> */}
+          </FadeInWhenVisible>
+          {data.map((item) => (
+            <FadeInWhenVisible>
+              <DownloadList filename={item.filename} updated={item.updated} />
+            </FadeInWhenVisible>
+          ))}
+        </div>
+      </div>
+      <div className="section-padding pt-0">
+        <div className="container">
+          <FadeInWhenVisible>
+            <h4 className="section-subtitle text-center">Fund Documents</h4>
+            {/* <p className="section-sub-subtitle">
+              Download the right form for your needs
+            </p> */}
+          </FadeInWhenVisible>
+          {fund.map((item) => (
             <FadeInWhenVisible>
               <DownloadList filename={item.filename} updated={item.updated} downloadlink={item.downloadlink}/>
             </FadeInWhenVisible>
           ))}
         </div>
       </div>
-      {/* <div className="section-padding pt-0">
-        <div className="container">
-          <FadeInWhenVisible>
-            <h4 className="section-subtitle text-center">Factsheets</h4>
-            <p className="section-sub-subtitle">
-              Download the right form for your needs
-            </p>
-          </FadeInWhenVisible>
-          {data.map((item) => (
-            <FadeInWhenVisible>
-              <DownloadList filename={item.filename} updated={item.updated} />
-            </FadeInWhenVisible>
-          ))}
-        </div>
-      </div>
-      <div className="section-padding pt-0">
-        <div className="container">
-          <FadeInWhenVisible>
-            <h4 className="section-subtitle text-center">Performance</h4>
-            <p className="section-sub-subtitle">
-              Download the right form for your needs
-            </p>
-          </FadeInWhenVisible>
-          {data.map((item) => (
-            <FadeInWhenVisible>
-              <DownloadList filename={item.filename} updated={item.updated} />
-            </FadeInWhenVisible>
-          ))}
-        </div>
-      </div>
-      <div className="section-padding pt-0">
-        <div className="container">
-          <FadeInWhenVisible>
-            <h4 className="section-subtitle text-center">Downloads</h4>
-            <p className="section-sub-subtitle">
-              Download the right form for your needs
-            </p>
-          </FadeInWhenVisible>
-          {data.map((item) => (
-            <FadeInWhenVisible>
-              <DownloadList filename={item.filename} updated={item.updated} />
-            </FadeInWhenVisible>
-          ))}
-        </div>
-      </div> */}
     </motion.div>
   );
 };

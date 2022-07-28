@@ -20,7 +20,7 @@ const KBA = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>UCITS Strategies | ICICI Global Investments</title>
+        <title>UCITS Strategies | ICICI Asset Management</title>
         <meta
           name="description"
           content="ICICI Prudential Asset Management Company Limited (The AMC) offers fund management and advisory services to marquee global clients investing across public equities, IG and High Yield Credits, fixed income, and alternative strategies in India. "
@@ -39,7 +39,6 @@ const KBA = ({ hamOpen }) => {
       <div className="section-padding">
         <div className="container">
           <BreadCrumb crumbs={crumbs} selected={selected} />
-
           <div className="marg-sixty">
             <FadeInWhenVisible></FadeInWhenVisible>
             <FadeInWhenVisible>
@@ -61,8 +60,7 @@ const KBA = ({ hamOpen }) => {
             <FadeInWhenVisible>
               <InfoStrp
                 infoText="More information about this fund is available in the downloads section or "
-                infoLink="mailto:enquiry@iciciglobalinvestments.com"
-                isMailInfo
+                infoLink="/downloadfiles/KIID - India Dynamic Fixed Income Fund - Institutional - 19 January 2021.pdf"
               />
             </FadeInWhenVisible>
           </div>

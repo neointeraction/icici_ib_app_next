@@ -16,13 +16,13 @@ const Contact = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>Contact Us | ICICI Global Investments </title>
+        <title>Contact Us | ICICI Asset Management </title>
         <meta
           name="description"
-          content="Have a query? Reach out to us through any of the channels given below to know more about ICICI Global Investments. Visit us Now!"
+          content="Have a query? Reach out to us through any of the channels given below to know more about ICICI Asset Management. Visit us Now!"
         />
         <meta name="keywords" content="ICICI, banking, Investment" />
-        <link rel="canonical" href="https://www.iciciglobalinvestments.com/contact-us" />
+        <link rel="canonical" href="https://www.iciciaminternatonal.com/contact-us" />
         <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:;"></meta> 
       </Head>
       <div className="banner-static">
@@ -37,30 +37,7 @@ const Contact = ({ hamOpen }) => {
         <div className="container">
           <FadeInWhenVisible>
             <h4 className="section-subtitle mb-20">Get in touch with us</h4>
-            <div className="row">
-            <div className="col-lg-6">
-              <div className="contact-detail-block">
-              <p className="cd-name">
-              Management Company for Irish UCITS:
-              </p>
-              <p className="cd-address">
-              KB Associates <br/> 
-              5 George’s Dock IFSC, Dublin 1 <br />
-              Ireland
-              </p>
-              <ul className="contact-info">
-                <li>
-                  <span>Website:</span> <a href="https://kbassociates.ie/">https://kbassociates.ie/</a>
-                </li>
-                <li>
-                  <span>Email:</span> kba.fixedincomefund@icicipruamc.com
-                </li>
-                <li>
-                  <span>For customer complaints:</span> kba.fixedincomefund@icicipruamc.com
-                </li>
-              </ul>
-              </div>
-            </div>
+            <div className="row map-address-blocks">
             <div className="col-lg-6">
             <div className="contact-detail-block">
               <p className="cd-name">
@@ -80,6 +57,29 @@ const Contact = ({ hamOpen }) => {
                 </li>
                 <li>
                   <span>Email:</span> globalenquiry@icicipruamc.com
+                </li>
+                {/* <li>
+                  <span>For customer complaints:</span> kba.fixedincomefund@icicipruamc.com
+                </li> */}
+              </ul>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="contact-detail-block">
+              <p className="cd-name">
+              Management Company for Irish UCITS:
+              </p>
+              <p className="cd-address">
+              KB Associates <br/> 
+              5 George’s Dock IFSC, Dublin 1 <br />
+              Ireland
+              </p>
+              <ul className="contact-info">
+                <li>
+                  <span>Website:</span> <a href="https://kbassociates.ie/">https://kbassociates.ie/</a>
+                </li>
+                <li>
+                  <span>Email:</span> kba.fixedincomefund@icicipruamc.com
                 </li>
                 {/* <li>
                   <span>For customer complaints:</span> kba.fixedincomefund@icicipruamc.com

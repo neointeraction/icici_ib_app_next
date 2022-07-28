@@ -34,18 +34,15 @@ const data = [
     heading:"Advising foreign investors since 2006",
     text: "This 1315 meters long and 359 meters high Chenab Bridge is in Kashmir, India. Once completed (by end of 2022) it will be the tallest Railway Arch Bridge in the world, crossing over the deep gorges of the Chenab River to connect the Kashmir to the rest of India..The bridge would be 35 metres higher than the Eiffel Tower in Paris, and is being constructed at a cost of INR15Bn as part of the Udhampur-Srinagar-Baramulla Railway Link  project.. Source: aecom.com, business standard.com",
     bannerImage: BannerImg2,
-    
   },
   {
-    heading:"Committed to delivering good investment experience to its investors",
+    heading:"Gateway to access indian markets",
+    bannerImage: BannerImg4,
+  },
+  {
+    heading:"Focused on governance in investment decision making",
     text: "India is the world’s fourth largest country by cumulative wind capacity  currently at 39GW, as on 31 Mar 2021 and has generated around 60.15 Billion Units during 2020-21. Information Source: https://mnre.gov.in/wind/current-status",
     bannerImage: BannerImg3,
-    
-  },
-  {
-    heading:"Expertise across asset classes",
-    bannerImage: BannerImg4,
-    
   },
 ];
 
@@ -133,13 +130,13 @@ const handleSessionPopup = () =>{
       className="page-container"
     >
       <Head>
-        <title>ICICI Global Investments - Funds & Investment Services </title>
+        <title>ICICI Asset Management - Funds & Investment Services </title>
         <meta
           name="description"
-          content="ICICI Global Investments represents the international asset management activities of ICICI Prudential AMC Ltd. It provides bespoke services focused in Indian capital markets to global institutional investors."
+          content="ICICI Asset Management represents the international asset management activities of ICICI Prudential AMC Ltd. It provides bespoke services focused in Indian capital markets to global institutional investors."
         />
-        <meta name="keywords" content="global investment,investment services" />
-        <link rel="canonical" href="https://www.iciciglobalinvestments.com/" />
+        <meta name="keywords" content="Asset Management,investment services" />
+        <link rel="canonical" href="https://www.iciciaminternatonal.com/" />
         <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:;  "></meta> 
       </Head>
       <div className="banner-slider">
@@ -200,9 +197,9 @@ const handleSessionPopup = () =>{
           </div>
           <FadeInWhenVisible>
             <div className="itf-content">
-              <Title titleText="Global Investments" isSuperText align dark />
+              <Title titleText="Asset Management" isSuperText align dark />
               <TitleHTwo
-                titleText="ICICI Global Investments, a division of ICICI Prudential Asset
+                titleText="ICICI Asset Management, a division of ICICI Prudential Asset
                   Management (The AMC)"
                 align
               />

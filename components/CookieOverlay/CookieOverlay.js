@@ -39,7 +39,7 @@ const CookieOverlay = ({handleSessionCookie}) => {
     >
       <div className="cookie-content">
         <h1 className="cookie-title">
-          ICICI Global Investments uses cookies to enhance your experience
+          ICICI Asset Management uses cookies to enhance your experience
         </h1>
         <p className="cookie-text">
           We use cookies to collect data to improve your experience on our

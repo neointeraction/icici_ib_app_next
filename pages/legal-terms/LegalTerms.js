@@ -16,7 +16,7 @@ const LegalTerms = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>Legal Terms | ICICI Global Investments</title>
+        <title>Legal Terms | ICICI Asset Management</title>
         <meta
           name="description"
           content="ICICI Prudential Asset Management Company Limited (The AMC) offers fund management and advisory services to marquee global clients investing across public equities, IG and High Yield Credits, fixed income, and alternative strategies in India. "

@@ -14,7 +14,7 @@ const DownloadList = ({ filename, updated,downloadlink }) => {
 
   return (
     <div className="download-list-container">
-      <h2 className="file-name">
+      <h2 className="file-name section-sub-subtitle">
         {filename}<span>{updated}</span>
       </h2>
       <a href={downloadlink} target="_blank" className="download-btn">

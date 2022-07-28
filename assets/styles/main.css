@@ -520,11 +520,14 @@ button {
 [data-index="0"] .banner-img img {
   object-position: 0px 60%;
 }
+[data-index="1"] .banner-img img {
+  object-position: 0px 30%;
+}
 [data-index="2"] .banner-img img {
-  object-position: 0px 95%;
+  object-position: 0px 50%;
 }
 [data-index="3"] .banner-img img {
-  object-position: 0px 50%;
+  object-position: 0px 65%;
 }
 
 
@@ -585,13 +588,13 @@ button {
   position: relative;
   bottom: 30px;
 }
-.banner-slider .slick-slide[data-index="2"] .banner-heading{
+.banner-slider .slick-slide[data-index="3"] .banner-heading{
   position: relative;
   bottom: 14px;
   width: 70%;
   line-height: 120%;
 }
-.banner-slider .slick-slide[data-index="3"] .banner-heading {
+.banner-slider .slick-slide[data-index="2"] .banner-heading {
   position: relative;
   bottom: 30px;
 }
@@ -604,7 +607,7 @@ button {
 .banner-slider .slick-slide[data-index="1"] .banner-text{
   display: none;
 }
-.banner-slider .slick-slide[data-index="2"] .banner-text{
+.banner-slider .slick-slide[data-index="3"] .banner-text{
   display: none;
 }
 
@@ -1300,20 +1303,20 @@ div.invstr-row > label > input:checked + span {
 
 .about-logo-container {
   text-align: center;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 .about-logo-container img{
   height: auto;
-  width: 100%;
+  width: 60%;
   max-width: 258px;
 }
 .about-gilogo-container{
   text-align: center;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 .about-gilogo-container img{
   height: auto;
-  width: 100%;
+  width: 60%;
   max-width: 258px;
 }
 .about-map-img img {
@@ -1614,7 +1617,8 @@ div.row div:nth-child(5) .tc-upfront{
   margin-bottom: 30px;
   padding: 20px;
   border: 1px solid #c9b16d;
-  height: 260px;
+  height: auto;
+  /* height: 260px; */
   /* max-width:540px; */
 }
 
@@ -1759,6 +1763,11 @@ div.row div:nth-child(5) .tc-upfront{
 
 .input-block.error .error-text {
   display: block;
+}
+.map-address-blocks{
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 /* collapse */
@@ -1948,10 +1957,10 @@ ul.markdown li{
 }
 
 .file-name {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 26px;
-  color: #002654;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  color: #002654 !important;
 }
 
 .file-name span {
@@ -2105,8 +2114,8 @@ ul.markdown li{
 /* contact us page */
 
 .map-embed iframe{
-  /* width: 70%; */
-  width: 100%;
+  width: 70%;
+  /* width: 100%; */
   height:400px;
   margin: auto;
   border: 1px solid #c9b16d;
@@ -2831,6 +2840,7 @@ display: none;
     transform: scale(.8);
 }
 .person-name {
+  font-size: 13px;
   line-height: 18px;
 }
 .person-designation{
@@ -3055,7 +3065,7 @@ display: none;
   .info-text {
     margin-left: 12px;
     margin-bottom: 0;
-    /* flex-direction: column; */
+    flex-direction: column;
     align-items: flex-start;
   }
   #CSR .info-text{
@@ -3132,6 +3142,7 @@ display: none;
   /* contact us page */
   .contact-detail-block {
     width: auto;
+    height: auto;
   }
   .cd-name {
     font-size: 16px;
@@ -3371,7 +3382,7 @@ display: none;
     /* width: auto; */
   }
   .banner-static-content .section-title {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 34px;
   }
   .banner-img img {
@@ -3414,7 +3425,7 @@ display: none;
   .body-text {
     font-size: 14px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 24px;
     width: 90%;
     margin: auto;
   }
@@ -3436,11 +3447,14 @@ display: none;
   }
   .info-text {
     font-size: 14px;
-    margin-left: 12px;
+    margin-left: 0px;
     margin-bottom: 0;
     line-height: 22px;
-    /* flex-direction: column; */
+    flex-direction: row;
     align-items: flex-start;
+  }
+  .abtus .info-text{
+    flex-direction: column;
   }
   .step-section-margin {
     margin-top: 20px;
@@ -3776,7 +3790,7 @@ display: none;
     /* width: auto; */
   }
   .banner-static-content .section-title {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 26px;
   }
   div[data-index="2"] .banner-content {
@@ -3805,8 +3819,8 @@ display: none;
     line-height: 23px;
   }
   .body-text {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 24px;
   }
   .section-title.title-super-text {
     font-size: 8px;
@@ -3830,8 +3844,8 @@ display: none;
     line-height: 34px;
   }
   .tb-text {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 14px;
+    line-height: 24px;
   }
   /* downloads page */
   .section-subtitle {
@@ -3841,11 +3855,11 @@ display: none;
 
   /* contact us page */
   .cd-address {
-    font-size: 12px;
+    font-size: 14px;
   }
   .contact-info li {
-    font-size: 12px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 24px;
   }
 
   /* privacy-policy page */

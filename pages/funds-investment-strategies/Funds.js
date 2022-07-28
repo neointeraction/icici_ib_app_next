@@ -19,7 +19,7 @@ const data = [
     anchor: "KBA",
     imgSrc: FundImg1,
     title: "UCITS Strategies",
-    text: `The AMC is the Investment Manager to the KBA India Dynamic Fixed Income Sub Fund of India Opportunities Fund (the Trust), a UCITs compliant umbrella Fund domiciled in Ireland. The Fund aims to generate total returns with moderate levels of credit risk by investing primarily in a portfolio of debt securities issued in India, by companies operating in India or by companies deriving significant portion of their business from India. `,
+    text: `The AMC is the Investment Manager to India Dynamic Fixed Income Fund (the Fund), a sub-fund of India Opportunities Fund (the Trust), a UCITs compliant umbrella Fund domiciled in Ireland. The Fund aims to generate total returns with moderate levels of credit risk by investing primarily in a portfolio of debt securities issued in India, by companies operating in India or by companies deriving significant portion of their business from India. `,
     buttonLink: "/ucits-strategies",
   },
   {
@@ -63,13 +63,13 @@ const Funds = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>Investment Strategies & Funds | ICICI Global Investments </title>
+        <title>Investment Strategies & Funds | ICICI Asset Management </title>
         <meta
           name="description"
-          content="Want to know about the different types of investment  strategies & funds offered by ICICI Global Investments? Click to know more."
+          content="Want to know about the different types of investment  strategies & funds offered by ICICI Asset Management? Click to know more."
         />
         <meta name="keywords" content="funds,investment strategies,funds investment" />
-        <link rel="canonical" href="https://www.iciciglobalinvestments.com/funds-investment-strategies" />
+        <link rel="canonical" href="https://www.iciciaminternatonal.com/funds-investment-strategies" />
         <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:;  "></meta> 
       </Head>
       <div className="banner-static">

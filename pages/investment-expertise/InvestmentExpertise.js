@@ -23,13 +23,13 @@ const InvestmentExpertise = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>Our Investment Expertise | ICICI Global Investments</title>
+        <title>Our Investment Expertise | ICICI Asset Management</title>
         <meta
           name="description"
-          content="Discover a wide range of high-quality investment solutions with the investment expertise of the ICICI Global Investments team. Visit our website to know more!"
+          content="Discover a wide range of high-quality investment solutions with the investment expertise of the ICICI Asset Management team. Visit our website to know more!"
         />
         <meta name="keywords" content="investment expertise" />
-        <link rel="canonical" href="https://www.iciciglobalinvestments.com/investment-expertise" />
+        <link rel="canonical" href="https://www.iciciaminternatonal.com/investment-expertise" />
         <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:;"></meta> 
       </Head>
       <div className="banner-static">
@@ -42,7 +42,11 @@ const InvestmentExpertise = ({ hamOpen }) => {
       </div>
       <div className="section-padding">
         <div className="container">
-        <FadeInWhenVisible>
+          <div className="row">
+          <div className="col-md-3"> 
+          </div>
+          <div className="col-md-9"> 
+          <FadeInWhenVisible>
             <div className="anchor-links-flex mb-60">
               <AnchorLink className="anchor-button" href="#ESG" offset="80">
                ESG and Sustainability
@@ -52,6 +56,8 @@ const InvestmentExpertise = ({ hamOpen }) => {
               </AnchorLink>
             </div>
           </FadeInWhenVisible>
+          </div>
+          </div>
           <div className="row">
           <div className="col-md-3"> 
               <FadeInWhenVisible>
@@ -59,14 +65,13 @@ const InvestmentExpertise = ({ hamOpen }) => {
                   <img src={MsgOtl} className="message" alt="message" />
                   <div className="person">
                   <img src={Shamit}  alt="shamit" />
-                  <h4 className="person-name">Mr. Shamit Chokshi</h4>
-                  <h4 className="person-designation">Head – Offshore Fund, Investments, International Business</h4>
+                  <h4 className="person-name">Mr. Shamit Chokshi, CFA</h4>
+                  <h4 className="person-designation">Head – Offshore Fund Investments, International Business</h4>
                   </div>  
                 </div>
               </FadeInWhenVisible>
             </div>
           <div className="col-md-9">
-          <FadeInWhenVisible></FadeInWhenVisible>
           <FadeInWhenVisible>
             <p className="body-text">
               The AMC has a large and experienced Investment team based in
@@ -122,7 +127,7 @@ const InvestmentExpertise = ({ hamOpen }) => {
             <div className="itf-content ">
               <FadeInWhenVisible>
                 <TitleHThree
-                  titleText="Our Commitment to ESG and Sustainability in Investing"
+                  titleText="Our Commitment to ESG and Sustainable Investments"
                   align
                 />
               </FadeInWhenVisible>

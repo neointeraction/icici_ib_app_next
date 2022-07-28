@@ -66,7 +66,7 @@ const data = [
   },
   {
     image: Shamit,
-    name: "Mr. Shamit Chokshi",
+    name: "Mr. Shamit Chokshi, CFA",
     designation: "Head – Offshore Fund Investments, International Business",
     summary: `Shamit joined the AMC in February 2016. He brings a rich and diverse industry experience across investments and research, products, asset raising, institutional client services and global strategic partnerships. His core competency lies in developing investment themes, managing equity and fixed income investments tailored for foreign investors and promoting the AMC’s investment capabilities to global institutional clients.
     He has set up and managed several India and developed market funds globally across asset classes and showcased his expertise in asset raising and partnerships across markets.   
@@ -84,13 +84,13 @@ const Team = ({ hamOpen }) => {
       className="page-container"
     >
       <Head>
-        <title>Meet Our Team | ICICI Global Investments </title>
+        <title>Meet Our Team | ICICI Asset Management</title>
         <meta
           name="description"
-          content="Know more about the people behind ICICI Global Investments. Click here to know more about the team!"
+          content="Know more about the people behind ICICI Asset Management. Click here to know more about the team!"
         />
         <meta name="keywords" content="ICICI, banking, Investment" />
-        <link rel="canonical" href="https://www.iciciglobalinvestments.com/team" />
+        <link rel="canonical" href="https://www.iciciaminternatonal.com/team" />
         <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:;  "></meta> 
       </Head>
       <div className="banner-static">
