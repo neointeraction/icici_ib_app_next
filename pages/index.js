@@ -30,13 +30,13 @@ const data = [
     bannerImage: BannerImg,
     // link: "https://www.icicipruamc.com/docs/default-source/default-document-library/ipru-annual-outlook-2022.pdf",
   },
+  // {
+  //   heading:"Advising foreign investors since 2006",
+  //   text: "This 1315 meters long and 359 meters high Chenab Bridge is in Kashmir, India. Once completed (by end of 2022) it will be the tallest Railway Arch Bridge in the world, crossing over the deep gorges of the Chenab River to connect the Kashmir to the rest of India..The bridge would be 35 metres higher than the Eiffel Tower in Paris, and is being constructed at a cost of INR15Bn as part of the Udhampur-Srinagar-Baramulla Railway Link  project.. Source: aecom.com, business standard.com",
+  //   bannerImage: BannerImg2,
+  // },
   {
-    heading:"Advising foreign investors since 2006",
-    text: "This 1315 meters long and 359 meters high Chenab Bridge is in Kashmir, India. Once completed (by end of 2022) it will be the tallest Railway Arch Bridge in the world, crossing over the deep gorges of the Chenab River to connect the Kashmir to the rest of India..The bridge would be 35 metres higher than the Eiffel Tower in Paris, and is being constructed at a cost of INR15Bn as part of the Udhampur-Srinagar-Baramulla Railway Link  project.. Source: aecom.com, business standard.com",
-    bannerImage: BannerImg2,
-  },
-  {
-    heading:"Gateway to access indian markets",
+    heading:"Gateway to access Indian markets",
     bannerImage: BannerImg4,
   },
   {
@@ -100,7 +100,7 @@ const handleSessionPopup = () =>{
     speed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay:true,
+    autoplay:false,
     autoplaySpeed: 10000,
     fade:true,
     prevArrow: (
