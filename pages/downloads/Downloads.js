@@ -108,7 +108,7 @@ const Downloads = ({ hamOpen }) => {
       <div className="section-padding pt-0">
         <div className="container">
           <FadeInWhenVisible>
-            <h4 className="section-subtitle text-center">In The Media</h4>
+            <h4 className="section-subtitle text-center">In the Media</h4>
           </FadeInWhenVisible>
           {media.map((item) => (
             <FadeInWhenVisible>

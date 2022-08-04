@@ -52,7 +52,7 @@ const About = ({ hamOpen }) => {
             </div>
             <div className="col-md-9">             
               <FadeInWhenVisible>
-                <h2 className="section-subtitle">Leading India Asset Manager</h2>
+                <h2 className="section-subtitle">India's leading Asset Manager</h2>
                 <p className="body-text">
                   <strong>
                     ICICI Prudential Asset Management Company Limited
@@ -75,7 +75,7 @@ const About = ({ hamOpen }) => {
             </div>
             <div className="col-md-9"> 
               <FadeInWhenVisible>
-                <h2 className="section-subtitle">Advising Marquee Foreign Institution</h2>
+                <h2 className="section-subtitle">Advising Marquee Foreign Institutions</h2>
                 <p className="body-text">
                 ICICI Asset Management branding represents the international asset management activities of the AMC. 
                 We advise and /or manage india focused investments for several global institution investors and asset managers
