@@ -10,12 +10,7 @@ const Banner = ({ BannerImg, text,heading, link }) => {
         <div>
           <FadeInWhenVisible delay={0.3}>
             <h1 className="banner-heading">{heading}</h1>
-            <FadeInWhenVisible delay={3}>
-            <p className="banner-text">{text} 
-             { link == null ? null : <span><a href={link} target="_blank" > click here</a></span> }     
-            </p>
-            </FadeInWhenVisible>
-            </FadeInWhenVisible>
+          </FadeInWhenVisible>
         </div>
       </div>
     </div>

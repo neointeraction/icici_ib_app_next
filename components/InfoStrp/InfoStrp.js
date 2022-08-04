@@ -10,8 +10,9 @@ const InfoStrp = ({ infoText, infoLink, isMailInfo }) => {
         <img src={isMailInfo ? Mail : Info} alt="info" />
       </div>
       <p className="info-text">
-        {infoText}
+        <span>{infoText}
         <a href={infoLink} target="_blank">Click here</a>
+        </span>
       </p>
     </div>
   );

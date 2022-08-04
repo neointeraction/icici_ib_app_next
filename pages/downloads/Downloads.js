@@ -97,9 +97,6 @@ const Downloads = ({ hamOpen }) => {
         <div className="container">
           <FadeInWhenVisible>
             <h4 className="section-subtitle text-center">Monthly Newsletter</h4>
-            {/* <p className="section-sub-subtitle">
-              Download the right form for your needs
-            </p> */}
           </FadeInWhenVisible>
           {newsletter.map((item) => (
             <FadeInWhenVisible>
@@ -111,10 +108,7 @@ const Downloads = ({ hamOpen }) => {
       <div className="section-padding pt-0">
         <div className="container">
           <FadeInWhenVisible>
-            <h4 className="section-subtitle text-center">In News & Media</h4>
-            {/* <p className="section-sub-subtitle">
-              Download the right form for your needs
-            </p> */}
+            <h4 className="section-subtitle text-center">In The Media</h4>
           </FadeInWhenVisible>
           {media.map((item) => (
             <FadeInWhenVisible>
@@ -127,9 +121,6 @@ const Downloads = ({ hamOpen }) => {
         <div className="container">
           <FadeInWhenVisible>
             <h4 className="section-subtitle text-center">Fund Documents</h4>
-            {/* <p className="section-sub-subtitle">
-              Download the right form for your needs
-            </p> */}
           </FadeInWhenVisible>
           {fund.map((item) => (
             <FadeInWhenVisible>

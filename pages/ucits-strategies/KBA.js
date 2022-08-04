@@ -56,7 +56,7 @@ const KBA = ({ hamOpen }) => {
               </p>
             </FadeInWhenVisible>
           </div>
-          <div className="marg-sixty">
+          <div className="marg-sixty ucits-info">
             <FadeInWhenVisible>
               <InfoStrp
                 infoText="More information about this fund is available in the downloads section or "
