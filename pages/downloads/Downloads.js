@@ -29,6 +29,16 @@ const fund = [
 
 const newsletter = [
   {
+    filename: "Monthly Newsletter - August 2022",
+    updated: "Updated on: June 2022",
+    downloadlink:"/downloadfiles/Monthly Newsletter - August 2022.pdf"
+  },
+  {
+    filename: "Monthly Newsletter - July 2022",
+    updated: "Updated on: June 2022",
+    downloadlink:"/downloadfiles/Monthly_Newsletter - July 2022.pdf"
+  },
+  {
     filename: "Monthly Newsletter - June 2022",
     updated: "Updated on: June 2022",
     downloadlink:"/downloadfiles/Monthly Newsletter - June 2022.pdf"
@@ -51,11 +61,11 @@ const media = [
     viewlink:"https://www.businesstoday.in/mutual-funds/story/icici-prudential-mf-schemes-delivered-solid-return-to-investors-in-1-year-heres-how-341048-2022-07-11"
   },
   {
-    filename: "Near-term outlook complicated, but bullish on equities: ICICI Pru's S Naren",
+    filename: "Near-term outlook complicated, but bullish on equities: S Naren, ICICI Pru AMC",
     viewlink:"https://www.business-standard.com/article/markets/near-term-outlook-complicated-but-bullish-on-equities-icici-pru-s-s-naren-122031100758_1.html"
   },
   {
-    filename: "Market correction a good opportunity for long-term investors to enter: S Naren, ICICI Prudential AMC",
+    filename: "Market correction a good opportunity for long-term investors to enter: S Naren, ICICI Pru AMC",
     viewlink:"https://www.moneycontrol.com/news/business/markets/market-correction-a-good-opportunity-for-long-term-investors-to-enter-s-naren-icici-prudential-amc-8209191.html"
   },
   {
@@ -65,6 +75,10 @@ const media = [
   {
     filename: "Floating rate bonds stand to gain in current market scenario: Manish Banthia, ICICI Pru AMC",
     viewlink:"https://www.financialexpress.com/money/floating-rate-bonds-stand-to-gain-in-current-market-scenario-manish-banthia-icici-pru-amc/2513615/"
+  },
+  {
+    filename: "Where should you invest in debt funds for higher returns?: Manish Banthia, ICICI Pru AMC",
+    viewlink:" https://www.fortuneindia.com/multimedia/where-should-you-invest-in-debt-funds-for-higher-returns/109832"
   },
 ];
 
