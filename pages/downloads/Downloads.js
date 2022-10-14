@@ -29,13 +29,18 @@ const fund = [
 
 const newsletter = [
   {
+    filename: "Monthly Newsletter - September 2022",
+    updated: "Updated on: September 2022",
+    downloadlink:"/downloadfiles/Monthly Newsletter - September 2022.pdf"
+  },
+  {
     filename: "Monthly Newsletter - August 2022",
-    updated: "Updated on: June 2022",
+    updated: "Updated on: August 2022",
     downloadlink:"/downloadfiles/Monthly Newsletter - August 2022.pdf"
   },
   {
     filename: "Monthly Newsletter - July 2022",
-    updated: "Updated on: June 2022",
+    updated: "Updated on: July 2022",
     downloadlink:"/downloadfiles/Monthly_Newsletter - July 2022.pdf"
   },
   {
