@@ -29,6 +29,16 @@ const fund = [
 
 const newsletter = [
   {
+    filename: "Monthly Newsletter - November 2022",
+    updated: "Updated on: November 2022",
+    downloadlink:"/downloadfiles/Monthly Newsletter - November 2022.pdf"
+  },
+  {
+    filename: "Monthly_Newsletter - October 2022",
+    updated: "Updated on: October 2022",
+    downloadlink:"/downloadfiles/Monthly_Newsletter - October 2022.pdf"
+  },
+  {
     filename: "Monthly Newsletter - September 2022",
     updated: "Updated on: September 2022",
     downloadlink:"/downloadfiles/Monthly Newsletter - September 2022.pdf"
@@ -62,6 +72,10 @@ const newsletter = [
 
 const media = [
   {
+    filename: "Rupee still overvalued; prefer short duration funds attractive: Manish Banthia, ICICI Prudential AMC",
+    viewlink:"https://www.moneycontrol.com/news/business/markets/rupee-still-overvalued-relatively-short-duration-funds-attractive-manish-banthia-of-icici-pru-mf-9668611.html"
+  },
+  {
     filename: "ICICI Prudential MF schemes delivered solid return to investors in 1 year; here's how",
     viewlink:"https://www.businesstoday.in/mutual-funds/story/icici-prudential-mf-schemes-delivered-solid-return-to-investors-in-1-year-heres-how-341048-2022-07-11"
   },
@@ -85,6 +99,30 @@ const media = [
     filename: "Where should you invest in debt funds for higher returns?: Manish Banthia, ICICI Pru AMC",
     viewlink:" https://www.fortuneindia.com/multimedia/where-should-you-invest-in-debt-funds-for-higher-returns/109832"
   },
+];
+
+const economy = [
+  {
+    filename: "Impact Analysis of Monetary Policy Meeting June 2022",
+    updated: "Updated on: June 2022",
+    downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_June 2022.pdf"
+  },
+  {
+    filename: "Impact Analysis of Monetary Policy Meeting August 2022",
+    updated: "Updated on: August 2022",
+    downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Aug 2022.pdf"
+  },
+  {
+    filename: "Impact Analysis of Monetary Policy Meeting October 2022",
+    updated: "Updated on: October 2022",
+    downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Oct 2022.pdf"
+  },
+  {
+    filename: "Impact Analysis of Monetary Policy Meeting December 2022",
+    updated: "Updated on: December 2022",
+    downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Dec 2022.pdf"
+  },
+  
 ];
 
 const Downloads = ({ hamOpen }) => {
@@ -142,6 +180,18 @@ const Downloads = ({ hamOpen }) => {
             <h4 className="section-subtitle text-center">Fund Documents</h4>
           </FadeInWhenVisible>
           {fund.map((item) => (
+            <FadeInWhenVisible>
+              <DownloadList filename={item.filename} updated={item.updated} downloadlink={item.downloadlink}/>
+            </FadeInWhenVisible>
+          ))}
+        </div>
+      </div>
+      <div className="section-padding pt-0">
+        <div className="container">
+          <FadeInWhenVisible>
+            <h4 className="section-subtitle text-center">Economy and Markets</h4>
+          </FadeInWhenVisible>
+          {economy.map((item) => (
             <FadeInWhenVisible>
               <DownloadList filename={item.filename} updated={item.updated} downloadlink={item.downloadlink}/>
             </FadeInWhenVisible>
