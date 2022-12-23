@@ -103,14 +103,9 @@ const media = [
 
 const economy = [
   {
-    filename: "Impact Analysis of Monetary Policy Meeting June 2022",
-    updated: "Updated on: June 2022",
-    downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_June 2022.pdf"
-  },
-  {
-    filename: "Impact Analysis of Monetary Policy Meeting August 2022",
-    updated: "Updated on: August 2022",
-    downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Aug 2022.pdf"
+    filename: "Impact Analysis of Monetary Policy Meeting December 2022",
+    updated: "Updated on: December 2022",
+    downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Dec 2022.pdf"
   },
   {
     filename: "Impact Analysis of Monetary Policy Meeting October 2022",
@@ -118,11 +113,15 @@ const economy = [
     downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Oct 2022.pdf"
   },
   {
-    filename: "Impact Analysis of Monetary Policy Meeting December 2022",
-    updated: "Updated on: December 2022",
-    downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Dec 2022.pdf"
+    filename: "Impact Analysis of Monetary Policy Meeting August 2022",
+    updated: "Updated on: August 2022",
+    downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Aug 2022.pdf"
   },
-  
+  {
+    filename: "Impact Analysis of Monetary Policy Meeting June 2022",
+    updated: "Updated on: June 2022",
+    downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_June 2022.pdf"
+  },
 ];
 
 const Downloads = ({ hamOpen }) => {
