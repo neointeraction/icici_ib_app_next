@@ -72,7 +72,7 @@ const newsletter = [
 
 const media = [
   {
-    filename: "Rupee still overvalued; prefer short duration funds attractive: Manish Banthia, ICICI Prudential AMC",
+    filename: "Rupee still overvalued; prefer short duration funds attractive: Manish Banthia, ICICI Pru AMC",
     viewlink:"https://www.moneycontrol.com/news/business/markets/rupee-still-overvalued-relatively-short-duration-funds-attractive-manish-banthia-of-icici-pru-mf-9668611.html"
   },
   {
