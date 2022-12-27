@@ -24,7 +24,11 @@ const fund = [
     updated: "Updated on: 18 May 2021",
     downloadlink:"/downloadfiles/India Opportunities Fund - Prospectus_18 May 2021.pdf"
   },
-  
+  {
+    filename: "Regulatory disclosure – India Opportunities Fund",
+    updated: "Updated on: 18 May 2021",
+    downloadlink:"/downloadfiles/Disclosure - India Opportunties Trust.pdf"
+  },
 ];
 
 const newsletter = [
