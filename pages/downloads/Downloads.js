@@ -107,6 +107,11 @@ const media = [
 
 const economy = [
   {
+    filename: "Our Outlook for 2023",
+    updated: "Updated on: January 2023",
+    downloadlink:"/downloadfiles/India Outlook 2023 - final.pdf"
+  },
+  {
     filename: "Impact Analysis of Monetary Policy Meeting December 2022",
     updated: "Updated on: December 2022",
     downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Dec 2022.pdf"
