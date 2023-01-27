@@ -18,7 +18,7 @@ const InitialPageModal = ({ visible, toggle ,handleSessionPopup }) => {
   
   }
 
-  console.log({disable});
+  // console.log({disable});
 
   const prev = () => {
     slider.current.slickPrev();
@@ -41,7 +41,7 @@ const InitialPageModal = ({ visible, toggle ,handleSessionPopup }) => {
     adaptiveHeight: true,
   };
 
-  console.log(slide, "slider.current");
+  // console.log(slide, "slider.current");
 
   return (
     <Modal visible={visible} toggle={toggle} md preventCloseOnOverlayClick>

@@ -8,19 +8,19 @@ const CookieOverlay = ({handleSessionCookie}) => {
   useEffect(() => {
  
     var cookieView = sessionStorage.getItem("cookieView");
-    console.log(cookieView);
+    // console.log(cookieView);
     if (cookieView == null) {
-     console.log(cookieView, "cook"); //null
+    //  console.log(cookieView, "cook"); //null
      cookieView = true;
-     console.log(cookieView, "cookt"); //true
+    //  console.log(cookieView, "cookt"); //true
      setShow(true);
    }   
    else if(cookieView == true) {
-     console.log(cookieView, "cook");
+    //  console.log(cookieView, "cook");
      show = true; //visited = true also works
    }
    else if(cookieView = false){
-     console.log(cookieView, "cook");
+    //  console.log(cookieView, "cook");
       show = false;
      setShow(false);
    }
