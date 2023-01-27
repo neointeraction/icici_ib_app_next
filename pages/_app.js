@@ -32,7 +32,6 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} hamOpen={hamOpen} />
       <Footer />
       <div className="scroll-to-top" onClick={toTop}>
-      {/* <svg viewBox="0 0 26 18" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M0.624997 10.375L20.1087 10.375L15.1862 15.3112L17.125 17.25L25.375 9L17.125 0.750003L15.1863 2.68875L20.1088 7.625L0.624997 7.625L0.624997 10.375Z" ></path></svg> */}
       <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="arcs"><path d="M18 15l-6-6-6 6"/></svg>
       </div>
     </div>
