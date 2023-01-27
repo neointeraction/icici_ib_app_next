@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import { motion } from "framer-motion";
-import axios from "axios";
 import Head from "next/head";
 
 import useModal from "../hooks/useModal";
@@ -9,19 +8,14 @@ import useModal from "../hooks/useModal";
 import FadeInWhenVisible from "../hooks/FadeInWhenVisible";
 import Banner from "../components/Banner";
 import InfoStrp from "../components/InfoStrp";
-import Title from "../components/Title/Title";
-import IconButton from "../components/IconButton";
 import CookieOverlay from "../components/CookieOverlay";
 import InitialPageModal from "../components/InitialPageModal";
 
 import BannerImg from "../assets/images/banner.jpg";
-import BannerImg2 from "../assets/images/banner2.jpg";
 import BannerImg3 from "../assets/images/banner3.jpg";
 import BannerImg4 from "../assets/images/banner4.jpg";
 import Prev from "../assets/images/icons/prev.svg";
 import Next from "../assets/images/icons/next.svg";
-import GlobalBanner from "../assets/images/global-img.jpg";
-import TitleHTwo from "../components/TitleHTwo";
 
 const data = [
   {
@@ -42,7 +36,6 @@ const Home = ({ hamOpen }) => {
   const { toggle, visible } = useModal();
 
   useEffect(() => {
-    getUser();
     setbannerData(data);
     setTimeout(() => {
       toggle();
@@ -74,17 +67,6 @@ const handleSessionPopup = () =>{
   const [visited, setVisited] = useState();
 
   const [bannerData, setbannerData] = useState([]);
-
-  async function getUser() {
-    try {
-      const response = await axios.get("/api/banners.json");
-      setbannerData(response.data.banners);
-    } catch (error) {
-      console.error(error);
-    }
-  }
-
-  console.log(bannerData, "bannerData");
 
   var slideSettings = {
     dots: true,
@@ -129,7 +111,7 @@ const handleSessionPopup = () =>{
         />
         <meta name="keywords" content="Asset Management,investment services" />
         <link rel="canonical" href="https://www.iciciaminternatonal.com/" />
-        <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:;  "></meta> 
+        <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:;  "/>
       </Head>
       <div className="banner-slider">
         <Slider {...slideSettings}>
@@ -154,7 +136,7 @@ const handleSessionPopup = () =>{
             <p className="body-text">
               ICICI Prudential Asset Management Company Limited (The
               AMC) offers fund management and advisory services to marquee
-              global clients investing across public equities, IG and High Yield
+              global clients investing across public equities, Investment Grade and High Yield
               Credits, fixed income, and alternative strategies in India. These
               investments could be through FPI registered funds or separate
               accounts (custom portfolios) directly into Indian equity and FI

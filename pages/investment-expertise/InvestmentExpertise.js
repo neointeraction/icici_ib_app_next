@@ -115,7 +115,6 @@ const InvestmentExpertise = ({ hamOpen }) => {
           </FadeInWhenVisible>
           </div> 
           </div>
-                    
         </div>
       </div>
       <div className="section-padding pt-0">
@@ -166,7 +165,7 @@ const InvestmentExpertise = ({ hamOpen }) => {
       <div className="section-padding pt-0">
         <div className="container" id="CSR">
           <FadeInWhenVisible>
-            <TitleHThree titleText="Our Group’s Corporate Social Responsibility (CSR) Commitments" />
+            <TitleHThree titleText="Our Corporate Social Responsibility (CSR) Commitments" />
           </FadeInWhenVisible>
           <FadeInWhenVisible>
             <p className="body-text">

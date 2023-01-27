@@ -62,6 +62,9 @@ const About = ({ hamOpen }) => {
                   through its affiliate presence in the GCC and Mauritius. With ~USD 65bn* in assets under management the AMC’s 
                   investment strategies are designed to deliver long term superior risk adjusted returns.
                 </p>
+                <p className="asterisk-text">
+                *Last updated as on December 2022 
+              </p>
               </FadeInWhenVisible>
             </div>
           </div>
@@ -123,11 +126,7 @@ const About = ({ hamOpen }) => {
             </FadeInWhenVisible>
           </div>
           <div> 
-          <FadeInWhenVisible>
-              <p className="asterisk-text">
-                *Last updated as on 31st march 2022 
-              </p>
-          </FadeInWhenVisible>
+          
         </div>
         </div>
        

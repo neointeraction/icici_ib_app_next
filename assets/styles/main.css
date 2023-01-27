@@ -2487,7 +2487,7 @@ ul.markdown li{
 .asterisk-text {
   font-size: 14px;
   text-align: center;
-  margin-top:60px;
+  margin-bottom:45px;
 }
 .breadcrumbs {
   display: flex;
@@ -3229,7 +3229,8 @@ display: none;
   .asterisk-text {
     font-size: 12px;
     text-align: center;
-    margin-top: 30px;
+    margin-top:15px;
+    margin-bottom: 15px;
   }
 }
 @media only screen and (max-width: 576px) {
