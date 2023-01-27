@@ -111,7 +111,7 @@ const handleSessionPopup = () =>{
         />
         <meta name="keywords" content="Asset Management,investment services" />
         <link rel="canonical" href="https://www.iciciaminternatonal.com/" />
-        <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:;  "/>
+        {/* <meta http-equiv="Content-Security-Policy" content="style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src 'self' fonts.gstatic.com data:; default-src 'self'; script-src 'unsafe-eval' 'self'; frame-src https://www.google.com; img-src 'self' data: content:;  "/> */}
       </Head>
       <div className="banner-slider">
         <Slider {...slideSettings}>
