@@ -78,11 +78,8 @@ const Contact = ({ hamOpen }) => {
                   <span>Website:</span> <a href="https://kbassociates.ie/">https://kbassociates.ie/</a>
                 </li>
                 <li>
-                  <span>Email:</span> kba.fixedincomefund@icicipruamc.com
+                  <span>Email:</span> kba_fixedincomefund@icicipruamc.com
                 </li>
-                {/* <li>
-                  <span>For customer complaints:</span> kba.fixedincomefund@icicipruamc.com
-                </li> */}
               </ul>
               </div>
             </div>
