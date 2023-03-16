@@ -115,7 +115,7 @@ const handleSessionPopup = () =>{
       </Head>
       <div className="banner-slider">
         <Slider {...slideSettings}>
-          {bannerData.map((item) => (
+          {bannerData?.map((item) => (
             <div>
               <Banner
                 BannerImg={item.bannerImage}

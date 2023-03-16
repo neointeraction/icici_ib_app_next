@@ -33,6 +33,21 @@ const fund = [
 
 const newsletter = [
   {
+    filename: "Monthly Newsletter - February 2023",
+    updated: "Updated on: February 2023",
+    downloadlink:"/downloadfiles/Monthly Newsletter - February 2023.pdf"
+  },
+  {
+    filename: "Monthly Newsletter - January 2023",
+    updated: "Updated on: January 2023",
+    downloadlink:"/downloadfiles/Monthly Newsletter - January 2023.pdf"
+  },
+  {
+    filename: "Monthly Newsletter - December 2022",
+    updated: "Updated on: December 2022",
+    downloadlink:"/downloadfiles/Monthly Newsletter - December 2022.pdf"
+  },
+  {
     filename: "Monthly Newsletter - November 2022",
     updated: "Updated on: November 2022",
     downloadlink:"/downloadfiles/Monthly Newsletter - November 2022.pdf"
@@ -76,6 +91,14 @@ const newsletter = [
 
 const media = [
   {
+    filename: "Active play in short to medium-term debt pays dividends : Manish Banthia, ICICI Pru AMC",
+    viewlink:"https://www.business-standard.com/article/markets/short-to-medium-debt-active-play-pays-dividends-for-icici-mf-s-banthia-123030301194_1.html"
+  },
+  {
+    filename: " What makes ICICI Pru MF's Anish Tawakley an outlier",
+    viewlink:"https://www.business-standard.com/article/markets/large-cap-equity-what-makes-icici-pru-mf-s-anish-tawakley-an-outlier-123030301172_1.html"
+  },
+  {
     filename: "Rupee still overvalued; prefer short duration funds attractive: Manish Banthia, ICICI Pru AMC",
     viewlink:"https://www.moneycontrol.com/news/business/markets/rupee-still-overvalued-relatively-short-duration-funds-attractive-manish-banthia-of-icici-pru-mf-9668611.html"
   },
@@ -109,7 +132,12 @@ const economy = [
   {
     filename: "Our Outlook for 2023",
     updated: "Updated on: January 2023",
-    downloadlink:"/downloadfiles/India Outlook 2023 - final.pdf"
+    downloadlink:"/downloadfiles/India Outlook 2023 - IB website-short.pdf"
+  },
+  {
+    filename: "Impact Analysis of Monetary Policy Meeting February 2023",
+    updated: "Updated on: December 2022",
+    downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Feb 2023.pdf"
   },
   {
     filename: "Impact Analysis of Monetary Policy Meeting December 2022",
