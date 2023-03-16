@@ -136,7 +136,7 @@ const economy = [
   },
   {
     filename: "Impact Analysis of Monetary Policy Meeting February 2023",
-    updated: "Updated on: December 2022",
+    updated: "Updated on: February 2023",
     downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Feb 2023.pdf"
   },
   {
