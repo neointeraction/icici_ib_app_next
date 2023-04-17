@@ -64,7 +64,7 @@ const newsletter = [
     downloadlink:"/downloadfiles/Monthly Newsletter - November 2022.pdf"
   },
   {
-    filename: "Monthly_Newsletter - October 2022",
+    filename: "Monthly Newsletter - October 2022",
     updated: "Updated on: October 2022",
     downloadlink:"/downloadfiles/Monthly_Newsletter - October 2022.pdf"
   },
