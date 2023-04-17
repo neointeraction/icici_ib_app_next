@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Head from "next/head";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import FadeInWhenVisible from "../../hooks/FadeInWhenVisible";
 import Title from "../../components/Title/Title";
@@ -9,6 +10,11 @@ import DownloadList from "../../components/DownloadList";
 import DownloadBanner from "../../assets/images/download-banner.jpg";
 
 const fund = [
+  {
+    filename: "Supplement – India Multicap Equity Fund",
+    updated: "Updated on: 14 April 2023",
+    downloadlink:"/downloadfiles/India Multicap Equity Fund - Supplement.pdf"
+  },
   {
     filename: "KIID - India Dynamic Fixed Income Fund - Institutional",
     updated: "Updated on: 19 January 2021",
@@ -32,6 +38,11 @@ const fund = [
 ];
 
 const newsletter = [
+  {
+    filename: "Monthly Newsletter - March 2023",
+    updated: "Updated on: March 2023",
+    downloadlink:"/downloadfiles/Monthly Newsletter - March 2023.pdf"
+  },
   {
     filename: "Monthly Newsletter - February 2023",
     updated: "Updated on: February 2023",
@@ -130,6 +141,11 @@ const media = [
 
 const economy = [
   {
+    filename: "Impact Analysis of Monetary Policy Meeting April 2023",
+    updated: "Updated on: April 2023",
+    downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Apr 2023.pdf"
+  },
+  {
     filename: "Our Outlook for 2023",
     updated: "Updated on: January 2023",
     downloadlink:"/downloadfiles/India Outlook 2023 - IB website-short.pdf"
@@ -187,8 +203,24 @@ const Downloads = ({ hamOpen }) => {
       </div>
       <div className="section-padding">
         <div className="container">
+         <FadeInWhenVisible>
+            <div className="anchor-links-flex mb-60">
+              <AnchorLink className="anchor-button" href="#newsletter" offset="120">
+              Monthly Newsletter
+              </AnchorLink>
+              <AnchorLink className="anchor-button" href="#economy" offset="120">
+              Economy and Markets
+              </AnchorLink>
+              <AnchorLink className="anchor-button" href="#media" offset="120">
+              In the Media
+              </AnchorLink>
+              <AnchorLink className="anchor-button" href="#fund" offset="120">
+               Fund Documents
+              </AnchorLink>
+            </div>
+          </FadeInWhenVisible>
           <FadeInWhenVisible>
-            <h4 className="section-subtitle text-center">Monthly Newsletter</h4>
+            <h4 className="section-subtitle text-center" id="newsletter">Monthly Newsletter</h4>
           </FadeInWhenVisible>
           {newsletter.map((item) => (
             <FadeInWhenVisible>
@@ -200,7 +232,19 @@ const Downloads = ({ hamOpen }) => {
       <div className="section-padding pt-0">
         <div className="container">
           <FadeInWhenVisible>
-            <h4 className="section-subtitle text-center">In the Media</h4>
+            <h4 className="section-subtitle text-center" id="economy">Economy and Markets</h4>
+          </FadeInWhenVisible>
+          {economy.map((item) => (
+            <FadeInWhenVisible>
+              <DownloadList filename={item.filename} updated={item.updated} downloadlink={item.downloadlink}/>
+            </FadeInWhenVisible>
+          ))}
+        </div>
+      </div>
+      <div className="section-padding pt-0">
+        <div className="container">
+          <FadeInWhenVisible>
+            <h4 className="section-subtitle text-center" id="media">In the Media</h4>
           </FadeInWhenVisible>
           {media.map((item) => (
             <FadeInWhenVisible>
@@ -212,21 +256,9 @@ const Downloads = ({ hamOpen }) => {
       <div className="section-padding pt-0">
         <div className="container">
           <FadeInWhenVisible>
-            <h4 className="section-subtitle text-center">Fund Documents</h4>
+            <h4 className="section-subtitle text-center" id="fund">Fund Documents</h4>
           </FadeInWhenVisible>
           {fund.map((item) => (
-            <FadeInWhenVisible>
-              <DownloadList filename={item.filename} updated={item.updated} downloadlink={item.downloadlink}/>
-            </FadeInWhenVisible>
-          ))}
-        </div>
-      </div>
-      <div className="section-padding pt-0">
-        <div className="container">
-          <FadeInWhenVisible>
-            <h4 className="section-subtitle text-center">Economy and Markets</h4>
-          </FadeInWhenVisible>
-          {economy.map((item) => (
             <FadeInWhenVisible>
               <DownloadList filename={item.filename} updated={item.updated} downloadlink={item.downloadlink}/>
             </FadeInWhenVisible>
