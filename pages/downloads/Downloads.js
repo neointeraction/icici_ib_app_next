@@ -40,62 +40,50 @@ const fund = [
 const newsletter = [
   {
     filename: "Monthly Newsletter - March 2023",
-    updated: "Updated on: March 2023",
     downloadlink:"/downloadfiles/Monthly Newsletter - March 2023.pdf"
   },
   {
     filename: "Monthly Newsletter - February 2023",
-    updated: "Updated on: February 2023",
     downloadlink:"/downloadfiles/Monthly Newsletter - February 2023.pdf"
   },
   {
     filename: "Monthly Newsletter - January 2023",
-    updated: "Updated on: January 2023",
     downloadlink:"/downloadfiles/Monthly Newsletter - January 2023.pdf"
   },
   {
     filename: "Monthly Newsletter - December 2022",
-    updated: "Updated on: December 2022",
     downloadlink:"/downloadfiles/Monthly Newsletter - December 2022.pdf"
   },
   {
     filename: "Monthly Newsletter - November 2022",
-    updated: "Updated on: November 2022",
     downloadlink:"/downloadfiles/Monthly Newsletter - November 2022.pdf"
   },
   {
     filename: "Monthly Newsletter - October 2022",
-    updated: "Updated on: October 2022",
     downloadlink:"/downloadfiles/Monthly_Newsletter - October 2022.pdf"
   },
   {
     filename: "Monthly Newsletter - September 2022",
-    updated: "Updated on: September 2022",
     downloadlink:"/downloadfiles/Monthly Newsletter - September 2022.pdf"
   },
   {
     filename: "Monthly Newsletter - August 2022",
-    updated: "Updated on: August 2022",
     downloadlink:"/downloadfiles/Monthly Newsletter - August 2022.pdf"
   },
   {
     filename: "Monthly Newsletter - July 2022",
-    updated: "Updated on: July 2022",
     downloadlink:"/downloadfiles/Monthly_Newsletter - July 2022.pdf"
   },
   {
     filename: "Monthly Newsletter - June 2022",
-    updated: "Updated on: June 2022",
     downloadlink:"/downloadfiles/Monthly Newsletter - June 2022.pdf"
   },
   {
     filename: "Monthly Newsletter - May 2022",
-    updated: "Updated on: May 2022",
     downloadlink:"/downloadfiles/Monthly Newsletter - May 2022.pdf"
   },
   {
     filename: "Monthly Newsletter - April 2022",
-    updated: "Updated on: April 2022",
     downloadlink:"/downloadfiles/Monthly Newsletter - April 2022.pdf"
   },
 ];
@@ -141,39 +129,60 @@ const media = [
 
 const economy = [
   {
-    filename: "Impact Analysis of Monetary Policy Meeting April 2023",
-    updated: "Updated on: April 2023",
+    filename: "Impact Analysis of Monetary Policy Meeting - April 2023",
     downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Apr 2023.pdf"
   },
   {
     filename: "Our Outlook for 2023",
-    updated: "Updated on: January 2023",
     downloadlink:"/downloadfiles/India Outlook 2023 - IB website-short.pdf"
   },
   {
-    filename: "Impact Analysis of Monetary Policy Meeting February 2023",
-    updated: "Updated on: February 2023",
+    filename: "Impact Analysis of Monetary Policy Meeting - February 2023",
     downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Feb 2023.pdf"
   },
   {
-    filename: "Impact Analysis of Monetary Policy Meeting December 2022",
-    updated: "Updated on: December 2022",
+    filename: "India Union Budget_FY24 - Impact Analysis - February 2023",
+    downloadlink:"/downloadfiles/India Union Budget_FY24 - Impact Analysis - February 2023.pdf"
+  },
+  {
+    filename: "Impact Analysis of Monetary Policy Meeting - December 2022",
     downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Dec 2022.pdf"
   },
   {
-    filename: "Impact Analysis of Monetary Policy Meeting October 2022",
-    updated: "Updated on: October 2022",
+    filename: "Impact Analysis of Monetary Policy Meeting - October 2022",
     downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Oct 2022.pdf"
   },
   {
-    filename: "Impact Analysis of Monetary Policy Meeting August 2022",
-    updated: "Updated on: August 2022",
+    filename: "Impact Analysis of Monetary Policy Meeting - August 2022",
     downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_Aug 2022.pdf"
   },
   {
-    filename: "Impact Analysis of Monetary Policy Meeting June 2022",
-    updated: "Updated on: June 2022",
+    filename: "India - EV Opportunity - August 2022",
+    downloadlink:"/downloadfiles/India - EV Opportunity - August 2022.pdf"
+  },
+  {
+    filename: "India - Too big to ignore - August 2022",
+    downloadlink:"/downloadfiles/India - Too big to ignore - August 2022.pdf"
+  },
+  {
+    filename: "India 5G opportunity - July 2022",
+    downloadlink:"/downloadfiles/India 5G opportunity - July 2022.pdf"
+  },
+  {
+    filename: "Impact Analysis of Monetary Policy Meeting - June 2022",
     downloadlink:"/downloadfiles/Impact Analysis of Monetary Policy Meeting_June 2022.pdf"
+  },
+  {
+    filename: "FPI selling offset by Domestic buying - June 2022",
+    downloadlink:"/downloadfiles/FPI selling offset by Domestic buying - June 2022.pdf"
+  },
+  {
+    filename: "India equity market outlook - March 2022",
+    downloadlink:"/downloadfiles/India equity market outlook - March 2022.pdf"
+  },
+  {
+    filename: "India Union Budget_FY23 - Impact Analysis - February 2022",
+    downloadlink:"/downloadfiles/India Union Budget_FY23 - Impact Analysis - February 2022.pdf"
   },
 ];
 
