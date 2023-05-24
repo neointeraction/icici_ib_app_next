@@ -39,6 +39,10 @@ const fund = [
 
 const newsletter = [
   {
+    filename: "Monthly Newsletter - April 2023",
+    downloadlink:"/downloadfiles/Monthly Newsletter - April 2023.pdf"
+  },
+  {
     filename: "Monthly Newsletter - March 2023",
     downloadlink:"/downloadfiles/Monthly Newsletter - March 2023.pdf"
   },
@@ -89,6 +93,10 @@ const newsletter = [
 ];
 
 const media = [
+  {
+    filename: "Where to invest INR 1mn today: Anish Tawakley, ICICI Pru AMC",
+    viewlink:"https://www.moneycontrol.com/news/business/personal-finance/where-to-invest-rs-10-lakh-what-icici-mfs-anish-tawakley-suggests-10601521.html"
+  },
   {
     filename: "Active play in short to medium-term debt pays dividends : Manish Banthia, ICICI Pru AMC",
     viewlink:"https://www.business-standard.com/article/markets/short-to-medium-debt-active-play-pays-dividends-for-icici-mf-s-banthia-123030301194_1.html"

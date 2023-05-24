@@ -12,6 +12,9 @@ import Sankaran from "../../assets/images/team/sankaran.jpg";
 import Rahul from "../../assets/images/team/rahul.jpg";
 import Amit from "../../assets/images/team/amit.jpg";
 import Shamit from "../../assets/images/team/shamit.jpg";
+import Anish from "../../assets/images/team/anish.jpg";
+import Rakesh from "../../assets/images/team/rakesh.jpg";
+import Ramki from "../../assets/images/team/ramki.jpg";
 
 const data = [
   {
@@ -48,12 +51,28 @@ const data = [
     Naren holds a B. Tech degree from Indian Institute of Technology, Chennai and a Post Graduate Diploma in Management from Indian Institute of Management, Kolkata.`,
   },
   {
+    image: Ramki,
+    name: "Mr. B.Ramakrishna",
+    designation: "Chief Financial Officer",
+    summary: `Ramakrishna is the Chief Financial Officer of the AMC. Ramakrishna plays an integral role in driving the key profitability agenda of the AMC through financial & corporate planning, budgetary control and corporate finance. In addition, he is also responsible for driving ETF, International Business and key initiatives and projects for the firm. Ramakrishna has over 33 years of experience across consumer sector, banking & financial services and Investment Management industry.
+    By qualification, Ramakrishna is a Chartered Accountant and a Cost Accountant.
+    `,
+  },
+  {
     image: Rahul,
     name: "Mr. Rahul Goswami",
     designation: "CIO, Fixed Income",
     summary:`Rahul is the Chief Investment Officer for the AMC’s Fixed Income desk. In his role as CIO, Rahul is responsible for laying out the fixed income strategy for assets of over USD 25bn, the largest in the Indian Asset Management Industry. He also has direct fund management responsibilities for several funds. He also advises certain funds domiciled in Taiwan. Rahul has been associated with the AMC since July 2004. He served as a Senior Rates Trader and Head of Primary Dealership 
     Business at Standard Chartered Bank for a three year period (2009 to 2012) before returning to the AMC in Sept 2012 Rahul possesses an in-depth knowledge of credit profile of Indian entities. Under his leadership as a CIO, several funds managed by the AMC have gained recognition for consistently delivering superior risk-adjusted performance. Rahul has more than two decades of experience in Indian fixed income market. Prior to joining the AMC in July 2004, Rahul was a fund manager with the 
     Fixed Income team of Franklin Templeton Asset Management in India. He has also been associated with leading debt broking outfits in India for several years. By qualification, Rahul holds a Bachelor’s Degree in Science and also Masters in Business Administration from University of Bhopal, India.`
+  },
+  {
+    image: Anish,
+    name: "Mr. Anish Tawakley",
+    designation: "Deputy CIO – Equity & Head of Research ",
+    summary: `Anish joined the AMC as Head of Research in April 2016. Anish spearheads the research process and mentors the analyst team which actively covers over 400 companies listed on Indian exchanges. Anish’s core competency lies in providing a macro perspective on the economy and markets and a deep understanding of banking and financial sector. Anish also has manages a flagship large cap fund which has assets under management of over USD 4bn. In addition, he also manages some thematic funds.
+    Anish has over two decades of experience as an analyst, portfolio manager and management consultant in developed and emerging markets. Prior to joining ICICI Prudential AMC, Anish was a Director, Sell Side Research and Head of Asia Ex-Japan sector team at Barclays. He has also been associated with leading financial institutions like Credit Suisse, McKinsey and Bernstein London in various leadership positions.   
+    Anish holds a Post Graduate Diploma in Management from Indian Institute of Management, Bangalore and B. Tech from Indian Institute of Technology, Delhi.`,
   },
   {
     image: Amit,
@@ -73,6 +92,16 @@ const data = [
     Prior to joining the AMC, Shamit was associated with Reliance Nippon Life Asset Management in Mumbai and Nippon Life Insurance group / Nissay in Tokyo where he led offshore investing and was instrumental in setting up the international funds franchise for the joint venture. Earlier he gained relevant equity research and funds experience with large financial firms in New York, Boston and Mumbai.    
     Shamit pursued a Masters of Business Administration (Finance and Strategy) from the Carroll Graduate School of Management at Boston College, USA. He also holds a Bachelor of Commerce (Accounting) and Masters of Commerce (Banking & Finance) degree from the University of Mumbai, India. Shamit has completed the CFA program and is the holder of the right to use the CFA designation. He is an active member of the Mumbai CFA society.`,
   },
+  
+  {
+    image: Rakesh,
+    name: "Mr. Rakesh Shetty",
+    designation: "Head Compliance",
+    summary: `Rakesh joined the AMC in August 2011.In his current role. Rakesh is responsible for managing compliance & Secretarial function. Rakesh has over 17 years of post-qualification experience in the field of compliance, legal and secretarial matters. Prior to his association with the AMC, he has worked with Travelex India, Axis Bank and Paternoster India.
+    By qualification, Rakesh is an A.C.S, Bachelor of Law and a graduate in Commerce.
+    `,
+  },
+  
 ];
 
 const Team = ({ hamOpen }) => {
@@ -105,7 +134,7 @@ const Team = ({ hamOpen }) => {
           <FadeInWhenVisible>
             <div className="row team-scale justify-center">
               {data.map((item) => (
-                <div className="col-xl-4 col-lg-4 col-md-6">
+                <div className="col-xl-3 col-lg-4 col-md-4">
                   <TeamCard
                     image={item.image}
                     name={item.name}

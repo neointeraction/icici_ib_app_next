@@ -1318,13 +1318,14 @@ div.invstr-row > label > input:checked + span {
 /* TEAM  */
 
 .team-container{
-  height: 310px;
+  /* height: 700px; */
+  height: 100%;
 }
 /* team card */
 
 .team-scale{
-  transform: scale(.7) translateY(-15%);
-  flex-wrap: nowrap;
+  /* transform: scale(.9) translateY(-15%); */
+  flex-wrap: wrap;
 }
 .modal-content {
   width: 800px;
@@ -1336,9 +1337,15 @@ div.invstr-row > label > input:checked + span {
   cursor: pointer;
 }
 div.row div:nth-child(5) .tc-upfront{
-  padding-bottom: 6px;
+  padding-bottom: 12px;
 }
-
+div.row div:nth-child(7) .tc-upfront{
+  padding-bottom: 12px;
+}
+div.row div:nth-child(7) .tc-upfront .team-designation{
+  width: 120%;
+  transform: translateX(-8%);
+}
 
 .team-img img {
   width: 100%;
@@ -1357,8 +1364,8 @@ div.row div:nth-child(5) .tc-upfront{
 
 .team-name {
   font-weight: 600;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 18px;
   text-align: center;
   color: #002654;
   margin-bottom: 10px;
@@ -1366,8 +1373,8 @@ div.row div:nth-child(5) .tc-upfront{
 
 .team-designation {
   font-weight: 300;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 18px;
   text-align: center;
   color: #002654;
 }
@@ -2570,12 +2577,13 @@ display: none;
 
 
 .team-scale{
-  transform: scale(.6) translateY(-30%);
+  /* transform: scale(.6) translateY(-30%); */
 }
+
 .team-container{
-  /* height:500px; */
-  height: 250px;
+  /* height: 500px; */
 }
+
 }
 
 
@@ -2646,7 +2654,7 @@ display: none;
     height: 348px;
   }
   .team-container{
-    height: 250px;
+    /* height: 250px; */
   }
   /* footer */
   .bottom-footer {
@@ -2786,7 +2794,7 @@ display: none;
     flex-wrap:wrap;
   }
   .team-container{
-    height:750px;
+    /* height:750px; */
   }
 
 
@@ -3078,8 +3086,8 @@ display: none;
     max-width: 360px;
   }
   .team-container {
-    height: 40%;
-    max-height: 1300px;
+    /* height: 40%;
+    max-height: 1300px; */
 }
 
   .modal-box {
@@ -3481,8 +3489,8 @@ display: none;
     margin: auto;
   }
   .team-container {
-    height: 40%;
-    max-height: 1220px;
+    /* height: 40%;
+    max-height: 1220px; */
 }
   .tc-upfront {
     height: 100%;
