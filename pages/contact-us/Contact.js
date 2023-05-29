@@ -37,7 +37,7 @@ const Contact = ({ hamOpen }) => {
           <FadeInWhenVisible>
             <h4 className="section-subtitle mb-20">Get in touch with us</h4>
             <div className="row map-address-blocks">
-            <div className="col-lg-6">
+            <div className="col-xl-6">
             <div className="contact-detail-block">
               <p className="cd-name">
                 ICICI Prudential Asset Management Company Limited (The AMC)
@@ -57,21 +57,24 @@ const Contact = ({ hamOpen }) => {
                 <li>
                   <span>Email:</span> globalenquiry@icicipruamc.com
                 </li>
-                {/* <li>
-                  <span>For customer complaints:</span> kba.fixedincomefund@icicipruamc.com
-                </li> */}
+                <li>
+                  <span>Email for customer complaints:</span> invmanager@icicipruamc.com
+                </li>
               </ul>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-xl-6">
               <div className="contact-detail-block">
               <p className="cd-name">
               Management Company for Irish UCITS:
               </p>
               <p className="cd-address">
-              KB Associates <br/> 
-              5 George’s Dock IFSC, Dublin 1 <br />
-              Ireland
+                 KBA Consulting Management Limited<br/> 
+                 35 shelbourne rd <br />
+                 4th floor <br />
+                 balls bridge, Dublin <br />
+                 D04A4EO <br />
+                 Ireland
               </p>
               <ul className="contact-info">
                 <li>
