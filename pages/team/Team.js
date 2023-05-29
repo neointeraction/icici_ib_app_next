@@ -23,11 +23,11 @@ const data = [
     designation: "Managing Director & CEO",
     summary: `Nimesh joined ICICI Prudential Asset Management Company Limited
     (the AMC) in 2007 as Managing Director and Chief Executive
-    Officer. Nimesh has over 25 years of experience in banking and financial
+    Officer. Nimesh has over three decades of experience in banking and financial
     services industry and has been instrumental in laying a strong
     foundation for building the AMC’s asset management business. Under
     his leadership the AMC has seen tremendous growth in assets from
-    USD 4bn to over USD 65bn (as of March 31, 2022) and emerged as
+    USD 4bn to ~USD 60bn (as of March 31, 2022) and emerged as
     among the one of the trusted asset management companies in India.
     His focus has been always on being investor-centric, maintaining
     high levels of transparency and disclosures besides sticking to
@@ -45,7 +45,7 @@ const data = [
     designation: "Executive Director & CIO",
     summary: `Naren is the Executive Director and Chief Investment Officer at the AMC. In his role, Naren is responsible for overseeing assets across domestic mutual funds, offshore advisory mandates and managed accounts
     Naren is instrumental for devising the overall investment strategy of the firm and its successful execution. He also has direct fund management responsibilities for some domestic equity funds and also advises foreign clients on some India equity funds.
-    Naren has over three decades of experience in financial services industry in India. He has been associated with the AMC since October 2004 when the AMC managed assets of ~USD 2.5bn. Today the AMC is one of the leading asset management company in India with over USD 65bn of assets under domestic mutual funds and offshore advisory business. (as of March 31, 2022)   
+    Naren has over three decades of experience in financial services industry in India. He has been associated with the AMC since October 2004 when the AMC managed assets of ~USD 2.5bn. Today the AMC is one of the leading asset management company in India with ~ USD 60bn of assets under domestic mutual funds and offshore advisory business. (as of March 31, 2023)   
     Naren’s core competency lies in his deep knowledge and understanding of local markets. He is recognized as a leading voice on the Indian economy/equity markets across the investment and financial services sector. Under his leadership as CIO, the AMC has been consistently honored by various companies of international repute including Morning Star, Asia Asset Management and Thomson Reuters Lipper Fund awards    
     Prior to joining the AMC, Naren was associated with leading financial service organizations in various positions.
     Naren holds a B. Tech degree from Indian Institute of Technology, Chennai and a Post Graduate Diploma in Management from Indian Institute of Management, Kolkata.`,
@@ -54,7 +54,7 @@ const data = [
     image: Ramki,
     name: "Mr. B.Ramakrishna",
     designation: "Chief Financial Officer",
-    summary: `Ramakrishna is the Chief Financial Officer of the AMC. Ramakrishna plays an integral role in driving the key profitability agenda of the AMC through financial & corporate planning, budgetary control and corporate finance. In addition, he is also responsible for driving ETF, International Business and key initiatives and projects for the firm. Ramakrishna has over 33 years of experience across consumer sector, banking & financial services and Investment Management industry.
+    summary: `Ramakrishna is the Chief Financial Officer of the AMC. Ramakrishna plays an integral role in driving the key profitability agenda of the AMC through financial & corporate planning, budgetary control and corporate finance. In addition, he is also responsible for driving ETF, International Business and key initiatives and projects for the firm. Ramakrishna has over 35 years of experience across consumer sector, banking & financial services and Investment Management industry.
     By qualification, Ramakrishna is a Chartered Accountant and a Cost Accountant.
     `,
   },

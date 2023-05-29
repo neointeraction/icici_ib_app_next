@@ -96,13 +96,11 @@ const About = ({ hamOpen }) => {
                   cross-functional team based in Mumbai. The investors in these
                   client funds comprise large pensions, sovereign wealth funds,
                   retail and ultra-high net worth individuals from Asia, Europe
-                  and the GCC. The AMC has partnered with specialist foreign
-                  asset managers to offer cross border investment strategies in
-                  various markets.
+                  and the GCC.
                 </p>
                 <p className="body-text">
                   The AMC has partnered with specialist foreign asset managers
-                  to offer cross border investment strategies in india and
+                  to offer cross border investment strategies in India and
                   global markets.
                 </p>
               </FadeInWhenVisible>
@@ -142,7 +140,7 @@ const About = ({ hamOpen }) => {
             </FadeInWhenVisible>
           </div>
           {/* move below map */}
-          <p className="asterisk-text">*Last updated as on March 2023</p>
+          <p className="asterisk-text">*Last updated March 2023</p>
         </div>
         <div></div>
       </div>

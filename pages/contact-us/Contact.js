@@ -70,7 +70,7 @@ const Contact = ({ hamOpen }) => {
               </p>
               <p className="cd-address">
                  KBA Consulting Management Limited<br/> 
-                 35 shelbourne rd <br />
+                 35 Shelbourne Rd <br />
                  4th floor <br />
                  Ballsbridge, Dublin <br />
                  D04A4EO <br />
