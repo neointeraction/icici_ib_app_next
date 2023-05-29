@@ -27,7 +27,7 @@ const data = [
     services industry and has been instrumental in laying a strong
     foundation for building the AMC’s asset management business. Under
     his leadership the AMC has seen tremendous growth in assets from
-    USD 4bn to ~USD 60bn (as of March 31, 2022) and emerged as
+    USD 4bn to ~USD 60bn (as of March 31, 2023) and emerged as
     among the one of the trusted asset management companies in India.
     His focus has been always on being investor-centric, maintaining
     high levels of transparency and disclosures besides sticking to
