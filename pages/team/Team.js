@@ -9,7 +9,7 @@ import TeamCard from "../../components/TeamCard";
 import TeamBanner from "../../assets/images/team-banner.jpg";
 import Nimesh from "../../assets/images/team/nimesh.jpg";
 import Sankaran from "../../assets/images/team/sankaran.jpg";
-import Rahul from "../../assets/images/team/rahul.jpg";
+import Manish from "../../assets/images/team/manish.jpg";
 import Amit from "../../assets/images/team/amit.jpg";
 import Shamit from "../../assets/images/team/shamit.jpg";
 import Anish from "../../assets/images/team/anish.jpg";
@@ -59,12 +59,12 @@ const data = [
     `,
   },
   {
-    image: Rahul,
-    name: "Mr. Rahul Goswami",
+    image: Manish,
+    name: "Mr. Manish Banthia",
     designation: "CIO, Fixed Income",
-    summary:`Rahul is the Chief Investment Officer for the AMC’s Fixed Income desk. In his role as CIO, Rahul is responsible for laying out the fixed income strategy for assets of over USD 25bn, the largest in the Indian Asset Management Industry. He also has direct fund management responsibilities for several funds. He also advises certain funds domiciled in Taiwan. Rahul has been associated with the AMC since July 2004. He served as a Senior Rates Trader and Head of Primary Dealership 
-    Business at Standard Chartered Bank for a three year period (2009 to 2012) before returning to the AMC in Sept 2012 Rahul possesses an in-depth knowledge of credit profile of Indian entities. Under his leadership as a CIO, several funds managed by the AMC have gained recognition for consistently delivering superior risk-adjusted performance. Rahul has more than two decades of experience in Indian fixed income market. Prior to joining the AMC in July 2004, Rahul was a fund manager with the 
-    Fixed Income team of Franklin Templeton Asset Management in India. He has also been associated with leading debt broking outfits in India for several years. By qualification, Rahul holds a Bachelor’s Degree in Science and also Masters in Business Administration from University of Bhopal, India.`
+    summary:`Manish joined ICICI Prudential AMC in October 2005 and has nearly two decades of fund management experience in the asset management industry. Manish has played a key role in strengthening the fixed income capabilities of the AMC and successfully ensured that the fund house remained immune to credit events. He strikes a good balance between liquidity, safety and returns. His core competency lies in portfolio management, rates trading and credit research. Before becoming a portfolio manager in 2009, Manish was associated with ICICI Prudential Asset Management in several roles including fixed income trading, credit analysis and product development. He was most recently the Deputy CIO – Fixed Income for the AMC. Manish has direct fund management responsibilities for several mutual fund schemes and also advises an Indian Fixed Income Fund domiciled in Japan which has assets of ~ USD 300mn. Manish started his career with Aditya Birla Group in 2004.
+    By qualification, Manish is Chartered Accountant from Institute of Chartered Accountants of India and holds a Masters in Business Administration from Indian Institute of Foreign Trade (IIFT) Delhi.
+    `
   },
   {
     image: Anish,
